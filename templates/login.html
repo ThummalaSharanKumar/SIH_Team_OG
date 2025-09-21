@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Mentor's Eye</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-100 flex items-center justify-center h-screen">
+    <div class="w-full max-w-md">
+        <div class="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
+            <div class="text-center mb-8">
+                <i class="ph-duotone ph-binoculars text-blue-500 text-6xl"></i>
+                <h1 class="text-2xl font-bold text-slate-800 mt-2">Mentor's Eye Login</h1>
+                <p class="text-sm text-slate-500">Please sign in to access the dashboard.</p>
+            </div>
+
+            <!-- Flash messages for login errors -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="mb-4 px-4 py-2 rounded-md text-sm {{ 'bg-red-100 text-red-700' if category == 'danger' else 'bg-blue-100 text-blue-700' }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+
+            <form action="/login" method="POST" class="space-y-4">
+                <div>
+                    <label for="email" class="block text-sm font-medium text-slate-600">Email Address</label>
+                    <input type="email" name="email" id="email" required class="mt-1 block w-full px-3 py-2 border border-slate-300 rounded-md shadow-sm placeholder-slate-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div>
+                    <label for="password" class="block text-sm font-medium text-slate-600">Password</label>
+                    <input type="password" name="password" id="password" required class="mt-1 block w-full px-3 py-2 border border-slate-300 rounded-md shadow-sm placeholder-slate-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div>
+                    <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                        Sign In
+                    </button>
+                </div>
+            </form>
+             <div class="mt-4 text-xs text-center text-slate-400">
+                <p>Use mentor@college.edu / password123</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
