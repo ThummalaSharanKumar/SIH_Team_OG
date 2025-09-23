@@ -1,161 +1,158 @@
-from flask import Flask, render_template, jsonify, request, redirect, url_for, flash, session
-from predict import get_risk_profile
+import pandas as pd
+import joblib
+from flask import Flask, jsonify, render_template, request, session, redirect, url_for
+from werkzeug.security import check_password_hash, generate_password_hash
 import sqlite3
 import os
 
+# Import the final prediction function
+from predict import get_holistic_risk_profile
+
 app = Flask(__name__)
-# A secret key is required for session management
-app.secret_key = os.urandom(24) 
+app.secret_key = 'a_very_secret_key_for_production'
+
+# --- File Configuration ---
+MODEL_FILE = 'student_dropout_model.joblib'
+LABEL_ENCODER_FILE = 'label_encoder.joblib'
 DB_FILE = 'mentors_eye.db'
 
-# --- In a real application, users would be stored in a database ---
+# --- Load Model Artifacts ---
+# These are loaded once when the application starts.
+try:
+    model = joblib.load(MODEL_FILE)
+    label_encoder = joblib.load(LABEL_ENCODER_FILE)
+    print("--- Model and label encoder loaded successfully. ---")
+except FileNotFoundError as e:
+    print(f"🛑 FATAL ERROR: Could not load model files: {e}")
+    print("Please ensure you have run 'train_model.py' successfully.")
+    model, label_encoder = None, None
+
+# --- In-memory User Store (for demonstration) ---
 USERS = {
-    "mentor@college.edu": "password123",
-    "admin@college.edu": "adminpass"
+    "mentor@college.edu": generate_password_hash("password123")
 }
 
+# --- Helper Function ---
 def get_db_connection():
     """Establishes a connection to the SQLite database."""
-    try:
-        conn = sqlite3.connect(DB_FILE)
-        # This allows you to access columns by name (like a dictionary)
-        conn.row_factory = sqlite3.Row
-        return conn
-    except sqlite3.Error as e:
-        print(f"FATAL ERROR: Could not connect to database '{DB_FILE}': {e}")
-        return None
+    conn = sqlite3.connect(DB_FILE)
+    conn.row_factory = sqlite3.Row
+    return conn
 
-# --- AUTHENTICATION ROUTES ---
-
+# --- Routes ---
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    """Handles the login process."""
     if request.method == 'POST':
         email = request.form['email']
         password = request.form['password']
-        if email in USERS and USERS[email] == password:
-            session['logged_in'] = True
-            session['email'] = email
+        
+        if email in USERS and check_password_hash(USERS.get(email), password):
+            session['user_email'] = email
             return redirect(url_for('dashboard'))
         else:
-            flash('Invalid credentials. Please try again.', 'danger')
+            return render_template('login.html', error="Invalid credentials. Please try again.")
     return render_template('login.html')
 
 @app.route('/logout')
 def logout():
-    """Logs the user out."""
-    session.clear()
-    flash('You were successfully logged out', 'success')
+    session.pop('user_email', None)
     return redirect(url_for('login'))
-
-
-# --- PROTECTED DASHBOARD ROUTE ---
 
 @app.route('/')
 def dashboard():
-    """Main dashboard, now powered by the SQLite database."""
-    if not session.get('logged_in'):
+    if 'user_email' not in session:
         return redirect(url_for('login'))
+        
+    if model is None or label_encoder is None:
+        return "Error: Model artifacts not loaded. Please check server logs.", 500
 
     conn = get_db_connection()
-    if conn is None:
-        return "Error: Database connection failed.", 500
+    # Fetch only the latest record for each student for the main list
+    query = """
+    SELECT t1.*
+    FROM students t1
+    INNER JOIN (
+        SELECT StudentID, MAX(ReportingPeriod) as MaxPeriod
+        FROM students
+        GROUP BY StudentID
+    ) t2 ON t1.StudentID = t2.StudentID AND t1.ReportingPeriod = t2.MaxPeriod
+    """
+    latest_df = pd.read_sql_query(query, conn)
+    conn.close()
+
+    student_data_with_risk = []
+    for _, row in latest_df.iterrows():
+        student_profile_for_prediction = row.drop(['StudentID', 'Name', 'Email', 'Phone', 'Target', 'ReportingPeriod'])
+        student_profile_df = pd.DataFrame([student_profile_for_prediction])
         
-    try:
-        # SQL query to get the latest record for each student
-        query = """
-            SELECT s.*
-            FROM students s
-            INNER JOIN (
-                SELECT StudentID, MAX(ReportingPeriod) as MaxPeriod
-                FROM students
-                GROUP BY StudentID
-            ) sm ON s.StudentID = sm.StudentID AND s.ReportingPeriod = sm.MaxPeriod;
-        """
-        latest_student_records = conn.execute(query).fetchall()
-        conn.close()
-    except sqlite3.OperationalError:
-         return "Error: The 'students' table was not found. Please run the `migrate_data.py` script first.", 500
+        risk_profile = get_holistic_risk_profile(student_profile_df, model, label_encoder)
+        
+        student_display_data = row.to_dict()
+        student_display_data['risk'] = risk_profile
+        student_data_with_risk.append(student_display_data)
 
-    students_with_risk = []
-    for row in latest_student_records:
-        student = dict(row) # Convert the database row to a dictionary
-        risk_profile = get_risk_profile(student) 
-        students_with_risk.append({**student, "risk": risk_profile})
-    
-    students_with_risk.sort(key=lambda x: x['risk']['score'], reverse=True)
-    return render_template('index.html', student_data=students_with_risk, user_email=session.get('email'))
-
-
-# --- API ENDPOINTS ---
+    return render_template('index.html', student_data=student_data_with_risk, user_email=session.get('user_email'))
 
 @app.route('/student/<student_id>')
 def get_student_details(student_id):
-    if not session.get('logged_in'): return jsonify({"error": "Unauthorized"}), 401
+    if 'user_email' not in session:
+        return jsonify({"error": "Unauthorized"}), 401
     
     conn = get_db_connection()
-    if conn is None: return jsonify({"error": "Database connection failed."}), 500
-    
-    # Query for the full history of the student
-    student_history_records = conn.execute(
-        'SELECT * FROM students WHERE StudentID = ? ORDER BY ReportingPeriod', (student_id,)
-    ).fetchall()
-    
-    if not student_history_records:
-        conn.close()
-        return jsonify({"error": "Student not found"}), 404
-        
-    # The last record is the most current one
-    current_student_data = dict(student_history_records[-1])
-    risk_profile = get_risk_profile(current_student_data) 
-    
-    # Prepare history for the chart, converting rows to dictionaries
-    history_for_chart = [dict(row) for row in student_history_records]
+    student_history_df = pd.read_sql_query(f"SELECT * FROM students WHERE StudentID = '{student_id}' ORDER BY ReportingPeriod", conn)
     conn.close()
     
-    response_data = {**current_student_data, "risk": risk_profile, "history": history_for_chart}
+    if student_history_df.empty:
+        return jsonify({"error": "Student not found"}), 404
+        
+    student_history = student_history_df.to_dict('records')
+    latest_record = student_history[-1]
+    
+    latest_record_for_prediction = pd.DataFrame([latest_record]).drop(columns=['StudentID', 'Name', 'Email', 'Phone', 'Target', 'ReportingPeriod'])
+    
+    risk_profile = get_holistic_risk_profile(latest_record_for_prediction, model, label_encoder)
+    
+    response_data = {
+        **latest_record,
+        "risk": risk_profile,
+        "history": student_history
+    }
     return jsonify(response_data)
 
-@app.route('/recalculate_risk', methods=['POST'])
-def recalculate_risk():
-    if not session.get('logged_in'): return jsonify({"error": "Unauthorized"}), 401
-    student_data = request.json
-    if not student_data: return jsonify({"error": "Invalid data provided"}), 400
-    risk_profile = get_risk_profile(student_data)
-    return jsonify(risk_profile)
+# --- Note Taking API Endpoints ---
+@app.route('/add_note', methods=['POST'])
+def add_note():
+    if 'user_email' not in session:
+        return jsonify({"error": "Unauthorized"}), 401
+    data = request.json
+    try:
+        conn = get_db_connection()
+        conn.execute('INSERT INTO notes (student_id, mentor_name, note_text) VALUES (?, ?, ?)',
+                     (data['student_id'], data['mentor_name'], data['note_text']))
+        conn.commit()
+        conn.close()
+        return jsonify({"success": True})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
 
 @app.route('/get_notes/<student_id>')
 def get_notes(student_id):
-    if not session.get('logged_in'): return jsonify({"error": "Unauthorized"}), 401
-    conn = get_db_connection()
-    if conn is None: return jsonify({"error": "Database connection failed."}), 500
-    notes = conn.execute('SELECT * FROM notes WHERE student_id = ? ORDER BY timestamp DESC', (student_id,)).fetchall()
-    conn.close()
-    return jsonify([dict(note) for note in notes])
-
-@app.route('/add_note', methods=['POST'])
-def add_note():
-    if not session.get('logged_in'): return jsonify({"error": "Unauthorized"}), 401
-    note_data = request.json
-    student_id = note_data.get('student_id')
-    mentor_name = session.get('email', 'Mentor')
-    note_text = note_data.get('note_text')
-
-    if not all([student_id, mentor_name, note_text]):
-        return jsonify({"error": "Missing data for note"}), 400
-
-    conn = get_db_connection()
-    if conn is None: return jsonify({"error": "Database connection failed."}), 500
-    conn.execute('INSERT INTO notes (student_id, mentor_name, note_text) VALUES (?, ?, ?)',
-                 (student_id, mentor_name, note_text))
-    conn.commit()
-    conn.close()
-    return jsonify({"success": True, "message": "Note added successfully."})
+    if 'user_email' not in session:
+        return jsonify({"error": "Unauthorized"}), 401
+    try:
+        conn = get_db_connection()
+        notes_cursor = conn.execute('SELECT * FROM notes WHERE student_id = ? ORDER BY timestamp DESC', (student_id,))
+        notes = [dict(row) for row in notes_cursor.fetchall()]
+        conn.close()
+        return jsonify(notes)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    # Ensure the database file exists before running the app
     if not os.path.exists(DB_FILE):
-        print(f"WARNING: The database file '{DB_FILE}' does not exist.")
-        print("Please run 'database_setup.py' and 'migrate_data.py' first.")
-    app.run(debug=True)
+        print(f"🛑 FATAL ERROR: Database file '{DB_FILE}' not found. Please run 'database_setup.py' and 'migrate_data.py' first.")
+    elif model is None:
+         print(f"🛑 FATAL ERROR: Model not loaded. Please ensure '{MODEL_FILE}' exists.")
+    else:
+        app.run(debug=True)
 

@@ -22,9 +22,6 @@
             padding-right: 2.5rem;
             -webkit-appearance: none; -moz-appearance: none; appearance: none;
         }
-        input[type="range"] { -webkit-appearance: none; appearance: none; background: transparent; cursor: pointer; width: 100%; }
-        input[type="range"]::-webkit-slider-runnable-track { background: #e2e8f0; height: 0.25rem; border-radius: 0.25rem; }
-        input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; margin-top: -6px; background-color: #3b82f6; height: 1.25rem; width: 1.25rem; border-radius: 50%; }
     </style>
 </head>
 <body class="flex h-screen overflow-hidden">
@@ -33,11 +30,11 @@
     <aside class="w-full md:w-1/3 max-w-md bg-white border-r border-slate-200 flex flex-col h-full">
         <div class="p-4 border-b border-slate-200">
             <h1 class="text-xl font-bold text-slate-800 flex items-center gap-2"><i class="ph-duotone ph-binoculars text-blue-500 text-3xl"></i> Mentor's Eye</h1>
-            <p class="text-sm text-slate-500">AI-Powered Student Monitoring</p>
+            <p class="text-sm text-slate-500">Holistic Student Success Platform</p>
         </div>
         
         <div class="p-4 space-y-3 border-b border-slate-200">
-            <input type="text" id="searchInput" onkeyup="applyFilters()" placeholder="Search students by ID..." class="w-full px-3 py-2 text-sm border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <input type="text" id="searchInput" onkeyup="applyFilters()" placeholder="Search by name or ID..." class="w-full px-3 py-2 text-sm border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
             <div class="grid grid-cols-2 gap-2 text-sm">
                 <select id="riskFilter" onchange="applyFilters()" class="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 filter-select">
                     <option value="all">All Risk Levels</option><option value="High">High Risk</option><option value="Medium">Medium Risk</option><option value="Low">Low Risk</option>
@@ -51,14 +48,24 @@
         <div class="flex-1 overflow-y-auto sidebar-scrollbar" id="studentListContainer">
              <div id="studentList">
                 {% for student in student_data %}
-                    {% set risk = student.risk %}
+                    {% set risk_level_map = {'Dropout': 'High', 'Enrolled': 'Medium', 'Graduate': 'Low'} %}
+                    {% set display_risk = risk_level_map[student.risk.level] or 'Medium' %}
+
                     {% set risk_color_classes = {'High': 'border-red-500 bg-red-50', 'Medium': 'border-amber-400 bg-amber-50', 'Low': 'border-emerald-500 bg-emerald-50'} %}
                     {% set risk_text_color_classes = {'High': 'text-red-600', 'Medium': 'text-amber-600', 'Low': 'text-emerald-600'} %}
                     
-                    <div class="student-card p-4 mx-2 my-1.5 border-l-4 {{ risk_color_classes[risk.level] }} rounded-r-lg cursor-pointer hover:shadow-md hover:border-blue-500 transition-all duration-200" 
+                    <div class="student-card p-4 mx-2 my-1.5 border-l-4 {{ risk_color_classes[display_risk] }} rounded-r-lg cursor-pointer hover:shadow-md hover:border-blue-500 transition-all duration-200" 
                         onclick="showDetails('{{ student.StudentID }}')"
-                        data-student-id="{{ student.StudentID }}" data-risk-level="{{ risk.level }}" data-fee-status="{{ student.FeeStatus }}">
-                        <div class="flex justify-between items-center"><p class="font-semibold text-slate-800">{{ student.StudentID }}</p><div class="flex items-center gap-2 text-sm font-medium {{ risk_text_color_classes[risk.level] }}">{{ risk.level }} Risk</div></div>
+                        data-student-id="{{ student.StudentID }}" data-student-name="{{ student.Name }}" data-risk-level="{{ display_risk }}" data-fee-status="{{ student.FeeStatus }}">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="font-semibold text-slate-800">{{ student.Name }}</p>
+                                <p class="text-xs text-slate-500">{{ student.StudentID }}</p>
+                            </div>
+                             <div class="flex items-center gap-2 text-sm font-medium {{ risk_text_color_classes[display_risk] }}">
+                                {{ display_risk }} Risk
+                            </div>
+                        </div>
                     </div>
                 {% endfor %}
              </div>
@@ -80,9 +87,9 @@
     <!-- Main Content -->
     <main class="flex-1 bg-slate-100 p-6 md:p-8 overflow-y-auto">
         <div id="welcomeView" class="flex flex-col items-center justify-center h-full text-center">
-             <div class="w-24 h-24 bg-white rounded-full flex items-center justify-center mb-4 shadow-sm"><i class="ph-duotone ph-notebook text-5xl text-blue-500"></i></div>
+             <div class="w-24 h-24 bg-white rounded-full flex items-center justify-center mb-4 shadow-sm"><i class="ph-duotone ph-student text-5xl text-blue-500"></i></div>
             <h2 class="text-2xl font-bold text-slate-700">Welcome, Mentor!</h2>
-            <p class="text-slate-500 mt-2 max-w-md">Select a student to view their AI analysis, performance trends, and log your interactions.</p>
+            <p class="text-slate-500 mt-2 max-w-md">Select a student to view their holistic profile, including academic, behavioral, and wellness indicators.</p>
         </div>
         <div id="detailView" class="hidden fade-in"></div>
     </main>
@@ -90,10 +97,15 @@
     <script>
         const detailViewEl = document.getElementById('detailView');
         const welcomeViewEl = document.getElementById('welcomeView');
-        let activeDoughnutChart = null;
         let activeLineChart = null; 
         let currentStudentData = null;
 
+        const RISK_LEVEL_MAP = {
+            'Dropout': 'High',
+            'Enrolled': 'Medium',
+            'Graduate': 'Low'
+        };
+        
         function applyFilters() {
             const searchText = document.getElementById('searchInput').value.toUpperCase();
             const riskFilter = document.getElementById('riskFilter').value;
@@ -104,10 +116,11 @@
 
             studentCards.forEach(card => {
                 const studentId = card.dataset.studentId.toUpperCase();
+                const studentName = card.dataset.studentName.toUpperCase();
                 const riskLevel = card.dataset.riskLevel;
                 const feeStatus = card.dataset.feeStatus;
 
-                const searchMatch = studentId.includes(searchText);
+                const searchMatch = studentId.includes(searchText) || studentName.includes(searchText);
                 const riskMatch = (riskFilter === 'all' || riskLevel === riskFilter);
                 const feeMatch = (feeFilter === 'all' || feeStatus === feeFilter);
 
@@ -127,7 +140,7 @@
             
             welcomeViewEl.classList.add('hidden');
             detailViewEl.classList.remove('hidden');
-            detailViewEl.innerHTML = `<div class="text-center p-10 text-slate-500">Loading profile and mentor log...</div>`;
+            detailViewEl.innerHTML = `<div class="text-center p-10 text-slate-500">Loading holistic student profile...</div>`;
 
             try {
                 const response = await fetch(`/student/${studentID}`);
@@ -143,133 +156,153 @@
 
         function renderDetailView(data) {
             const { risk, history } = data;
-            const gradeVelocity = data.AverageScore - data.MidtermGrade;
-            
-            const emailSubject = "Checking In - Academic Support";
-            const emailBody = `Hi ${data.StudentID},\n\nI'm reaching out to check in on how your semester is going. I'm here to support you, and there are many resources available at the institution to help you succeed.\n\nWould you be open to a brief chat sometime this week to discuss how things are going for you?\n\nBest regards,\nYour Mentor`;
-            const mailtoLink = `mailto:${data.Email}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
-            
-            // --- NEW: Dynamic Playbook Logic ---
+            const displayRisk = RISK_LEVEL_MAP[risk.level] || 'Medium';
+            const studentFirstName = data.Name.split(' ')[0];
+
+            // --- UPGRADED: Mailto Templates ---
+            const mailtoTemplates = {
+                'Low Attendance': {
+                    subject: "Checking In: Attendance and Support",
+                    body: `Hi ${studentFirstName},\n\nI noticed your attendance has been a bit low recently, and I wanted to reach out to see if everything is okay. Sometimes things outside of class can get in the way, and we have resources to help.\n\nLet me know if you'd be open to a quick chat sometime.\n\nBest,\nYour Mentor`
+                },
+                'Low Average Score': {
+                    subject: "Support for Your Classes",
+                    body: `Hi ${studentFirstName},\n\nI'm checking in on how your classes are going this semester. I saw that your scores are a bit lower than expected, and I want to make sure you have all the support you need. The university offers excellent free tutoring services that many students find helpful.\n\nWould you be interested in exploring some of these options?\n\nBest regards,\nYour Mentor`
+                },
+                'Overdue Fees': {
+                    subject: "Confidential: Financial Support and Resources",
+                    body: `Hi ${studentFirstName},\n\nThis is a confidential note to let you know that if you are facing challenges with tuition fees, the university has support systems in place, including payment plans and financial aid counseling. This is a common issue, and the financial aid office is here to help.\n\nPlease let me know if I can help connect you.\n\nSincerely,\nYour Mentor`
+                },
+                'High Financial Stress': {
+                    subject: "Confidential Support: Financial Wellness Resources",
+                    body: `Hi ${studentFirstName},\n\nI'm reaching out because the university has a number of confidential financial wellness resources, including emergency funds and counseling, available to students who might be feeling financial pressure.\n\nIf you're interested, I can help connect you with the right office. Your well-being is our top priority.\n\nBest regards,\nYour Mentor`
+                },
+                'Health Issues Impacting Study': {
+                    subject: "Support for Your Health and Studies",
+                    body: `Hi ${studentFirstName},\n\nI hope you're doing okay. I'm reaching out to remind you that Student Health Services and academic concession options are available if health challenges are impacting your studies. Your health comes first, and the university is here to support you.\n\nPlease don't hesitate to reach out if you need help navigating these resources.\n\nSincerely,\nYour Mentor`
+                },
+                'Low Career Confidence': {
+                    subject: "Thinking About the Future? Let's Chat!",
+                    body: `Hi ${studentFirstName},\n\nIt's completely normal for students to question if their major aligns with their future goals. I wanted to let you know that our Career Counseling services are fantastic for exploring different paths and finding what truly excites you.\n\nIf you're feeling unsure about your career path, I'd be happy to help you schedule a meeting with a counselor.\n\nBest,\nYour Mentor`
+                }
+            };
+
             const playbookActions = {
                 'Low Attendance': { text: 'Send Attendance Reminder', icon: 'ph-calendar-x' },
                 'Low Average Score': { text: 'Schedule Tutoring Session', icon: 'ph-books' },
                 'Overdue Fees': { text: 'Share Financial Aid Info', icon: 'ph-currency-dollar-simple' },
-                'Declining Grades': { text: 'Suggest a Peer Mentor', icon: 'ph-users-three' }
+                'High Financial Stress': { text: 'Connect with Financial Aid Office', icon: 'ph-currency-dollar-simple' },
+                'Health Issues Impacting Study': { text: 'Share Student Health Services Info', icon: 'ph-first-aid-kit' },
+                'Low Career Confidence': { text: 'Schedule Career Counseling Meeting', icon: 'ph-briefcase' },
             };
 
-            let playbookHTML = `<p class="text-slate-500 text-sm">No immediate intervention required.</p>`;
+            let playbookHTML = `<p class="text-slate-500 text-sm">No intervention required at this time.</p>`;
             if (risk.factors && risk.factors.length > 0) {
                 playbookHTML = risk.factors.map(factor => {
                     const action = playbookActions[factor.text];
-                    if (!action) return '';
-                    return `<a href="${mailtoLink}" class="w-full text-left flex items-center gap-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors border border-blue-200"><i class="ph ${action.icon} text-xl text-blue-600"></i><div><p class="font-semibold text-blue-800">${action.text}</p></div></a>`;
+                    const template = mailtoTemplates[factor.text];
+                    if (!action || !template) return '';
+                    
+                    const mailtoLink = `mailto:${data.Email}?subject=${encodeURIComponent(template.subject)}&body=${encodeURIComponent(template.body)}`;
+                    return `<a href="${mailtoLink}" target="_blank" class="w-full text-left flex items-center gap-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors border border-blue-200"><i class="ph ${action.icon} text-xl text-blue-600"></i><div><p class="font-semibold text-blue-800">${action.text}</p></div></a>`;
                 }).join('');
             }
             
-            // --- NEW: Natural Language Summary ---
-            let summaryText = `This student is currently classified with <strong>${risk.level} Risk</strong>. `;
+            let summaryText = `This student is currently classified with <strong>${displayRisk} Risk</strong>. `;
             if (risk.factors && risk.factors.length > 0) {
                 const factorTexts = risk.factors.map(f => f.text.toLowerCase());
-                summaryText += `The primary contributing factors are ${factorTexts.join(' and ')}.`;
+                summaryText += `The primary contributing factors appear to be ${factorTexts.join(', ')}.`;
             } else {
                 summaryText += "They appear to be on track with no significant risk factors.";
             }
 
-            const riskColorClass = risk.level === 'High' ? 'bg-red-100 text-red-800' : risk.level === 'Medium' ? 'bg-amber-100 text-amber-800' : 'bg-emerald-100 text-emerald-800';
-
-            const whatIfHTML = `...`; // Unchanged, redacted for brevity
-            const mentorLogHTML = `...`; // Unchanged, redacted for brevity
+            const riskColorClasses = {
+                'High': 'bg-red-100 text-red-800', 
+                'Medium': 'bg-amber-100 text-amber-800', 
+                'Low': 'bg-emerald-100 text-emerald-800'
+            };
+            const riskColorClass = riskColorClasses[displayRisk];
             
             detailViewEl.innerHTML = `
                 <div class="flex flex-wrap items-center justify-between mb-6 gap-4">
-                    <div><h2 class="text-2xl font-bold text-slate-800">${data.StudentID}</h2><p class="text-slate-500 flex items-center gap-2 text-sm"><i class="ph ph-envelope-simple"></i> ${data.Email} <i class="ph ph-phone ml-2"></i> ${data.Phone}</p></div>
-                    <div class="px-4 py-2 rounded-full font-semibold text-sm ${riskColorClass}">${risk.level} Risk</div>
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-800">${data.Name}</h2>
+                        <p class="text-slate-500 text-sm">${data.StudentID} | ${data.Branch} | Year ${data.Year}</p>
+                        <!-- CORRECTED: Added the email and phone number back -->
+                        <p class="text-slate-500 flex items-center gap-2 text-sm mt-1"><i class="ph ph-envelope-simple"></i> ${data.Email || 'N/A'} <i class="ph ph-phone ml-2"></i> ${data.Phone || 'N/A'}</p>
+                    </div>
+                    <div class="px-4 py-2 rounded-full font-semibold text-sm ${riskColorClass}">${displayRisk} Risk</div>
                 </div>
                 
-                <!-- NEW: Natural Language Summary Card -->
                 <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm mb-6">
                      <h3 class="text-lg font-semibold text-slate-700 mb-2 flex items-center gap-2"><i class="ph-duotone ph-info"></i> AI Summary</h3>
                      <p class="text-slate-600">${summaryText}</p>
                 </div>
 
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm lg:col-span-3"><h3 class="text-lg font-semibold text-slate-700 mb-4 flex items-center gap-2"><i class="ph-duotone ph-chart-line"></i> Performance Trends</h3><div class="h-64"><canvas id="trendChart"></canvas></div></div>
-                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm"><h3 class="text-lg font-semibold text-slate-700 mb-4">Current Indicators</h3><div class="space-y-4 text-sm"><div class="flex items-center justify-between"><p class="text-slate-600">Attendance</p><p class="font-bold text-lg ${data.AttendancePercentage < 75 ? 'text-red-600' : 'text-slate-800'}">${data.AttendancePercentage}%</p></div><div class="flex items-center justify-between"><p class="text-slate-600">Average Score</p><p class="font-bold text-lg ${data.AverageScore < 60 ? 'text-red-600' : 'text-slate-800'}">${data.AverageScore}</p></div><div class="flex items-center justify-between"><p class="text-slate-600">Grade Velocity</p><p class="font-bold text-lg ${gradeVelocity < 0 ? 'text-red-600' : 'text-emerald-600'}">${gradeVelocity.toFixed(1)}</p></div></div></div>
-                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm"><h3 class="text-lg font-semibold text-slate-700 mb-4">Prediction Probabilities</h3><canvas id="probabilityChart"></canvas></div>
-                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm"><h3 class="text-lg font-semibold text-slate-700 mb-4">Intervention Playbook</h3><div class="space-y-2">${playbookHTML}</div></div>
+                    <!-- Academic Profile -->
+                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <h3 class="text-lg font-semibold text-slate-700 mb-4">Academic Profile</h3>
+                        <div class="space-y-4 text-sm">
+                            <div class="flex items-center justify-between"><p class="text-slate-600">Attendance</p><p class="font-bold text-lg ${data.AttendancePercentage < 75 ? 'text-red-600' : 'text-slate-800'}">${data.AttendancePercentage}%</p></div>
+                            <div class="flex items-center justify-between"><p class="text-slate-600">Average Score</p><p class="font-bold text-lg ${data.AverageScore < 60 ? 'text-red-600' : 'text-slate-800'}">${data.AverageScore}</p></div>
+                             <div class="flex items-center justify-between"><p class="text-slate-600">Fee Status</p><p class="font-semibold text-xs px-2 py-1 rounded ${data.FeeStatus === 'Overdue' ? 'bg-red-100 text-red-700' : data.FeeStatus === 'Due' ? 'bg-yellow-100 text-yellow-700' : 'bg-green-100 text-green-700'}">${data.FeeStatus}</p></div>
+                        </div>
+                    </div>
+                    <!-- Wellness Profile -->
+                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <h3 class="text-lg font-semibold text-slate-700 mb-4">Wellness Profile</h3>
+                        <div class="space-y-4 text-sm">
+                             <div class="flex items-center justify-between"><p class="text-slate-600">Financial Stress</p><p class="font-bold text-lg ${data.FinancialStressScore >= 4 ? 'text-red-600' : 'text-slate-800'}">${data.FinancialStressScore} / 5</p></div>
+                             <div class="flex items-center justify-between"><p class="text-slate-600">Career Confidence</p><p class="font-bold text-lg ${data.CareerConfidenceScore <= 2 ? 'text-red-600' : 'text-slate-800'}">${data.CareerConfidenceScore} / 5</p></div>
+                             <div class="flex items-center justify-between"><p class="text-slate-600">Health Impact</p><p class="font-bold text-lg ${data.HealthImpact === 'Yes' ? 'text-red-600' : 'text-slate-800'}">${data.HealthImpact}</p></div>
+                        </div>
+                    </div>
+                    <!-- Intervention Playbook -->
+                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <h3 class="text-lg font-semibold text-slate-700 mb-4">Intervention Playbook</h3>
+                        <div class="space-y-2">${playbookHTML}</div>
+                    </div>
+                    <!-- Performance Trends Chart -->
                     <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm lg:col-span-3">
-                    <h3 class="text-lg font-semibold text-slate-700 mb-4 flex items-center gap-2"><i class="ph-duotone ph-arrows-clockwise"></i> What-If Scenario Analysis</h3>
-                    <div class="space-y-4 text-sm">
-                        <div>
-                            <label for="attendanceSlider" class="block text-slate-600 mb-1">Adjust Attendance %</label>
-                            <div class="flex items-center gap-3">
-                                <input type="range" id="attendanceSlider" min="40" max="100" value="${data.AttendancePercentage}" class="w-full" oninput="updateSliderValue(this.value, 'attendanceValue'); recalculateRisk();">
-                                <span id="attendanceValue" class="font-bold text-slate-700 w-12 text-center">${data.AttendancePercentage}%</span>
-                            </div>
-                        </div>
-                        <div>
-                            <label for="scoreSlider" class="block text-slate-600 mb-1">Adjust Average Score</label>
-                             <div class="flex items-center gap-3">
-                                <input type="range" id="scoreSlider" min="30" max="100" value="${data.AverageScore}" class="w-full" oninput="updateSliderValue(this.value, 'scoreValue'); recalculateRisk();">
-                                <span id="scoreValue" class="font-bold text-slate-700 w-12 text-center">${data.AverageScore}</span>
-                            </div>
-                        </div>
-                        <div class="pt-4 text-center bg-slate-50 rounded-lg p-3">
-                            <p class="text-slate-600">New Predicted Risk:</p>
-                            <p id="newRiskLevel" class="font-bold text-xl mt-1 text-slate-800 transition-all">${risk.level}</p>
-                        </div>
+                        <h3 class="text-lg font-semibold text-slate-700 mb-4 flex items-center gap-2"><i class="ph-duotone ph-chart-line"></i> Performance Trends</h3>
+                        <div class="h-64"><canvas id="trendChart"></canvas></div>
                     </div>
-                </div>
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm lg:col-span-3">
-                    <h3 class="text-lg font-semibold text-slate-700 mb-4 flex items-center gap-2"><i class="ph-duotone ph-notebook"></i> Mentor Log</h3>
-                    <div class="space-y-3 mb-4">
-                        <textarea id="noteText" class="w-full p-2 text-sm border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" rows="3" placeholder="Log an interaction, observation, or next step..."></textarea>
-                        <button onclick="addNote()" class="w-full px-4 py-2 bg-blue-600 text-white font-semibold text-sm rounded-md hover:bg-blue-700 transition-colors">Add Note</button>
-                    </div>
-                    <div id="notesList" class="space-y-3 max-h-64 overflow-y-auto pr-2 sidebar-scrollbar">
-                        <p class="text-slate-400 text-sm">Loading notes...</p>
+                    <!-- Mentor Log -->
+                    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm lg:col-span-3">
+                        <h3 class="text-lg font-semibold text-slate-700 mb-4 flex items-center gap-2"><i class="ph-duotone ph-notebook"></i> Mentor Log</h3>
+                        <div class="space-y-3 mb-4">
+                            <textarea id="noteText" class="w-full p-2 text-sm border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" rows="3" placeholder="Log an interaction..."></textarea>
+                            <button onclick="addNote()" class="w-full px-4 py-2 bg-blue-600 text-white font-semibold text-sm rounded-md hover:bg-blue-700 transition-colors">Add Note</button>
+                        </div>
+                        <div id="notesList" class="space-y-3 max-h-64 overflow-y-auto pr-2 sidebar-scrollbar"></div>
                     </div>
                 </div>`;
 
-            if (activeDoughnutChart) activeDoughnutChart.destroy();
-            const probCtx = document.getElementById('probabilityChart').getContext('2d');
-            activeDoughnutChart = new Chart(probCtx, { type: 'doughnut', data: { labels: Object.keys(risk.probabilities), datasets: [{ data: Object.values(risk.probabilities), backgroundColor: ['rgba(239, 68, 68, 0.8)', 'rgba(34, 197, 94, 0.8)', 'rgba(245, 158, 11, 0.8)'], borderColor: '#fff', borderWidth: 3 }] }, options: { responsive: true, plugins: { legend: { position: 'bottom' } } } });
-            
+            renderCharts(data);
+        }
+
+        function renderCharts(data) {
+            const { history } = data;
             if (activeLineChart) activeLineChart.destroy();
-            const trendCtx = document.getElementById('trendChart').getContext('2d');
+            const trendCtx = document.getElementById('trendChart')?.getContext('2d');
+            if (!trendCtx) return;
+
             const labels = history.map(h => `Period ${h.ReportingPeriod}`);
             const attendanceData = history.map(h => h.AttendancePercentage);
             const scoreData = history.map(h => h.AverageScore);
-            activeLineChart = new Chart(trendCtx, { type: 'line', data: { labels: labels, datasets: [ { label: 'Attendance %', data: attendanceData, borderColor: 'rgb(59, 130, 246)', backgroundColor: 'rgba(59, 130, 246, 0.1)', fill: true, tension: 0.3, yAxisID: 'y' }, { label: 'Average Score', data: scoreData, borderColor: 'rgb(234, 179, 8)', backgroundColor: 'rgba(234, 179, 8, 0.1)', fill: true, tension: 0.3, yAxisID: 'y' } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { y: { beginAtZero: false, suggestedMin: 40, suggestedMax: 100 } }, plugins: { legend: { position: 'bottom' } } } });
-        }
 
-        function updateSliderValue(value, elementId) {
-            document.getElementById(elementId).textContent = elementId.includes('Value') ? `${value}${elementId.includes('attendance') ? '%' : ''}` : value;
-        }
-
-        async function recalculateRisk() {
-            if (!currentStudentData) return;
-            let simulatedData = { ...currentStudentData };
-            simulatedData.AttendancePercentage = parseInt(document.getElementById('attendanceSlider').value);
-            simulatedData.AverageScore = parseFloat(document.getElementById('scoreSlider').value);
-
-            try {
-                const response = await fetch('/recalculate_risk', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(simulatedData)
-                });
-                if (!response.ok) throw new Error('Recalculation failed');
-                const newRisk = await response.json();
-                
-                const newRiskEl = document.getElementById('newRiskLevel');
-                newRiskEl.textContent = newRisk.level;
-                const riskColorClasses = { 'High': 'text-red-600', 'Medium': 'text-amber-600', 'Low': 'text-emerald-600' };
-                newRiskEl.className = `font-bold text-xl mt-1 transition-all ${riskColorClasses[newRisk.level] || 'text-slate-800'}`;
-            } catch (error) {
-                console.error("What-If Error:", error);
-                document.getElementById('newRiskLevel').textContent = "Error";
-            }
+            activeLineChart = new Chart(trendCtx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        { label: 'Attendance %', data: attendanceData, borderColor: 'rgb(59, 130, 246)', backgroundColor: 'rgba(59, 130, 246, 0.1)', fill: true, tension: 0.3 },
+                        { label: 'Average Score', data: scoreData, borderColor: 'rgb(234, 179, 8)', backgroundColor: 'rgba(234, 179, 8, 0.1)', fill: true, tension: 0.3 }
+                    ]
+                },
+                options: { responsive: true, maintainAspectRatio: false, scales: { y: { beginAtZero: false, suggestedMin: 40, suggestedMax: 100 } }, plugins: { legend: { position: 'bottom' } } }
+            });
         }
         
         async function loadAndRenderNotes(studentID) {
@@ -277,23 +310,15 @@
             try {
                 const response = await fetch(`/get_notes/${studentID}`);
                 const notes = await response.json();
-                
                 if (notes.error) throw new Error(notes.error);
-
                 if (notes.length === 0) {
                     notesListEl.innerHTML = '<p class="text-slate-400 text-sm text-center py-4">No notes logged for this student yet.</p>';
                     return;
                 }
-
                 notesListEl.innerHTML = notes.map(note => {
                     const timestamp = new Date(note.timestamp).toLocaleString();
-                    return `
-                        <div class="text-sm p-3 bg-slate-50 rounded-lg border border-slate-200">
-                            <p class="text-slate-700">${note.note_text}</p>
-                            <p class="text-xs text-slate-400 mt-2 text-right">${note.mentor_name} on ${timestamp}</p>
-                        </div>`;
+                    return `<div class="text-sm p-3 bg-slate-50 rounded-lg border border-slate-200"><p class="text-slate-700">${note.note_text}</p><p class="text-xs text-slate-400 mt-2 text-right">${note.mentor_name} on ${timestamp}</p></div>`;
                 }).join('');
-
             } catch (error) {
                 notesListEl.innerHTML = `<p class="text-red-500 text-sm">Could not load notes. ${error.message}</p>`;
             }
@@ -303,27 +328,18 @@
             const noteTextEl = document.getElementById('noteText');
             const noteText = noteTextEl.value.trim();
             if (!noteText || !currentStudentData) return;
-
             try {
                 const response = await fetch('/add_note', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        student_id: currentStudentData.StudentID,
-                        note_text: noteText,
-                        mentor_name: '{{ user_email }}' 
-                    })
+                    body: JSON.stringify({ student_id: currentStudentData.StudentID, note_text: noteText, mentor_name: '{{ user_email }}' })
                 });
                 const result = await response.json();
                 if (result.success) {
                     noteTextEl.value = '';
                     loadAndRenderNotes(currentStudentData.StudentID);
-                } else {
-                    throw new Error(result.error || 'Failed to add note.');
-                }
-            } catch (error) {
-                alert(`Error: ${error.message}`);
-            }
+                } else { throw new Error(result.error || 'Failed to add note.'); }
+            } catch (error) { alert(`Error: ${error.message}`); }
         }
     </script>
 </body>

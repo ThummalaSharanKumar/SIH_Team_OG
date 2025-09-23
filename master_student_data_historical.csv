@@ -1,0 +1,1201 @@
+StudentID,AttendancePercentage,AverageScore,FeeStatus,LMS_Logins_Per_Week,MidtermGrade,ScholarshipHolder,Target,Name,Email,Phone,Branch,Year,FinancialStressScore,HealthImpact,CareerConfidenceScore,ReportingPeriod
+SID_2024001,103,79.56,Paid,6,78.82,1,Enrolled,Harish Narang,harish33@college.edu,6280452137,Electronics,3,2,No,4,1
+SID_2024001,87,75.5,Paid,6,78.82,1,Enrolled,Harish Narang,harish33@college.edu,6280452137,Electronics,3,2,No,4,2
+SID_2024001,88,82.19,Paid,6,78.82,1,Enrolled,Harish Narang,harish33@college.edu,6280452137,Electronics,3,2,No,4,3
+SID_2024001,91,81.49,Paid,6,78.82,1,Enrolled,Harish Narang,harish33@college.edu,6280452137,Electronics,3,2,No,4,4
+SID_2024002,72,54.23,Paid,6,68.24,1,Enrolled,Ikbal Kota,ikbal33@college.edu,+915262058476,Mechanical,3,3,Yes,4,1
+SID_2024002,77,65.62,Paid,6,68.24,1,Enrolled,Ikbal Kota,ikbal33@college.edu,+915262058476,Mechanical,3,3,Yes,4,2
+SID_2024002,75,57.85,Paid,6,68.24,1,Enrolled,Ikbal Kota,ikbal33@college.edu,+915262058476,Mechanical,3,3,Yes,4,3
+SID_2024002,75,60.33,Paid,6,68.24,1,Enrolled,Ikbal Kota,ikbal33@college.edu,+915262058476,Mechanical,3,3,Yes,4,4
+SID_2024003,70,73.63,Paid,8,94.71,1,Graduate,Aarush Kulkarni,aarush83@college.edu,+916467406532,Computer Science,3,2,Yes,5,1
+SID_2024003,83,78.7,Paid,8,94.71,1,Graduate,Aarush Kulkarni,aarush83@college.edu,+916467406532,Computer Science,3,2,Yes,5,2
+SID_2024003,82,76.06,Paid,8,94.71,1,Graduate,Aarush Kulkarni,aarush83@college.edu,+916467406532,Computer Science,3,2,Yes,5,3
+SID_2024003,85,76.46,Paid,8,94.71,1,Graduate,Aarush Kulkarni,aarush83@college.edu,+916467406532,Computer Science,3,2,Yes,5,4
+SID_2024004,55,42.61,Overdue,2,54.02,1,Dropout,Ekavir Morar,ekavir69@college.edu,+915178550403,Electrical,1,4,Yes,2,1
+SID_2024004,51,40.94,Overdue,2,54.02,1,Dropout,Ekavir Morar,ekavir69@college.edu,+915178550403,Electrical,1,4,Yes,2,2
+SID_2024004,47,43.45,Overdue,2,54.02,1,Dropout,Ekavir Morar,ekavir69@college.edu,+915178550403,Electrical,1,4,Yes,2,3
+SID_2024004,49,44.4,Overdue,2,54.02,1,Dropout,Ekavir Morar,ekavir69@college.edu,+915178550403,Electrical,1,4,Yes,2,4
+SID_2024005,78,85.91,Paid,9,58.89,0,Enrolled,Janya Muni,janya33@college.edu,2454645181,Electronics,2,4,Yes,5,1
+SID_2024005,74,77.49,Paid,9,58.89,0,Enrolled,Janya Muni,janya33@college.edu,2454645181,Electronics,2,4,Yes,5,2
+SID_2024005,85,81.37,Paid,9,58.89,0,Enrolled,Janya Muni,janya33@college.edu,2454645181,Electronics,2,4,Yes,5,3
+SID_2024005,84,79.46,Paid,9,58.89,0,Enrolled,Janya Muni,janya33@college.edu,2454645181,Electronics,2,4,Yes,5,4
+SID_2024006,49,44.23,Overdue,2,52.22,0,Dropout,Janani Pai,janani38@college.edu,00354662787,Mechanical,3,4,No,1,1
+SID_2024006,56,49.4,Overdue,2,52.22,0,Dropout,Janani Pai,janani38@college.edu,00354662787,Mechanical,3,4,No,1,2
+SID_2024006,47,49.05,Overdue,2,52.22,0,Dropout,Janani Pai,janani38@college.edu,00354662787,Mechanical,3,4,No,1,3
+SID_2024006,52,47.31,Overdue,2,52.22,0,Dropout,Janani Pai,janani38@college.edu,00354662787,Mechanical,3,4,No,1,4
+SID_2024007,86,101.99,Paid,14,87.97,0,Graduate,Vasana Nadkarni,vasana55@college.edu,7704271278,Computer Science,3,1,No,4,1
+SID_2024007,80,93.01,Paid,14,87.97,0,Graduate,Vasana Nadkarni,vasana55@college.edu,7704271278,Computer Science,3,1,No,4,2
+SID_2024007,90,94.16,Paid,14,87.97,0,Graduate,Vasana Nadkarni,vasana55@college.edu,7704271278,Computer Science,3,1,No,4,3
+SID_2024007,86,95.06,Paid,14,87.97,0,Graduate,Vasana Nadkarni,vasana55@college.edu,7704271278,Computer Science,3,1,No,4,4
+SID_2024008,47,50.0,Paid,4,49.17,0,Dropout,Dhriti Ganguly,dhriti85@college.edu,9921625904,Electrical,2,3,Yes,1,1
+SID_2024008,43,56.85,Paid,4,49.17,0,Dropout,Dhriti Ganguly,dhriti85@college.edu,9921625904,Electrical,2,3,Yes,1,2
+SID_2024008,57,54.97,Paid,4,49.17,0,Dropout,Dhriti Ganguly,dhriti85@college.edu,9921625904,Electrical,2,3,Yes,1,3
+SID_2024008,53,55.59,Paid,4,49.17,0,Dropout,Dhriti Ganguly,dhriti85@college.edu,9921625904,Electrical,2,3,Yes,1,4
+SID_2024009,86,92.5,Paid,14,84.18,1,Graduate,Tarak Sathe,tarak80@college.edu,+913329400761,Mechanical,1,3,No,5,1
+SID_2024009,98,98.34,Paid,14,84.18,1,Graduate,Tarak Sathe,tarak80@college.edu,+913329400761,Mechanical,1,3,No,5,2
+SID_2024009,102,98.0,Paid,14,84.18,1,Graduate,Tarak Sathe,tarak80@college.edu,+913329400761,Mechanical,1,3,No,5,3
+SID_2024009,98,96.23,Paid,14,84.18,1,Graduate,Tarak Sathe,tarak80@college.edu,+913329400761,Mechanical,1,3,No,5,4
+SID_2024010,106,92.15,Paid,13,75.89,0,Graduate,Hardik Doctor,hardik82@college.edu,+915268848250,Computer Science,1,2,No,5,1
+SID_2024010,98,94.32,Paid,13,75.89,0,Graduate,Hardik Doctor,hardik82@college.edu,+915268848250,Computer Science,1,2,No,5,2
+SID_2024010,96,89.71,Paid,13,75.89,0,Graduate,Hardik Doctor,hardik82@college.edu,+915268848250,Computer Science,1,2,No,5,3
+SID_2024010,94,90.45,Paid,13,75.89,0,Graduate,Hardik Doctor,hardik82@college.edu,+915268848250,Computer Science,1,2,No,5,4
+SID_2024011,75,67.49,Paid,7,74.1,0,Enrolled,Neha Sengupta,neha13@college.edu,0851284030,Electronics,2,4,No,4,1
+SID_2024011,84,69.99,Paid,7,74.1,0,Enrolled,Neha Sengupta,neha13@college.edu,0851284030,Electronics,2,4,No,4,2
+SID_2024011,91,63.76,Paid,7,74.1,0,Enrolled,Neha Sengupta,neha13@college.edu,0851284030,Electronics,2,4,No,4,3
+SID_2024011,90,66.34,Paid,7,74.1,0,Enrolled,Neha Sengupta,neha13@college.edu,0851284030,Electronics,2,4,No,4,4
+SID_2024012,101,90.54,Paid,5,73.45,0,Graduate,Hiral Sharaf,hiral24@college.edu,2015361969,Computer Science,2,1,No,4,1
+SID_2024012,89,85.6,Paid,5,73.45,0,Graduate,Hiral Sharaf,hiral24@college.edu,2015361969,Computer Science,2,1,No,4,2
+SID_2024012,96,81.74,Paid,5,73.45,0,Graduate,Hiral Sharaf,hiral24@college.edu,2015361969,Computer Science,2,1,No,4,3
+SID_2024012,95,83.7,Paid,5,73.45,0,Graduate,Hiral Sharaf,hiral24@college.edu,2015361969,Computer Science,2,1,No,4,4
+SID_2024013,76,92.23,Paid,13,71.92,1,Graduate,Sai Reddy,sai39@college.edu,2817633494,Mechanical,2,2,No,5,1
+SID_2024013,81,89.24,Paid,13,71.92,1,Graduate,Sai Reddy,sai39@college.edu,2817633494,Mechanical,2,2,No,5,2
+SID_2024013,87,91.02,Paid,13,71.92,1,Graduate,Sai Reddy,sai39@college.edu,2817633494,Mechanical,2,2,No,5,3
+SID_2024013,85,92.85,Paid,13,71.92,1,Graduate,Sai Reddy,sai39@college.edu,2817633494,Mechanical,2,2,No,5,4
+SID_2024014,91,73.96,Due,9,59.45,0,Enrolled,Isaac Sura,isaac21@college.edu,09523192379,Mechanical,3,3,No,5,1
+SID_2024014,81,70.87,Due,9,59.45,0,Enrolled,Isaac Sura,isaac21@college.edu,09523192379,Mechanical,3,3,No,5,2
+SID_2024014,86,74.56,Due,9,59.45,0,Enrolled,Isaac Sura,isaac21@college.edu,09523192379,Mechanical,3,3,No,5,3
+SID_2024014,91,72.31,Due,9,59.45,0,Enrolled,Isaac Sura,isaac21@college.edu,09523192379,Mechanical,3,3,No,5,4
+SID_2024015,93,85.04,Paid,13,94.74,0,Graduate,Yug Chawla,yug72@college.edu,+910602378146,Computer Science,3,3,No,4,1
+SID_2024015,77,75.13,Paid,13,94.74,0,Graduate,Yug Chawla,yug72@college.edu,+910602378146,Computer Science,3,3,No,4,2
+SID_2024015,87,79.71,Paid,13,94.74,0,Graduate,Yug Chawla,yug72@college.edu,+910602378146,Computer Science,3,3,No,4,3
+SID_2024015,87,80.66,Paid,13,94.74,0,Graduate,Yug Chawla,yug72@college.edu,+910602378146,Computer Science,3,3,No,4,4
+SID_2024016,53,61.82,Due,0,55.0,0,Dropout,Unni Agrawal,unni89@college.edu,04444141844,Mechanical,4,5,Yes,3,1
+SID_2024016,50,60.17,Due,0,55.0,0,Dropout,Unni Agrawal,unni89@college.edu,04444141844,Mechanical,4,5,Yes,3,2
+SID_2024016,53,57.52,Due,0,55.0,0,Dropout,Unni Agrawal,unni89@college.edu,04444141844,Mechanical,4,5,Yes,3,3
+SID_2024016,50,55.68,Due,0,55.0,0,Dropout,Unni Agrawal,unni89@college.edu,04444141844,Mechanical,4,5,Yes,3,4
+SID_2024017,81,90.61,Paid,14,86.48,0,Graduate,Kalpit Nayak,kalpit39@college.edu,+913715562594,Mechanical,3,3,No,4,1
+SID_2024017,96,92.46,Paid,14,86.48,0,Graduate,Kalpit Nayak,kalpit39@college.edu,+913715562594,Mechanical,3,3,No,4,2
+SID_2024017,98,90.32,Paid,14,86.48,0,Graduate,Kalpit Nayak,kalpit39@college.edu,+913715562594,Mechanical,3,3,No,4,3
+SID_2024017,96,88.07,Paid,14,86.48,0,Graduate,Kalpit Nayak,kalpit39@college.edu,+913715562594,Mechanical,3,3,No,4,4
+SID_2024018,89,59.48,Paid,6,57.91,0,Enrolled,Chakradhar Narula,chakradhar23@college.edu,05927868823,Civil,3,2,Yes,4,1
+SID_2024018,75,71.22,Paid,6,57.91,0,Enrolled,Chakradhar Narula,chakradhar23@college.edu,05927868823,Civil,3,2,Yes,4,2
+SID_2024018,75,68.65,Paid,6,57.91,0,Enrolled,Chakradhar Narula,chakradhar23@college.edu,05927868823,Civil,3,2,Yes,4,3
+SID_2024018,77,67.36,Paid,6,57.91,0,Enrolled,Chakradhar Narula,chakradhar23@college.edu,05927868823,Civil,3,2,Yes,4,4
+SID_2024019,67,53.66,Overdue,2,55.67,0,Dropout,Sai Sastry,sai53@college.edu,07914673945,Electronics,2,5,No,3,1
+SID_2024019,68,59.69,Overdue,2,55.67,0,Dropout,Sai Sastry,sai53@college.edu,07914673945,Electronics,2,5,No,3,2
+SID_2024019,63,61.7,Overdue,2,55.67,0,Dropout,Sai Sastry,sai53@college.edu,07914673945,Electronics,2,5,No,3,3
+SID_2024019,64,62.26,Overdue,2,55.67,0,Dropout,Sai Sastry,sai53@college.edu,07914673945,Electronics,2,5,No,3,4
+SID_2024020,99,102.06,Paid,10,87.66,0,Graduate,Champak Bhavsar,champak88@college.edu,7782224111,Computer Science,1,1,No,5,1
+SID_2024020,89,97.9,Paid,10,87.66,0,Graduate,Champak Bhavsar,champak88@college.edu,7782224111,Computer Science,1,1,No,5,2
+SID_2024020,97,96.94,Paid,10,87.66,0,Graduate,Champak Bhavsar,champak88@college.edu,7782224111,Computer Science,1,1,No,5,3
+SID_2024020,99,95.98,Paid,10,87.66,0,Graduate,Champak Bhavsar,champak88@college.edu,7782224111,Computer Science,1,1,No,5,4
+SID_2024021,62,51.23,Due,0,40.0,1,Dropout,Banjeet Mammen,banjeet94@college.edu,8998758403,Civil,3,3,No,3,1
+SID_2024021,58,58.26,Due,0,40.0,1,Dropout,Banjeet Mammen,banjeet94@college.edu,8998758403,Civil,3,3,No,3,2
+SID_2024021,58,55.66,Due,0,40.0,1,Dropout,Banjeet Mammen,banjeet94@college.edu,8998758403,Civil,3,3,No,3,3
+SID_2024021,62,53.23,Due,0,40.0,1,Dropout,Banjeet Mammen,banjeet94@college.edu,8998758403,Civil,3,3,No,3,4
+SID_2024022,65,82.11,Due,5,71.41,1,Enrolled,Ubika Issac,ubika27@college.edu,+914558347844,Mechanical,3,4,No,5,1
+SID_2024022,74,84.91,Due,5,71.41,1,Enrolled,Ubika Issac,ubika27@college.edu,+914558347844,Mechanical,3,4,No,5,2
+SID_2024022,79,83.8,Due,5,71.41,1,Enrolled,Ubika Issac,ubika27@college.edu,+914558347844,Mechanical,3,4,No,5,3
+SID_2024022,80,84.34,Due,5,71.41,1,Enrolled,Ubika Issac,ubika27@college.edu,+914558347844,Mechanical,3,4,No,5,4
+SID_2024023,79,80.45,Due,9,58.59,0,Enrolled,Pranav Sabharwal,pranav28@college.edu,3276578691,Electronics,2,4,Yes,5,1
+SID_2024023,68,79.5,Due,9,58.59,0,Enrolled,Pranav Sabharwal,pranav28@college.edu,3276578691,Electronics,2,4,Yes,5,2
+SID_2024023,73,79.78,Due,9,58.59,0,Enrolled,Pranav Sabharwal,pranav28@college.edu,3276578691,Electronics,2,4,Yes,5,3
+SID_2024023,70,78.85,Due,9,58.59,0,Enrolled,Pranav Sabharwal,pranav28@college.edu,3276578691,Electronics,2,4,Yes,5,4
+SID_2024024,97,64.22,Paid,4,55.06,0,Enrolled,Bimala Dhaliwal,bimala34@college.edu,07655980615,Civil,3,3,No,3,1
+SID_2024024,98,57.64,Paid,4,55.06,0,Enrolled,Bimala Dhaliwal,bimala34@college.edu,07655980615,Civil,3,3,No,3,2
+SID_2024024,95,58.64,Paid,4,55.06,0,Enrolled,Bimala Dhaliwal,bimala34@college.edu,07655980615,Civil,3,3,No,3,3
+SID_2024024,94,60.68,Paid,4,55.06,0,Enrolled,Bimala Dhaliwal,bimala34@college.edu,07655980615,Civil,3,3,No,3,4
+SID_2024025,82,79.58,Paid,3,60.97,0,Enrolled,Gaurang Bandi,gaurang91@college.edu,09417629700,Civil,3,1,No,5,1
+SID_2024025,72,77.7,Paid,3,60.97,0,Enrolled,Gaurang Bandi,gaurang91@college.edu,09417629700,Civil,3,1,No,5,2
+SID_2024025,78,77.03,Paid,3,60.97,0,Enrolled,Gaurang Bandi,gaurang91@college.edu,09417629700,Civil,3,1,No,5,3
+SID_2024025,76,77.95,Paid,3,60.97,0,Enrolled,Gaurang Bandi,gaurang91@college.edu,09417629700,Civil,3,1,No,5,4
+SID_2024026,72,58.82,Paid,4,76.32,0,Enrolled,Amruta Sura,amruta62@college.edu,+912516135000,Computer Science,3,3,Yes,5,1
+SID_2024026,90,56.72,Paid,4,76.32,0,Enrolled,Amruta Sura,amruta62@college.edu,+912516135000,Computer Science,3,3,Yes,5,2
+SID_2024026,88,62.13,Paid,4,76.32,0,Enrolled,Amruta Sura,amruta62@college.edu,+912516135000,Computer Science,3,3,Yes,5,3
+SID_2024026,84,62.42,Paid,4,76.32,0,Enrolled,Amruta Sura,amruta62@college.edu,+912516135000,Computer Science,3,3,Yes,5,4
+SID_2024027,50,36.86,Overdue,1,58.69,0,Dropout,Thomas Karpe,thomas64@college.edu,+913725462553,Mechanical,3,5,Yes,1,1
+SID_2024027,63,42.53,Overdue,1,58.69,0,Dropout,Thomas Karpe,thomas64@college.edu,+913725462553,Mechanical,3,5,Yes,1,2
+SID_2024027,68,41.02,Overdue,1,58.69,0,Dropout,Thomas Karpe,thomas64@college.edu,+913725462553,Mechanical,3,5,Yes,1,3
+SID_2024027,65,41.19,Overdue,1,58.69,0,Dropout,Thomas Karpe,thomas64@college.edu,+913725462553,Mechanical,3,5,Yes,1,4
+SID_2024028,92,91.54,Paid,6,78.1,0,Graduate,Reyansh Raval,reyansh92@college.edu,0122383019,Mechanical,4,2,No,4,1
+SID_2024028,99,87.57,Paid,6,78.1,0,Graduate,Reyansh Raval,reyansh92@college.edu,0122383019,Mechanical,4,2,No,4,2
+SID_2024028,99,88.75,Paid,6,78.1,0,Graduate,Reyansh Raval,reyansh92@college.edu,0122383019,Mechanical,4,2,No,4,3
+SID_2024028,95,89.61,Paid,6,78.1,0,Graduate,Reyansh Raval,reyansh92@college.edu,0122383019,Mechanical,4,2,No,4,4
+SID_2024029,90,89.0,Paid,9,85.06,1,Graduate,Ikbal Bandi,ikbal74@college.edu,+911703180129,Computer Science,4,2,No,4,1
+SID_2024029,105,86.38,Paid,9,85.06,1,Graduate,Ikbal Bandi,ikbal74@college.edu,+911703180129,Computer Science,4,2,No,4,2
+SID_2024029,96,90.2,Paid,9,85.06,1,Graduate,Ikbal Bandi,ikbal74@college.edu,+911703180129,Computer Science,4,2,No,4,3
+SID_2024029,99,90.97,Paid,9,85.06,1,Graduate,Ikbal Bandi,ikbal74@college.edu,+911703180129,Computer Science,4,2,No,4,4
+SID_2024030,83,77.48,Paid,6,68.74,1,Enrolled,Upkaar Mallick,upkaar21@college.edu,+914167001073,Computer Science,4,3,No,3,1
+SID_2024030,90,70.34,Paid,6,68.74,1,Enrolled,Upkaar Mallick,upkaar21@college.edu,+914167001073,Computer Science,4,3,No,3,2
+SID_2024030,81,70.3,Paid,6,68.74,1,Enrolled,Upkaar Mallick,upkaar21@college.edu,+914167001073,Computer Science,4,3,No,3,3
+SID_2024030,86,71.41,Paid,6,68.74,1,Enrolled,Upkaar Mallick,upkaar21@college.edu,+914167001073,Computer Science,4,3,No,3,4
+SID_2024031,102,68.36,Paid,8,73.99,0,Enrolled,Nilima Solanki,nilima82@college.edu,5221982767,Mechanical,3,3,No,5,1
+SID_2024031,91,63.07,Paid,8,73.99,0,Enrolled,Nilima Solanki,nilima82@college.edu,5221982767,Mechanical,3,3,No,5,2
+SID_2024031,92,65.23,Paid,8,73.99,0,Enrolled,Nilima Solanki,nilima82@college.edu,5221982767,Mechanical,3,3,No,5,3
+SID_2024031,93,64.45,Paid,8,73.99,0,Enrolled,Nilima Solanki,nilima82@college.edu,5221982767,Mechanical,3,3,No,5,4
+SID_2024032,82,82.31,Paid,8,78.18,0,Graduate,Libni Manne,libni50@college.edu,6252932921,Electronics,1,1,No,4,1
+SID_2024032,91,94.18,Paid,8,78.18,0,Graduate,Libni Manne,libni50@college.edu,6252932921,Electronics,1,1,No,4,2
+SID_2024032,87,90.4,Paid,8,78.18,0,Graduate,Libni Manne,libni50@college.edu,6252932921,Electronics,1,1,No,4,3
+SID_2024032,85,88.48,Paid,8,78.18,0,Graduate,Libni Manne,libni50@college.edu,6252932921,Electronics,1,1,No,4,4
+SID_2024033,102,93.27,Paid,10,77.98,1,Graduate,Tripti Sahota,tripti36@college.edu,4980717670,Civil,2,3,No,4,1
+SID_2024033,98,91.85,Paid,10,77.98,1,Graduate,Tripti Sahota,tripti36@college.edu,4980717670,Civil,2,3,No,4,2
+SID_2024033,92,94.42,Paid,10,77.98,1,Graduate,Tripti Sahota,tripti36@college.edu,4980717670,Civil,2,3,No,4,3
+SID_2024033,96,96.45,Paid,10,77.98,1,Graduate,Tripti Sahota,tripti36@college.edu,4980717670,Civil,2,3,No,4,4
+SID_2024034,67,79.41,Paid,6,79.22,1,Enrolled,Chandani Dani,chandani91@college.edu,+917187556378,Civil,4,1,No,3,1
+SID_2024034,66,88.27,Paid,6,79.22,1,Enrolled,Chandani Dani,chandani91@college.edu,+917187556378,Civil,4,1,No,3,2
+SID_2024034,70,87.57,Paid,6,79.22,1,Enrolled,Chandani Dani,chandani91@college.edu,+917187556378,Civil,4,1,No,3,3
+SID_2024034,70,84.91,Paid,6,79.22,1,Enrolled,Chandani Dani,chandani91@college.edu,+917187556378,Civil,4,1,No,3,4
+SID_2024035,82,77.19,Due,9,65.12,0,Enrolled,Gagan Gupta,gagan27@college.edu,03214910077,Computer Science,1,1,No,3,1
+SID_2024035,75,77.44,Due,9,65.12,0,Enrolled,Gagan Gupta,gagan27@college.edu,03214910077,Computer Science,1,1,No,3,2
+SID_2024035,81,85.4,Due,9,65.12,0,Enrolled,Gagan Gupta,gagan27@college.edu,03214910077,Computer Science,1,1,No,3,3
+SID_2024035,85,83.22,Due,9,65.12,0,Enrolled,Gagan Gupta,gagan27@college.edu,03214910077,Computer Science,1,1,No,3,4
+SID_2024036,83,59.08,Paid,3,60.74,0,Enrolled,Shaurya Mutti,shaurya33@college.edu,3908181773,Electronics,2,3,No,5,1
+SID_2024036,78,57.54,Paid,3,60.74,0,Enrolled,Shaurya Mutti,shaurya33@college.edu,3908181773,Electronics,2,3,No,5,2
+SID_2024036,81,60.92,Paid,3,60.74,0,Enrolled,Shaurya Mutti,shaurya33@college.edu,3908181773,Electronics,2,3,No,5,3
+SID_2024036,80,62.52,Paid,3,60.74,0,Enrolled,Shaurya Mutti,shaurya33@college.edu,3908181773,Electronics,2,3,No,5,4
+SID_2024037,75,84.78,Paid,5,74.45,1,Enrolled,Gunbir Narasimhan,gunbir85@college.edu,07533391357,Civil,3,4,Yes,4,1
+SID_2024037,78,77.28,Paid,5,74.45,1,Enrolled,Gunbir Narasimhan,gunbir85@college.edu,07533391357,Civil,3,4,Yes,4,2
+SID_2024037,83,80.83,Paid,5,74.45,1,Enrolled,Gunbir Narasimhan,gunbir85@college.edu,07533391357,Civil,3,4,Yes,4,3
+SID_2024037,84,78.99,Paid,5,74.45,1,Enrolled,Gunbir Narasimhan,gunbir85@college.edu,07533391357,Civil,3,4,Yes,4,4
+SID_2024038,82,57.37,Paid,7,68.84,0,Enrolled,Abhiram Kari,abhiram41@college.edu,0642296563,Mechanical,2,1,No,3,1
+SID_2024038,96,65.18,Paid,7,68.84,0,Enrolled,Abhiram Kari,abhiram41@college.edu,0642296563,Mechanical,2,1,No,3,2
+SID_2024038,92,65.31,Paid,7,68.84,0,Enrolled,Abhiram Kari,abhiram41@college.edu,0642296563,Mechanical,2,1,No,3,3
+SID_2024038,88,64.85,Paid,7,68.84,0,Enrolled,Abhiram Kari,abhiram41@college.edu,0642296563,Mechanical,2,1,No,3,4
+SID_2024039,98,73.51,Paid,8,68.45,0,Enrolled,Inaya Bhavsar,inaya98@college.edu,7083220698,Electronics,1,1,No,3,1
+SID_2024039,86,66.6,Paid,8,68.45,0,Enrolled,Inaya Bhavsar,inaya98@college.edu,7083220698,Electronics,1,1,No,3,2
+SID_2024039,89,67.55,Paid,8,68.45,0,Enrolled,Inaya Bhavsar,inaya98@college.edu,7083220698,Electronics,1,1,No,3,3
+SID_2024039,86,69.94,Paid,8,68.45,0,Enrolled,Inaya Bhavsar,inaya98@college.edu,7083220698,Electronics,1,1,No,3,4
+SID_2024040,88,59.86,Paid,8,56.02,0,Enrolled,Amruta Bhatia,amruta93@college.edu,03550195285,Electronics,4,4,No,5,1
+SID_2024040,92,61.89,Paid,8,56.02,0,Enrolled,Amruta Bhatia,amruta93@college.edu,03550195285,Electronics,4,4,No,5,2
+SID_2024040,83,68.8,Paid,8,56.02,0,Enrolled,Amruta Bhatia,amruta93@college.edu,03550195285,Electronics,4,4,No,5,3
+SID_2024040,88,67.57,Paid,8,56.02,0,Enrolled,Amruta Bhatia,amruta93@college.edu,03550195285,Electronics,4,4,No,5,4
+SID_2024041,88,91.18,Paid,8,74.49,0,Enrolled,Yachana Saini,yachana27@college.edu,+914958642697,Electronics,2,4,No,3,1
+SID_2024041,78,81.58,Paid,8,74.49,0,Enrolled,Yachana Saini,yachana27@college.edu,+914958642697,Electronics,2,4,No,3,2
+SID_2024041,85,83.66,Paid,8,74.49,0,Enrolled,Yachana Saini,yachana27@college.edu,+914958642697,Electronics,2,4,No,3,3
+SID_2024041,88,83.17,Paid,8,74.49,0,Enrolled,Yachana Saini,yachana27@college.edu,+914958642697,Electronics,2,4,No,3,4
+SID_2024042,81,78.9,Paid,3,64.89,0,Enrolled,Ucchal Oak,ucchal16@college.edu,5969086931,Civil,1,4,Yes,4,1
+SID_2024042,70,76.62,Paid,3,64.89,0,Enrolled,Ucchal Oak,ucchal16@college.edu,5969086931,Civil,1,4,Yes,4,2
+SID_2024042,74,83.05,Paid,3,64.89,0,Enrolled,Ucchal Oak,ucchal16@college.edu,5969086931,Civil,1,4,Yes,4,3
+SID_2024042,72,80.56,Paid,3,64.89,0,Enrolled,Ucchal Oak,ucchal16@college.edu,5969086931,Civil,1,4,Yes,4,4
+SID_2024043,106,90.67,Paid,5,77.08,1,Graduate,Mitesh Basu,mitesh21@college.edu,05780480935,Mechanical,3,2,No,4,1
+SID_2024043,103,86.29,Paid,5,77.08,1,Graduate,Mitesh Basu,mitesh21@college.edu,05780480935,Mechanical,3,2,No,4,2
+SID_2024043,92,84.34,Paid,5,77.08,1,Graduate,Mitesh Basu,mitesh21@college.edu,05780480935,Mechanical,3,2,No,4,3
+SID_2024043,97,82.01,Paid,5,77.08,1,Graduate,Mitesh Basu,mitesh21@college.edu,05780480935,Mechanical,3,2,No,4,4
+SID_2024044,82,77.75,Paid,4,67.2,0,Enrolled,Saumya Munshi,saumya54@college.edu,00011519462,Civil,1,3,No,4,1
+SID_2024044,87,80.14,Paid,4,67.2,0,Enrolled,Saumya Munshi,saumya54@college.edu,00011519462,Civil,1,3,No,4,2
+SID_2024044,87,75.08,Paid,4,67.2,0,Enrolled,Saumya Munshi,saumya54@college.edu,00011519462,Civil,1,3,No,4,3
+SID_2024044,91,75.46,Paid,4,67.2,0,Enrolled,Saumya Munshi,saumya54@college.edu,00011519462,Civil,1,3,No,4,4
+SID_2024045,84,68.58,Paid,3,64.44,1,Enrolled,Jacob Murty,jacob89@college.edu,05231452050,Computer Science,1,2,Yes,5,1
+SID_2024045,66,57.03,Paid,3,64.44,1,Enrolled,Jacob Murty,jacob89@college.edu,05231452050,Computer Science,1,2,Yes,5,2
+SID_2024045,68,65.15,Paid,3,64.44,1,Enrolled,Jacob Murty,jacob89@college.edu,05231452050,Computer Science,1,2,Yes,5,3
+SID_2024045,72,62.22,Paid,3,64.44,1,Enrolled,Jacob Murty,jacob89@college.edu,05231452050,Computer Science,1,2,Yes,5,4
+SID_2024046,64,67.82,Paid,8,58.68,1,Enrolled,Hredhaan Kar,hredhaan55@college.edu,01438005122,Civil,1,1,No,5,1
+SID_2024046,76,63.35,Paid,8,58.68,1,Enrolled,Hredhaan Kar,hredhaan55@college.edu,01438005122,Civil,1,1,No,5,2
+SID_2024046,71,68.53,Paid,8,58.68,1,Enrolled,Hredhaan Kar,hredhaan55@college.edu,01438005122,Civil,1,1,No,5,3
+SID_2024046,76,67.61,Paid,8,58.68,1,Enrolled,Hredhaan Kar,hredhaan55@college.edu,01438005122,Civil,1,1,No,5,4
+SID_2024047,100,102.01,Paid,7,85.61,0,Graduate,Chanchal Varkey,chanchal51@college.edu,+913810879882,Electronics,1,3,No,5,1
+SID_2024047,102,102.55,Paid,7,85.61,0,Graduate,Chanchal Varkey,chanchal51@college.edu,+913810879882,Electronics,1,3,No,5,2
+SID_2024047,93,97.15,Paid,7,85.61,0,Graduate,Chanchal Varkey,chanchal51@college.edu,+913810879882,Electronics,1,3,No,5,3
+SID_2024047,94,97.37,Paid,7,85.61,0,Graduate,Chanchal Varkey,chanchal51@college.edu,+913810879882,Electronics,1,3,No,5,4
+SID_2024048,90,71.46,Paid,5,63.48,1,Enrolled,Watika Tak,watika78@college.edu,+916224445173,Computer Science,2,3,Yes,5,1
+SID_2024048,79,72.48,Paid,5,63.48,1,Enrolled,Watika Tak,watika78@college.edu,+916224445173,Computer Science,2,3,Yes,5,2
+SID_2024048,84,68.47,Paid,5,63.48,1,Enrolled,Watika Tak,watika78@college.edu,+916224445173,Computer Science,2,3,Yes,5,3
+SID_2024048,87,70.38,Paid,5,63.48,1,Enrolled,Watika Tak,watika78@college.edu,+916224445173,Computer Science,2,3,Yes,5,4
+SID_2024049,89,80.38,Due,9,61.37,0,Enrolled,Shivansh Lall,shivansh15@college.edu,5743564355,Civil,1,4,No,5,1
+SID_2024049,75,78.63,Due,9,61.37,0,Enrolled,Shivansh Lall,shivansh15@college.edu,5743564355,Civil,1,4,No,5,2
+SID_2024049,79,85.69,Due,9,61.37,0,Enrolled,Shivansh Lall,shivansh15@college.edu,5743564355,Civil,1,4,No,5,3
+SID_2024049,83,83.17,Due,9,61.37,0,Enrolled,Shivansh Lall,shivansh15@college.edu,5743564355,Civil,1,4,No,5,4
+SID_2024050,59,62.37,Overdue,2,40.64,0,Dropout,Shivani Atwal,shivani96@college.edu,7708017514,Computer Science,3,4,Yes,3,1
+SID_2024050,67,61.62,Overdue,2,40.64,0,Dropout,Shivani Atwal,shivani96@college.edu,7708017514,Computer Science,3,4,Yes,3,2
+SID_2024050,55,55.73,Overdue,2,40.64,0,Dropout,Shivani Atwal,shivani96@college.edu,7708017514,Computer Science,3,4,Yes,3,3
+SID_2024050,59,55.79,Overdue,2,40.64,0,Dropout,Shivani Atwal,shivani96@college.edu,7708017514,Computer Science,3,4,Yes,3,4
+SID_2024051,65,71.4,Paid,5,64.2,0,Enrolled,Gayathri Balay,gayathri66@college.edu,+913502764128,Computer Science,1,3,No,3,1
+SID_2024051,82,59.79,Paid,5,64.2,0,Enrolled,Gayathri Balay,gayathri66@college.edu,+913502764128,Computer Science,1,3,No,3,2
+SID_2024051,73,64.05,Paid,5,64.2,0,Enrolled,Gayathri Balay,gayathri66@college.edu,+913502764128,Computer Science,1,3,No,3,3
+SID_2024051,74,63.7,Paid,5,64.2,0,Enrolled,Gayathri Balay,gayathri66@college.edu,+913502764128,Computer Science,1,3,No,3,4
+SID_2024052,70,77.96,Due,5,57.77,0,Enrolled,Ekapad Malhotra,ekapad68@college.edu,+911068479447,Electrical,1,1,Yes,5,1
+SID_2024052,62,67.7,Due,5,57.77,0,Enrolled,Ekapad Malhotra,ekapad68@college.edu,+911068479447,Electrical,1,1,Yes,5,2
+SID_2024052,73,71.5,Due,5,57.77,0,Enrolled,Ekapad Malhotra,ekapad68@college.edu,+911068479447,Electrical,1,1,Yes,5,3
+SID_2024052,70,70.28,Due,5,57.77,0,Enrolled,Ekapad Malhotra,ekapad68@college.edu,+911068479447,Electrical,1,1,Yes,5,4
+SID_2024053,40,43.56,Due,1,30.08,0,Dropout,Chavvi Vaidya,chavvi70@college.edu,+912460824977,Computer Science,2,3,Yes,3,1
+SID_2024053,57,51.91,Due,1,30.08,0,Dropout,Chavvi Vaidya,chavvi70@college.edu,+912460824977,Computer Science,2,3,Yes,3,2
+SID_2024053,49,50.7,Due,1,30.08,0,Dropout,Chavvi Vaidya,chavvi70@college.edu,+912460824977,Computer Science,2,3,Yes,3,3
+SID_2024053,51,50.2,Due,1,30.08,0,Dropout,Chavvi Vaidya,chavvi70@college.edu,+912460824977,Computer Science,2,3,Yes,3,4
+SID_2024054,78,70.02,Paid,5,57.01,1,Enrolled,Jack Apte,jack51@college.edu,+911724516258,Mechanical,1,1,Yes,4,1
+SID_2024054,83,72.44,Paid,5,57.01,1,Enrolled,Jack Apte,jack51@college.edu,+911724516258,Mechanical,1,1,Yes,4,2
+SID_2024054,97,74.67,Paid,5,57.01,1,Enrolled,Jack Apte,jack51@college.edu,+911724516258,Mechanical,1,1,Yes,4,3
+SID_2024054,93,73.26,Paid,5,57.01,1,Enrolled,Jack Apte,jack51@college.edu,+911724516258,Mechanical,1,1,Yes,4,4
+SID_2024055,91,68.88,Paid,3,56.16,1,Enrolled,Nilima Barad,nilima84@college.edu,0945820865,Electrical,1,3,No,3,1
+SID_2024055,94,60.68,Paid,3,56.16,1,Enrolled,Nilima Barad,nilima84@college.edu,0945820865,Electrical,1,3,No,3,2
+SID_2024055,84,66.48,Paid,3,56.16,1,Enrolled,Nilima Barad,nilima84@college.edu,0945820865,Electrical,1,3,No,3,3
+SID_2024055,88,65.14,Paid,3,56.16,1,Enrolled,Nilima Barad,nilima84@college.edu,0945820865,Electrical,1,3,No,3,4
+SID_2024056,81,99.41,Paid,14,77.05,1,Graduate,Owen Ravi,owen40@college.edu,06449057590,Civil,3,2,No,4,1
+SID_2024056,100,89.59,Paid,14,77.05,1,Graduate,Owen Ravi,owen40@college.edu,06449057590,Civil,3,2,No,4,2
+SID_2024056,94,96.41,Paid,14,77.05,1,Graduate,Owen Ravi,owen40@college.edu,06449057590,Civil,3,2,No,4,3
+SID_2024056,96,93.97,Paid,14,77.05,1,Graduate,Owen Ravi,owen40@college.edu,06449057590,Civil,3,2,No,4,4
+SID_2024057,77,80.23,Due,3,76.98,0,Enrolled,Yahvi Singhal,yahvi16@college.edu,6618867618,Civil,1,4,Yes,3,1
+SID_2024057,83,69.71,Due,3,76.98,0,Enrolled,Yahvi Singhal,yahvi16@college.edu,6618867618,Civil,1,4,Yes,3,2
+SID_2024057,77,73.86,Due,3,76.98,0,Enrolled,Yahvi Singhal,yahvi16@college.edu,6618867618,Civil,1,4,Yes,3,3
+SID_2024057,77,74.83,Due,3,76.98,0,Enrolled,Yahvi Singhal,yahvi16@college.edu,6618867618,Civil,1,4,Yes,3,4
+SID_2024058,101,53.69,Paid,4,70.29,1,Enrolled,Edhitha Das,edhitha77@college.edu,+916079693683,Electronics,1,1,Yes,3,1
+SID_2024058,93,65.09,Paid,4,70.29,1,Enrolled,Edhitha Das,edhitha77@college.edu,+916079693683,Electronics,1,1,Yes,3,2
+SID_2024058,86,63.88,Paid,4,70.29,1,Enrolled,Edhitha Das,edhitha77@college.edu,+916079693683,Electronics,1,1,Yes,3,3
+SID_2024058,89,61.31,Paid,4,70.29,1,Enrolled,Edhitha Das,edhitha77@college.edu,+916079693683,Electronics,1,1,Yes,3,4
+SID_2024059,89,67.49,Paid,12,89.8,0,Graduate,Patrick Bhatt,patrick29@college.edu,8313915431,Electrical,1,3,No,4,1
+SID_2024059,94,81.18,Paid,12,89.8,0,Graduate,Patrick Bhatt,patrick29@college.edu,8313915431,Electrical,1,3,No,4,2
+SID_2024059,93,73.41,Paid,12,89.8,0,Graduate,Patrick Bhatt,patrick29@college.edu,8313915431,Electrical,1,3,No,4,3
+SID_2024059,92,76.27,Paid,12,89.8,0,Graduate,Patrick Bhatt,patrick29@college.edu,8313915431,Electrical,1,3,No,4,4
+SID_2024060,97,57.7,Paid,3,64.16,0,Enrolled,Tanmayi Luthra,tanmayi39@college.edu,2606907064,Mechanical,1,1,No,3,1
+SID_2024060,99,58.8,Paid,3,64.16,0,Enrolled,Tanmayi Luthra,tanmayi39@college.edu,2606907064,Mechanical,1,1,No,3,2
+SID_2024060,87,64.05,Paid,3,64.16,0,Enrolled,Tanmayi Luthra,tanmayi39@college.edu,2606907064,Mechanical,1,1,No,3,3
+SID_2024060,91,63.57,Paid,3,64.16,0,Enrolled,Tanmayi Luthra,tanmayi39@college.edu,2606907064,Mechanical,1,1,No,3,4
+SID_2024061,104,69.41,Paid,6,60.39,0,Enrolled,Aditya Aggarwal,aditya65@college.edu,+911689350327,Electrical,2,3,Yes,4,1
+SID_2024061,98,73.7,Paid,6,60.39,0,Enrolled,Aditya Aggarwal,aditya65@college.edu,+911689350327,Electrical,2,3,Yes,4,2
+SID_2024061,93,66.67,Paid,6,60.39,0,Enrolled,Aditya Aggarwal,aditya65@college.edu,+911689350327,Electrical,2,3,Yes,4,3
+SID_2024061,92,69.56,Paid,6,60.39,0,Enrolled,Aditya Aggarwal,aditya65@college.edu,+911689350327,Electrical,2,3,Yes,4,4
+SID_2024062,75,49.82,Overdue,0,32.19,1,Dropout,Nitesh Pai,nitesh19@college.edu,+913156483685,Computer Science,1,4,Yes,2,1
+SID_2024062,78,38.9,Overdue,0,32.19,1,Dropout,Nitesh Pai,nitesh19@college.edu,+913156483685,Computer Science,1,4,Yes,2,2
+SID_2024062,68,44.71,Overdue,0,32.19,1,Dropout,Nitesh Pai,nitesh19@college.edu,+913156483685,Computer Science,1,4,Yes,2,3
+SID_2024062,72,42.67,Overdue,0,32.19,1,Dropout,Nitesh Pai,nitesh19@college.edu,+913156483685,Computer Science,1,4,Yes,2,4
+SID_2024063,72,55.39,Overdue,1,29.7,0,Dropout,Lavanya Dewan,lavanya87@college.edu,1551678370,Mechanical,4,5,Yes,2,1
+SID_2024063,79,51.96,Overdue,1,29.7,0,Dropout,Lavanya Dewan,lavanya87@college.edu,1551678370,Mechanical,4,5,Yes,2,2
+SID_2024063,72,54.69,Overdue,1,29.7,0,Dropout,Lavanya Dewan,lavanya87@college.edu,1551678370,Mechanical,4,5,Yes,2,3
+SID_2024063,75,56.77,Overdue,1,29.7,0,Dropout,Lavanya Dewan,lavanya87@college.edu,1551678370,Mechanical,4,5,Yes,2,4
+SID_2024064,103,87.02,Paid,9,91.6,1,Graduate,Darika Shah,darika76@college.edu,+915175319620,Computer Science,3,2,No,5,1
+SID_2024064,87,88.65,Paid,9,91.6,1,Graduate,Darika Shah,darika76@college.edu,+915175319620,Computer Science,3,2,No,5,2
+SID_2024064,95,90.78,Paid,9,91.6,1,Graduate,Darika Shah,darika76@college.edu,+915175319620,Computer Science,3,2,No,5,3
+SID_2024064,97,92.29,Paid,9,91.6,1,Graduate,Darika Shah,darika76@college.edu,+915175319620,Computer Science,3,2,No,5,4
+SID_2024065,91,85.66,Paid,5,58.48,1,Enrolled,Oeshi Srivastava,oeshi11@college.edu,7245573082,Computer Science,2,2,Yes,5,1
+SID_2024065,89,84.4,Paid,5,58.48,1,Enrolled,Oeshi Srivastava,oeshi11@college.edu,7245573082,Computer Science,2,2,Yes,5,2
+SID_2024065,81,85.07,Paid,5,58.48,1,Enrolled,Oeshi Srivastava,oeshi11@college.edu,7245573082,Computer Science,2,2,Yes,5,3
+SID_2024065,85,84.67,Paid,5,58.48,1,Enrolled,Oeshi Srivastava,oeshi11@college.edu,7245573082,Computer Science,2,2,Yes,5,4
+SID_2024066,78,84.86,Paid,8,81.91,0,Graduate,Adya Saha,adya13@college.edu,07314839484,Computer Science,1,2,No,4,1
+SID_2024066,85,82.12,Paid,8,81.91,0,Graduate,Adya Saha,adya13@college.edu,07314839484,Computer Science,1,2,No,4,2
+SID_2024066,89,87.5,Paid,8,81.91,0,Graduate,Adya Saha,adya13@college.edu,07314839484,Computer Science,1,2,No,4,3
+SID_2024066,87,85.42,Paid,8,81.91,0,Graduate,Adya Saha,adya13@college.edu,07314839484,Computer Science,1,2,No,4,4
+SID_2024067,106,78.61,Paid,8,86.07,0,Graduate,Nathan Devan,nathan34@college.edu,01359539720,Electrical,1,2,No,4,1
+SID_2024067,87,82.63,Paid,8,86.07,0,Graduate,Nathan Devan,nathan34@college.edu,01359539720,Electrical,1,2,No,4,2
+SID_2024067,96,81.15,Paid,8,86.07,0,Graduate,Nathan Devan,nathan34@college.edu,01359539720,Electrical,1,2,No,4,3
+SID_2024067,97,81.85,Paid,8,86.07,0,Graduate,Nathan Devan,nathan34@college.edu,01359539720,Electrical,1,2,No,4,4
+SID_2024068,101,76.46,Paid,13,80.67,0,Graduate,Wazir Chatterjee,wazir94@college.edu,6048683132,Civil,3,1,No,5,1
+SID_2024068,82,77.53,Paid,13,80.67,0,Graduate,Wazir Chatterjee,wazir94@college.edu,6048683132,Civil,3,1,No,5,2
+SID_2024068,90,73.83,Paid,13,80.67,0,Graduate,Wazir Chatterjee,wazir94@college.edu,6048683132,Civil,3,1,No,5,3
+SID_2024068,92,75.65,Paid,13,80.67,0,Graduate,Wazir Chatterjee,wazir94@college.edu,6048683132,Civil,3,1,No,5,4
+SID_2024069,72,82.48,Paid,7,67.2,0,Enrolled,Gautam Dhaliwal,gautam55@college.edu,9430238001,Computer Science,2,2,No,5,1
+SID_2024069,74,83.46,Paid,7,67.2,0,Enrolled,Gautam Dhaliwal,gautam55@college.edu,9430238001,Computer Science,2,2,No,5,2
+SID_2024069,73,83.02,Paid,7,67.2,0,Enrolled,Gautam Dhaliwal,gautam55@college.edu,9430238001,Computer Science,2,2,No,5,3
+SID_2024069,72,82.08,Paid,7,67.2,0,Enrolled,Gautam Dhaliwal,gautam55@college.edu,9430238001,Computer Science,2,2,No,5,4
+SID_2024070,93,80.89,Paid,5,78.91,0,Enrolled,Anmol Dey,anmol74@college.edu,3459744969,Electronics,3,1,No,5,1
+SID_2024070,87,83.83,Paid,5,78.91,0,Enrolled,Anmol Dey,anmol74@college.edu,3459744969,Electronics,3,1,No,5,2
+SID_2024070,97,81.7,Paid,5,78.91,0,Enrolled,Anmol Dey,anmol74@college.edu,3459744969,Electronics,3,1,No,5,3
+SID_2024070,93,81.88,Paid,5,78.91,0,Enrolled,Anmol Dey,anmol74@college.edu,3459744969,Electronics,3,1,No,5,4
+SID_2024071,90,78.9,Paid,14,85.36,0,Graduate,Yatan Guha,yatan98@college.edu,9943633293,Mechanical,4,2,No,5,1
+SID_2024071,105,80.73,Paid,14,85.36,0,Graduate,Yatan Guha,yatan98@college.edu,9943633293,Mechanical,4,2,No,5,2
+SID_2024071,103,78.65,Paid,14,85.36,0,Graduate,Yatan Guha,yatan98@college.edu,9943633293,Mechanical,4,2,No,5,3
+SID_2024071,99,77.97,Paid,14,85.36,0,Graduate,Yatan Guha,yatan98@college.edu,9943633293,Mechanical,4,2,No,5,4
+SID_2024072,68,65.53,Due,5,63.69,1,Enrolled,Jalsa Yohannan,jalsa68@college.edu,+912850498938,Civil,2,1,No,4,1
+SID_2024072,82,73.77,Due,5,63.69,1,Enrolled,Jalsa Yohannan,jalsa68@college.edu,+912850498938,Civil,2,1,No,4,2
+SID_2024072,70,73.5,Due,5,63.69,1,Enrolled,Jalsa Yohannan,jalsa68@college.edu,+912850498938,Civil,2,1,No,4,3
+SID_2024072,74,73.18,Due,5,63.69,1,Enrolled,Jalsa Yohannan,jalsa68@college.edu,+912850498938,Civil,2,1,No,4,4
+SID_2024073,108,88.54,Paid,8,82.55,0,Graduate,Bhavini Jain,bhavini86@college.edu,0933889106,Electronics,4,3,No,4,1
+SID_2024073,97,93.06,Paid,8,82.55,0,Graduate,Bhavini Jain,bhavini86@college.edu,0933889106,Electronics,4,3,No,4,2
+SID_2024073,97,93.99,Paid,8,82.55,0,Graduate,Bhavini Jain,bhavini86@college.edu,0933889106,Electronics,4,3,No,4,3
+SID_2024073,99,95.77,Paid,8,82.55,0,Graduate,Bhavini Jain,bhavini86@college.edu,0933889106,Electronics,4,3,No,4,4
+SID_2024074,67,73.32,Paid,3,67.58,1,Enrolled,Kiaan Mitter,kiaan39@college.edu,05847555228,Mechanical,4,3,Yes,3,1
+SID_2024074,71,71.41,Paid,3,67.58,1,Enrolled,Kiaan Mitter,kiaan39@college.edu,05847555228,Mechanical,4,3,Yes,3,2
+SID_2024074,83,69.95,Paid,3,67.58,1,Enrolled,Kiaan Mitter,kiaan39@college.edu,05847555228,Mechanical,4,3,Yes,3,3
+SID_2024074,79,70.81,Paid,3,67.58,1,Enrolled,Kiaan Mitter,kiaan39@college.edu,05847555228,Mechanical,4,3,Yes,3,4
+SID_2024075,60,59.37,Due,0,53.19,0,Dropout,Wridesh Sem,wridesh18@college.edu,6696172880,Mechanical,1,4,No,2,1
+SID_2024075,64,55.25,Due,0,53.19,0,Dropout,Wridesh Sem,wridesh18@college.edu,6696172880,Mechanical,1,4,No,2,2
+SID_2024075,64,49.12,Due,0,53.19,0,Dropout,Wridesh Sem,wridesh18@college.edu,6696172880,Mechanical,1,4,No,2,3
+SID_2024075,60,50.72,Due,0,53.19,0,Dropout,Wridesh Sem,wridesh18@college.edu,6696172880,Mechanical,1,4,No,2,4
+SID_2024076,89,78.63,Paid,5,72.52,0,Graduate,Maanav Borra,maanav14@college.edu,+911389515872,Civil,1,2,No,4,1
+SID_2024076,98,77.18,Paid,5,72.52,0,Graduate,Maanav Borra,maanav14@college.edu,+911389515872,Civil,1,2,No,4,2
+SID_2024076,93,83.96,Paid,5,72.52,0,Graduate,Maanav Borra,maanav14@college.edu,+911389515872,Civil,1,2,No,4,3
+SID_2024076,92,81.69,Paid,5,72.52,0,Graduate,Maanav Borra,maanav14@college.edu,+911389515872,Civil,1,2,No,4,4
+SID_2024077,108,85.89,Paid,5,79.39,1,Graduate,Zaid More,zaid26@college.edu,+916472866558,Electronics,1,1,Yes,5,1
+SID_2024077,100,80.35,Paid,5,79.39,1,Graduate,Zaid More,zaid26@college.edu,+916472866558,Electronics,1,1,Yes,5,2
+SID_2024077,97,77.72,Paid,5,79.39,1,Graduate,Zaid More,zaid26@college.edu,+916472866558,Electronics,1,1,Yes,5,3
+SID_2024077,96,77.53,Paid,5,79.39,1,Graduate,Zaid More,zaid26@college.edu,+916472866558,Electronics,1,1,Yes,5,4
+SID_2024078,76,49.63,Overdue,1,47.94,1,Dropout,Zayan Basu,zayan60@college.edu,9597383959,Computer Science,2,4,Yes,2,1
+SID_2024078,77,52.6,Overdue,1,47.94,1,Dropout,Zayan Basu,zayan60@college.edu,9597383959,Computer Science,2,4,Yes,2,2
+SID_2024078,81,53.09,Overdue,1,47.94,1,Dropout,Zayan Basu,zayan60@college.edu,9597383959,Computer Science,2,4,Yes,2,3
+SID_2024078,79,52.87,Overdue,1,47.94,1,Dropout,Zayan Basu,zayan60@college.edu,9597383959,Computer Science,2,4,Yes,2,4
+SID_2024079,92,88.99,Paid,7,69.82,0,Enrolled,Varenya Johal,varenya83@college.edu,+915615094441,Computer Science,1,1,Yes,4,1
+SID_2024079,97,88.11,Paid,7,69.82,0,Enrolled,Varenya Johal,varenya83@college.edu,+915615094441,Computer Science,1,1,Yes,4,2
+SID_2024079,85,85.06,Paid,7,69.82,0,Enrolled,Varenya Johal,varenya83@college.edu,+915615094441,Computer Science,1,1,Yes,4,3
+SID_2024079,89,84.39,Paid,7,69.82,0,Enrolled,Varenya Johal,varenya83@college.edu,+915615094441,Computer Science,1,1,Yes,4,4
+SID_2024080,71,62.56,Paid,9,75.73,0,Enrolled,Radha Raj,radha93@college.edu,5278288488,Mechanical,1,2,Yes,4,1
+SID_2024080,82,65.23,Paid,9,75.73,0,Enrolled,Radha Raj,radha93@college.edu,5278288488,Mechanical,1,2,Yes,4,2
+SID_2024080,74,70.19,Paid,9,75.73,0,Enrolled,Radha Raj,radha93@college.edu,5278288488,Mechanical,1,2,Yes,4,3
+SID_2024080,74,68.42,Paid,9,75.73,0,Enrolled,Radha Raj,radha93@college.edu,5278288488,Mechanical,1,2,Yes,4,4
+SID_2024081,77,82.93,Paid,6,76.24,0,Enrolled,Rishi Keer,rishi67@college.edu,+916816107856,Computer Science,1,4,No,5,1
+SID_2024081,74,84.09,Paid,6,76.24,0,Enrolled,Rishi Keer,rishi67@college.edu,+916816107856,Computer Science,1,4,No,5,2
+SID_2024081,69,79.33,Paid,6,76.24,0,Enrolled,Rishi Keer,rishi67@college.edu,+916816107856,Computer Science,1,4,No,5,3
+SID_2024081,74,81.94,Paid,6,76.24,0,Enrolled,Rishi Keer,rishi67@college.edu,+916816107856,Computer Science,1,4,No,5,4
+SID_2024082,61,59.09,Paid,8,71.87,1,Enrolled,Qadim Golla,qadim10@college.edu,+919357409378,Mechanical,4,1,No,4,1
+SID_2024082,63,65.02,Paid,8,71.87,1,Enrolled,Qadim Golla,qadim10@college.edu,+919357409378,Mechanical,4,1,No,4,2
+SID_2024082,75,58.12,Paid,8,71.87,1,Enrolled,Qadim Golla,qadim10@college.edu,+919357409378,Mechanical,4,1,No,4,3
+SID_2024082,73,60.12,Paid,8,71.87,1,Enrolled,Qadim Golla,qadim10@college.edu,+919357409378,Mechanical,4,1,No,4,4
+SID_2024083,83,85.14,Paid,8,57.12,0,Enrolled,Advaith Sule,advaith17@college.edu,7342756423,Civil,3,3,Yes,5,1
+SID_2024083,72,78.24,Paid,8,57.12,0,Enrolled,Advaith Sule,advaith17@college.edu,7342756423,Civil,3,3,Yes,5,2
+SID_2024083,70,81.82,Paid,8,57.12,0,Enrolled,Advaith Sule,advaith17@college.edu,7342756423,Civil,3,3,Yes,5,3
+SID_2024083,74,79.31,Paid,8,57.12,0,Enrolled,Advaith Sule,advaith17@college.edu,7342756423,Civil,3,3,Yes,5,4
+SID_2024084,56,65.05,Overdue,1,50.9,0,Dropout,Nicholas Dixit,nicholas24@college.edu,+915839246482,Computer Science,1,5,No,3,1
+SID_2024084,53,56.01,Overdue,1,50.9,0,Dropout,Nicholas Dixit,nicholas24@college.edu,+915839246482,Computer Science,1,5,No,3,2
+SID_2024084,51,59.53,Overdue,1,50.9,0,Dropout,Nicholas Dixit,nicholas24@college.edu,+915839246482,Computer Science,1,5,No,3,3
+SID_2024084,53,58.98,Overdue,1,50.9,0,Dropout,Nicholas Dixit,nicholas24@college.edu,+915839246482,Computer Science,1,5,No,3,4
+SID_2024085,64,45.49,Overdue,0,47.34,0,Dropout,Rishi Modi,rishi97@college.edu,7261090570,Computer Science,3,3,Yes,3,1
+SID_2024085,67,55.0,Overdue,0,47.34,0,Dropout,Rishi Modi,rishi97@college.edu,7261090570,Computer Science,3,3,Yes,3,2
+SID_2024085,65,53.71,Overdue,0,47.34,0,Dropout,Rishi Modi,rishi97@college.edu,7261090570,Computer Science,3,3,Yes,3,3
+SID_2024085,67,53.15,Overdue,0,47.34,0,Dropout,Rishi Modi,rishi97@college.edu,7261090570,Computer Science,3,3,Yes,3,4
+SID_2024086,95,95.96,Paid,8,89.75,0,Graduate,Vihaan Mittal,vihaan94@college.edu,03069550770,Mechanical,3,1,No,5,1
+SID_2024086,96,83.61,Paid,8,89.75,0,Graduate,Vihaan Mittal,vihaan94@college.edu,03069550770,Mechanical,3,1,No,5,2
+SID_2024086,99,85.77,Paid,8,89.75,0,Graduate,Vihaan Mittal,vihaan94@college.edu,03069550770,Mechanical,3,1,No,5,3
+SID_2024086,98,88.09,Paid,8,89.75,0,Graduate,Vihaan Mittal,vihaan94@college.edu,03069550770,Mechanical,3,1,No,5,4
+SID_2024087,109,71.42,Paid,14,92.45,0,Graduate,Faraj Nayak,faraj52@college.edu,6139401546,Computer Science,3,3,No,5,1
+SID_2024087,93,81.93,Paid,14,92.45,0,Graduate,Faraj Nayak,faraj52@college.edu,6139401546,Computer Science,3,3,No,5,2
+SID_2024087,101,76.14,Paid,14,92.45,0,Graduate,Faraj Nayak,faraj52@college.edu,6139401546,Computer Science,3,3,No,5,3
+SID_2024087,97,76.87,Paid,14,92.45,0,Graduate,Faraj Nayak,faraj52@college.edu,6139401546,Computer Science,3,3,No,5,4
+SID_2024088,88,89.33,Paid,10,90.77,0,Graduate,Aarnav Kant,aarnav70@college.edu,+916438092847,Electronics,1,2,No,4,1
+SID_2024088,92,102.13,Paid,10,90.77,0,Graduate,Aarnav Kant,aarnav70@college.edu,+916438092847,Electronics,1,2,No,4,2
+SID_2024088,92,95.97,Paid,10,90.77,0,Graduate,Aarnav Kant,aarnav70@college.edu,+916438092847,Electronics,1,2,No,4,3
+SID_2024088,88,97.14,Paid,10,90.77,0,Graduate,Aarnav Kant,aarnav70@college.edu,+916438092847,Electronics,1,2,No,4,4
+SID_2024089,86,82.58,Paid,14,81.73,1,Graduate,Forum Chaudhry,forum24@college.edu,07066427796,Electronics,1,3,No,5,1
+SID_2024089,91,81.43,Paid,14,81.73,1,Graduate,Forum Chaudhry,forum24@college.edu,07066427796,Electronics,1,3,No,5,2
+SID_2024089,94,74.07,Paid,14,81.73,1,Graduate,Forum Chaudhry,forum24@college.edu,07066427796,Electronics,1,3,No,5,3
+SID_2024089,95,75.98,Paid,14,81.73,1,Graduate,Forum Chaudhry,forum24@college.edu,07066427796,Electronics,1,3,No,5,4
+SID_2024090,106,93.31,Paid,6,80.68,0,Graduate,Dakshesh Mangat,dakshesh26@college.edu,5865553298,Computer Science,3,3,No,5,1
+SID_2024090,89,91.71,Paid,6,80.68,0,Graduate,Dakshesh Mangat,dakshesh26@college.edu,5865553298,Computer Science,3,3,No,5,2
+SID_2024090,98,95.69,Paid,6,80.68,0,Graduate,Dakshesh Mangat,dakshesh26@college.edu,5865553298,Computer Science,3,3,No,5,3
+SID_2024090,97,94.66,Paid,6,80.68,0,Graduate,Dakshesh Mangat,dakshesh26@college.edu,5865553298,Computer Science,3,3,No,5,4
+SID_2024091,67,66.4,Overdue,3,55.31,1,Dropout,Imaran Zachariah,imaran15@college.edu,1806914683,Computer Science,1,4,No,2,1
+SID_2024091,60,59.46,Overdue,3,55.31,1,Dropout,Imaran Zachariah,imaran15@college.edu,1806914683,Computer Science,1,4,No,2,2
+SID_2024091,70,61.07,Overdue,3,55.31,1,Dropout,Imaran Zachariah,imaran15@college.edu,1806914683,Computer Science,1,4,No,2,3
+SID_2024091,70,63.88,Overdue,3,55.31,1,Dropout,Imaran Zachariah,imaran15@college.edu,1806914683,Computer Science,1,4,No,2,4
+SID_2024092,97,98.03,Paid,10,92.42,0,Graduate,Nirja Dani,nirja17@college.edu,09274888554,Mechanical,1,1,No,5,1
+SID_2024092,95,93.29,Paid,10,92.42,0,Graduate,Nirja Dani,nirja17@college.edu,09274888554,Mechanical,1,1,No,5,2
+SID_2024092,93,92.25,Paid,10,92.42,0,Graduate,Nirja Dani,nirja17@college.edu,09274888554,Mechanical,1,1,No,5,3
+SID_2024092,91,94.88,Paid,10,92.42,0,Graduate,Nirja Dani,nirja17@college.edu,09274888554,Mechanical,1,1,No,5,4
+SID_2024093,74,89.44,Paid,8,58.89,0,Enrolled,Nidhi Gill,nidhi68@college.edu,0192464650,Civil,1,3,No,4,1
+SID_2024093,78,79.96,Paid,8,58.89,0,Enrolled,Nidhi Gill,nidhi68@college.edu,0192464650,Civil,1,3,No,4,2
+SID_2024093,78,81.91,Paid,8,58.89,0,Enrolled,Nidhi Gill,nidhi68@college.edu,0192464650,Civil,1,3,No,4,3
+SID_2024093,80,83.26,Paid,8,58.89,0,Enrolled,Nidhi Gill,nidhi68@college.edu,0192464650,Civil,1,3,No,4,4
+SID_2024094,71,33.63,Overdue,1,29.22,1,Dropout,Jagvi Pandit,jagvi94@college.edu,+917785436381,Electrical,4,3,Yes,2,1
+SID_2024094,77,31.52,Overdue,1,29.22,1,Dropout,Jagvi Pandit,jagvi94@college.edu,+917785436381,Electrical,4,3,Yes,2,2
+SID_2024094,75,33.88,Overdue,1,29.22,1,Dropout,Jagvi Pandit,jagvi94@college.edu,+917785436381,Electrical,4,3,Yes,2,3
+SID_2024094,71,31.87,Overdue,1,29.22,1,Dropout,Jagvi Pandit,jagvi94@college.edu,+917785436381,Electrical,4,3,Yes,2,4
+SID_2024095,100,82.46,Paid,8,55.42,1,Enrolled,Upma Muni,upma38@college.edu,9386952688,Civil,4,3,No,3,1
+SID_2024095,98,74.87,Paid,8,55.42,1,Enrolled,Upma Muni,upma38@college.edu,9386952688,Civil,4,3,No,3,2
+SID_2024095,96,76.8,Paid,8,55.42,1,Enrolled,Upma Muni,upma38@college.edu,9386952688,Civil,4,3,No,3,3
+SID_2024095,94,74.61,Paid,8,55.42,1,Enrolled,Upma Muni,upma38@college.edu,9386952688,Civil,4,3,No,3,4
+SID_2024096,100,86.3,Paid,6,76.13,0,Graduate,Reyansh Gokhale,reyansh77@college.edu,+918852339207,Computer Science,1,2,No,4,1
+SID_2024096,94,81.18,Paid,6,76.13,0,Graduate,Reyansh Gokhale,reyansh77@college.edu,+918852339207,Computer Science,1,2,No,4,2
+SID_2024096,86,85.36,Paid,6,76.13,0,Graduate,Reyansh Gokhale,reyansh77@college.edu,+918852339207,Computer Science,1,2,No,4,3
+SID_2024096,88,86.7,Paid,6,76.13,0,Graduate,Reyansh Gokhale,reyansh77@college.edu,+918852339207,Computer Science,1,2,No,4,4
+SID_2024097,40,53.24,Overdue,0,40.37,1,Dropout,Hardik Nagy,hardik74@college.edu,09207378346,Electrical,1,3,Yes,1,1
+SID_2024097,52,46.75,Overdue,0,40.37,1,Dropout,Hardik Nagy,hardik74@college.edu,09207378346,Electrical,1,3,Yes,1,2
+SID_2024097,51,55.28,Overdue,0,40.37,1,Dropout,Hardik Nagy,hardik74@college.edu,09207378346,Electrical,1,3,Yes,1,3
+SID_2024097,52,52.6,Overdue,0,40.37,1,Dropout,Hardik Nagy,hardik74@college.edu,09207378346,Electrical,1,3,Yes,1,4
+SID_2024098,99,85.71,Paid,9,79.59,0,Graduate,Urmi Mohan,urmi20@college.edu,+918691670027,Computer Science,3,2,No,4,1
+SID_2024098,87,76.66,Paid,9,79.59,0,Graduate,Urmi Mohan,urmi20@college.edu,+918691670027,Computer Science,3,2,No,4,2
+SID_2024098,87,80.12,Paid,9,79.59,0,Graduate,Urmi Mohan,urmi20@college.edu,+918691670027,Computer Science,3,2,No,4,3
+SID_2024098,87,79.75,Paid,9,79.59,0,Graduate,Urmi Mohan,urmi20@college.edu,+918691670027,Computer Science,3,2,No,4,4
+SID_2024099,66,50.7,Overdue,4,52.79,1,Dropout,Saksham Rajan,saksham82@college.edu,8978830705,Civil,1,5,No,1,1
+SID_2024099,46,48.67,Overdue,4,52.79,1,Dropout,Saksham Rajan,saksham82@college.edu,8978830705,Civil,1,5,No,1,2
+SID_2024099,50,41.87,Overdue,4,52.79,1,Dropout,Saksham Rajan,saksham82@college.edu,8978830705,Civil,1,5,No,1,3
+SID_2024099,54,43.83,Overdue,4,52.79,1,Dropout,Saksham Rajan,saksham82@college.edu,8978830705,Civil,1,5,No,1,4
+SID_2024100,71,69.34,Paid,8,73.63,1,Enrolled,Neel Chand,neel68@college.edu,2280174368,Computer Science,1,1,No,3,1
+SID_2024100,75,61.87,Paid,8,73.63,1,Enrolled,Neel Chand,neel68@college.edu,2280174368,Computer Science,1,1,No,3,2
+SID_2024100,78,63.54,Paid,8,73.63,1,Enrolled,Neel Chand,neel68@college.edu,2280174368,Computer Science,1,1,No,3,3
+SID_2024100,83,65.93,Paid,8,73.63,1,Enrolled,Neel Chand,neel68@college.edu,2280174368,Computer Science,1,1,No,3,4
+SID_2024101,86,82.25,Paid,6,61.7,0,Enrolled,Anthony Hans,anthony48@college.edu,02586187741,Mechanical,1,3,No,4,1
+SID_2024101,97,75.19,Paid,6,61.7,0,Enrolled,Anthony Hans,anthony48@college.edu,02586187741,Mechanical,1,3,No,4,2
+SID_2024101,89,83.68,Paid,6,61.7,0,Enrolled,Anthony Hans,anthony48@college.edu,02586187741,Mechanical,1,3,No,4,3
+SID_2024101,89,81.16,Paid,6,61.7,0,Enrolled,Anthony Hans,anthony48@college.edu,02586187741,Mechanical,1,3,No,4,4
+SID_2024102,100,85.4,Paid,5,88.29,0,Graduate,Netra Chokshi,netra80@college.edu,3857925530,Computer Science,1,3,No,5,1
+SID_2024102,92,73.02,Paid,5,88.29,0,Graduate,Netra Chokshi,netra80@college.edu,3857925530,Computer Science,1,3,No,5,2
+SID_2024102,95,80.24,Paid,5,88.29,0,Graduate,Netra Chokshi,netra80@college.edu,3857925530,Computer Science,1,3,No,5,3
+SID_2024102,94,79.0,Paid,5,88.29,0,Graduate,Netra Chokshi,netra80@college.edu,3857925530,Computer Science,1,3,No,5,4
+SID_2024103,100,70.74,Paid,5,59.98,0,Enrolled,Jyoti Ganesh,jyoti54@college.edu,01707601176,Mechanical,2,1,No,5,1
+SID_2024103,87,61.94,Paid,5,59.98,0,Enrolled,Jyoti Ganesh,jyoti54@college.edu,01707601176,Mechanical,2,1,No,5,2
+SID_2024103,86,67.42,Paid,5,59.98,0,Enrolled,Jyoti Ganesh,jyoti54@college.edu,01707601176,Mechanical,2,1,No,5,3
+SID_2024103,91,67.14,Paid,5,59.98,0,Enrolled,Jyoti Ganesh,jyoti54@college.edu,01707601176,Mechanical,2,1,No,5,4
+SID_2024104,76,58.83,Paid,5,79.65,0,Enrolled,Tara Nagi,tara20@college.edu,2474989927,Computer Science,3,1,No,5,1
+SID_2024104,74,61.97,Paid,5,79.65,0,Enrolled,Tara Nagi,tara20@college.edu,2474989927,Computer Science,3,1,No,5,2
+SID_2024104,85,64.27,Paid,5,79.65,0,Enrolled,Tara Nagi,tara20@college.edu,2474989927,Computer Science,3,1,No,5,3
+SID_2024104,82,63.18,Paid,5,79.65,0,Enrolled,Tara Nagi,tara20@college.edu,2474989927,Computer Science,3,1,No,5,4
+SID_2024105,73,86.45,Paid,9,92.1,1,Graduate,Deepa Amble,deepa56@college.edu,+912660918423,Civil,1,2,Yes,4,1
+SID_2024105,79,81.54,Paid,9,92.1,1,Graduate,Deepa Amble,deepa56@college.edu,+912660918423,Civil,1,2,Yes,4,2
+SID_2024105,89,86.74,Paid,9,92.1,1,Graduate,Deepa Amble,deepa56@college.edu,+912660918423,Civil,1,2,Yes,4,3
+SID_2024105,85,84.96,Paid,9,92.1,1,Graduate,Deepa Amble,deepa56@college.edu,+912660918423,Civil,1,2,Yes,4,4
+SID_2024106,88,88.72,Paid,6,71.33,0,Enrolled,Arunima Dada,arunima50@college.edu,1747860710,Civil,2,4,No,5,1
+SID_2024106,87,80.62,Paid,6,71.33,0,Enrolled,Arunima Dada,arunima50@college.edu,1747860710,Civil,2,4,No,5,2
+SID_2024106,86,82.78,Paid,6,71.33,0,Enrolled,Arunima Dada,arunima50@college.edu,1747860710,Civil,2,4,No,5,3
+SID_2024106,85,84.69,Paid,6,71.33,0,Enrolled,Arunima Dada,arunima50@college.edu,1747860710,Civil,2,4,No,5,4
+SID_2024107,86,73.09,Paid,7,64.08,1,Enrolled,Wridesh Goswami,wridesh97@college.edu,03295949244,Computer Science,2,1,No,3,1
+SID_2024107,79,77.12,Paid,7,64.08,1,Enrolled,Wridesh Goswami,wridesh97@college.edu,03295949244,Computer Science,2,1,No,3,2
+SID_2024107,75,82.15,Paid,7,64.08,1,Enrolled,Wridesh Goswami,wridesh97@college.edu,03295949244,Computer Science,2,1,No,3,3
+SID_2024107,77,79.73,Paid,7,64.08,1,Enrolled,Wridesh Goswami,wridesh97@college.edu,03295949244,Computer Science,2,1,No,3,4
+SID_2024108,91,67.48,Due,7,68.8,0,Enrolled,Xalak Bhardwaj,xalak33@college.edu,4978225480,Civil,3,3,Yes,4,1
+SID_2024108,92,57.13,Due,7,68.8,0,Enrolled,Xalak Bhardwaj,xalak33@college.edu,4978225480,Civil,3,3,Yes,4,2
+SID_2024108,91,62.55,Due,7,68.8,0,Enrolled,Xalak Bhardwaj,xalak33@college.edu,4978225480,Civil,3,3,Yes,4,3
+SID_2024108,94,60.53,Due,7,68.8,0,Enrolled,Xalak Bhardwaj,xalak33@college.edu,4978225480,Civil,3,3,Yes,4,4
+SID_2024109,70,90.59,Paid,5,64.23,0,Enrolled,Tamanna Prakash,tamanna83@college.edu,1960751668,Computer Science,2,1,No,4,1
+SID_2024109,75,89.09,Paid,5,64.23,0,Enrolled,Tamanna Prakash,tamanna83@college.edu,1960751668,Computer Science,2,1,No,4,2
+SID_2024109,80,85.08,Paid,5,64.23,0,Enrolled,Tamanna Prakash,tamanna83@college.edu,1960751668,Computer Science,2,1,No,4,3
+SID_2024109,79,84.58,Paid,5,64.23,0,Enrolled,Tamanna Prakash,tamanna83@college.edu,1960751668,Computer Science,2,1,No,4,4
+SID_2024110,40,58.53,Overdue,4,42.72,0,Dropout,Siddharth Natarajan,siddharth36@college.edu,4094152598,Electrical,1,4,No,3,1
+SID_2024110,48,61.98,Overdue,4,42.72,0,Dropout,Siddharth Natarajan,siddharth36@college.edu,4094152598,Electrical,1,4,No,3,2
+SID_2024110,55,61.46,Overdue,4,42.72,0,Dropout,Siddharth Natarajan,siddharth36@college.edu,4094152598,Electrical,1,4,No,3,3
+SID_2024110,54,59.76,Overdue,4,42.72,0,Dropout,Siddharth Natarajan,siddharth36@college.edu,4094152598,Electrical,1,4,No,3,4
+SID_2024111,89,73.23,Paid,6,58.58,0,Enrolled,Ekansh Bhattacharyya,ekansh34@college.edu,7931585965,Electronics,2,3,No,3,1
+SID_2024111,79,71.07,Paid,6,58.58,0,Enrolled,Ekansh Bhattacharyya,ekansh34@college.edu,7931585965,Electronics,2,3,No,3,2
+SID_2024111,89,72.5,Paid,6,58.58,0,Enrolled,Ekansh Bhattacharyya,ekansh34@college.edu,7931585965,Electronics,2,3,No,3,3
+SID_2024111,89,71.14,Paid,6,58.58,0,Enrolled,Ekansh Bhattacharyya,ekansh34@college.edu,7931585965,Electronics,2,3,No,3,4
+SID_2024112,94,70.58,Paid,5,72.4,1,Enrolled,Benjamin Bedi,benjamin25@college.edu,+911441869228,Mechanical,1,2,No,5,1
+SID_2024112,79,78.75,Paid,5,72.4,1,Enrolled,Benjamin Bedi,benjamin25@college.edu,+911441869228,Mechanical,1,2,No,5,2
+SID_2024112,84,73.89,Paid,5,72.4,1,Enrolled,Benjamin Bedi,benjamin25@college.edu,+911441869228,Mechanical,1,2,No,5,3
+SID_2024112,85,76.1,Paid,5,72.4,1,Enrolled,Benjamin Bedi,benjamin25@college.edu,+911441869228,Mechanical,1,2,No,5,4
+SID_2024113,82,85.55,Paid,11,70.22,0,Graduate,Krisha Kaul,krisha78@college.edu,07877676896,Civil,3,2,Yes,4,1
+SID_2024113,85,90.08,Paid,11,70.22,0,Graduate,Krisha Kaul,krisha78@college.edu,07877676896,Civil,3,2,Yes,4,2
+SID_2024113,95,90.27,Paid,11,70.22,0,Graduate,Krisha Kaul,krisha78@college.edu,07877676896,Civil,3,2,Yes,4,3
+SID_2024113,91,91.66,Paid,11,70.22,0,Graduate,Krisha Kaul,krisha78@college.edu,07877676896,Civil,3,2,Yes,4,4
+SID_2024114,102,99.87,Paid,14,81.43,0,Graduate,Bachittar Sharma,bachittar55@college.edu,+919092704371,Computer Science,3,2,No,4,1
+SID_2024114,94,90.0,Paid,14,81.43,0,Graduate,Bachittar Sharma,bachittar55@college.edu,+919092704371,Computer Science,3,2,No,4,2
+SID_2024114,99,96.5,Paid,14,81.43,0,Graduate,Bachittar Sharma,bachittar55@college.edu,+919092704371,Computer Science,3,2,No,4,3
+SID_2024114,96,94.93,Paid,14,81.43,0,Graduate,Bachittar Sharma,bachittar55@college.edu,+919092704371,Computer Science,3,2,No,4,4
+SID_2024115,76,84.34,Paid,9,73.16,1,Enrolled,Chaman Aggarwal,chaman21@college.edu,+910305202347,Computer Science,1,3,No,5,1
+SID_2024115,84,78.82,Paid,9,73.16,1,Enrolled,Chaman Aggarwal,chaman21@college.edu,+910305202347,Computer Science,1,3,No,5,2
+SID_2024115,86,78.35,Paid,9,73.16,1,Enrolled,Chaman Aggarwal,chaman21@college.edu,+910305202347,Computer Science,1,3,No,5,3
+SID_2024115,88,76.0,Paid,9,73.16,1,Enrolled,Chaman Aggarwal,chaman21@college.edu,+910305202347,Computer Science,1,3,No,5,4
+SID_2024116,85,88.57,Paid,10,91.37,0,Graduate,Gautam Guha,gautam56@college.edu,6049072946,Computer Science,1,2,No,4,1
+SID_2024116,89,84.81,Paid,10,91.37,0,Graduate,Gautam Guha,gautam56@college.edu,6049072946,Computer Science,1,2,No,4,2
+SID_2024116,90,80.32,Paid,10,91.37,0,Graduate,Gautam Guha,gautam56@college.edu,6049072946,Computer Science,1,2,No,4,3
+SID_2024116,91,82.8,Paid,10,91.37,0,Graduate,Gautam Guha,gautam56@college.edu,6049072946,Computer Science,1,2,No,4,4
+SID_2024117,59,73.96,Paid,3,77.28,0,Enrolled,Falak Roy,falak42@college.edu,01986301618,Computer Science,2,2,No,3,1
+SID_2024117,73,83.11,Paid,3,77.28,0,Enrolled,Falak Roy,falak42@college.edu,01986301618,Computer Science,2,2,No,3,2
+SID_2024117,75,80.12,Paid,3,77.28,0,Enrolled,Falak Roy,falak42@college.edu,01986301618,Computer Science,2,2,No,3,3
+SID_2024117,71,82.17,Paid,3,77.28,0,Enrolled,Falak Roy,falak42@college.edu,01986301618,Computer Science,2,2,No,3,4
+SID_2024118,97,83.23,Paid,10,75.75,0,Graduate,Abdul Sehgal,abdul81@college.edu,09425476061,Civil,2,3,No,4,1
+SID_2024118,94,76.9,Paid,10,75.75,0,Graduate,Abdul Sehgal,abdul81@college.edu,09425476061,Civil,2,3,No,4,2
+SID_2024118,84,79.63,Paid,10,75.75,0,Graduate,Abdul Sehgal,abdul81@college.edu,09425476061,Civil,2,3,No,4,3
+SID_2024118,88,79.35,Paid,10,75.75,0,Graduate,Abdul Sehgal,abdul81@college.edu,09425476061,Civil,2,3,No,4,4
+SID_2024119,80,96.08,Paid,10,83.05,0,Graduate,Karan Bhardwaj,karan23@college.edu,6645983172,Computer Science,1,2,No,5,1
+SID_2024119,85,93.45,Paid,10,83.05,0,Graduate,Karan Bhardwaj,karan23@college.edu,6645983172,Computer Science,1,2,No,5,2
+SID_2024119,92,94.88,Paid,10,83.05,0,Graduate,Karan Bhardwaj,karan23@college.edu,6645983172,Computer Science,1,2,No,5,3
+SID_2024119,89,92.16,Paid,10,83.05,0,Graduate,Karan Bhardwaj,karan23@college.edu,6645983172,Computer Science,1,2,No,5,4
+SID_2024120,69,30.69,Overdue,4,37.63,0,Dropout,Chasmum Dayal,chasmum63@college.edu,07574887066,Mechanical,2,3,Yes,2,1
+SID_2024120,67,39.1,Overdue,4,37.63,0,Dropout,Chasmum Dayal,chasmum63@college.edu,07574887066,Mechanical,2,3,Yes,2,2
+SID_2024120,67,40.16,Overdue,4,37.63,0,Dropout,Chasmum Dayal,chasmum63@college.edu,07574887066,Mechanical,2,3,Yes,2,3
+SID_2024120,63,38.85,Overdue,4,37.63,0,Dropout,Chasmum Dayal,chasmum63@college.edu,07574887066,Mechanical,2,3,Yes,2,4
+SID_2024121,85,74.55,Paid,7,70.22,1,Enrolled,Tanvi Thakkar,tanvi27@college.edu,09615020874,Civil,2,4,No,5,1
+SID_2024121,75,80.34,Paid,7,70.22,1,Enrolled,Tanvi Thakkar,tanvi27@college.edu,09615020874,Civil,2,4,No,5,2
+SID_2024121,73,78.44,Paid,7,70.22,1,Enrolled,Tanvi Thakkar,tanvi27@college.edu,09615020874,Civil,2,4,No,5,3
+SID_2024121,73,77.75,Paid,7,70.22,1,Enrolled,Tanvi Thakkar,tanvi27@college.edu,09615020874,Civil,2,4,No,5,4
+SID_2024122,59,63.65,Paid,7,58.69,0,Enrolled,Liam Wagle,liam16@college.edu,+919858304250,Mechanical,3,4,No,5,1
+SID_2024122,73,63.33,Paid,7,58.69,0,Enrolled,Liam Wagle,liam16@college.edu,+919858304250,Mechanical,3,4,No,5,2
+SID_2024122,68,60.02,Paid,7,58.69,0,Enrolled,Liam Wagle,liam16@college.edu,+919858304250,Mechanical,3,4,No,5,3
+SID_2024122,71,62.45,Paid,7,58.69,0,Enrolled,Liam Wagle,liam16@college.edu,+919858304250,Mechanical,3,4,No,5,4
+SID_2024123,84,73.66,Paid,8,66.9,1,Enrolled,Tanvi Patla,tanvi43@college.edu,+913889806823,Mechanical,1,3,No,3,1
+SID_2024123,79,69.25,Paid,8,66.9,1,Enrolled,Tanvi Patla,tanvi43@college.edu,+913889806823,Mechanical,1,3,No,3,2
+SID_2024123,73,73.99,Paid,8,66.9,1,Enrolled,Tanvi Patla,tanvi43@college.edu,+913889806823,Mechanical,1,3,No,3,3
+SID_2024123,75,72.61,Paid,8,66.9,1,Enrolled,Tanvi Patla,tanvi43@college.edu,+913889806823,Mechanical,1,3,No,3,4
+SID_2024124,77,97.34,Paid,12,91.35,0,Graduate,Raagini Sehgal,raagini31@college.edu,07057572642,Computer Science,3,1,No,4,1
+SID_2024124,76,95.39,Paid,12,91.35,0,Graduate,Raagini Sehgal,raagini31@college.edu,07057572642,Computer Science,3,1,No,4,2
+SID_2024124,81,91.69,Paid,12,91.35,0,Graduate,Raagini Sehgal,raagini31@college.edu,07057572642,Computer Science,3,1,No,4,3
+SID_2024124,86,91.24,Paid,12,91.35,0,Graduate,Raagini Sehgal,raagini31@college.edu,07057572642,Computer Science,3,1,No,4,4
+SID_2024125,72,42.2,Overdue,2,58.33,1,Dropout,Wridesh Sarna,wridesh13@college.edu,0828421578,Civil,2,5,No,3,1
+SID_2024125,65,48.48,Overdue,2,58.33,1,Dropout,Wridesh Sarna,wridesh13@college.edu,0828421578,Civil,2,5,No,3,2
+SID_2024125,64,48.87,Overdue,2,58.33,1,Dropout,Wridesh Sarna,wridesh13@college.edu,0828421578,Civil,2,5,No,3,3
+SID_2024125,63,49.93,Overdue,2,58.33,1,Dropout,Wridesh Sarna,wridesh13@college.edu,0828421578,Civil,2,5,No,3,4
+SID_2024126,109,85.93,Paid,10,89.82,0,Graduate,Udant Sidhu,udant91@college.edu,07583206972,Computer Science,3,2,No,5,1
+SID_2024126,105,83.88,Paid,10,89.82,0,Graduate,Udant Sidhu,udant91@college.edu,07583206972,Computer Science,3,2,No,5,2
+SID_2024126,101,82.19,Paid,10,89.82,0,Graduate,Udant Sidhu,udant91@college.edu,07583206972,Computer Science,3,2,No,5,3
+SID_2024126,97,81.04,Paid,10,89.82,0,Graduate,Udant Sidhu,udant91@college.edu,07583206972,Computer Science,3,2,No,5,4
+SID_2024127,81,72.37,Paid,3,75.83,0,Enrolled,Unni Lall,unni39@college.edu,7209318695,Computer Science,2,3,No,4,1
+SID_2024127,84,74.14,Paid,3,75.83,0,Enrolled,Unni Lall,unni39@college.edu,7209318695,Computer Science,2,3,No,4,2
+SID_2024127,80,71.75,Paid,3,75.83,0,Enrolled,Unni Lall,unni39@college.edu,7209318695,Computer Science,2,3,No,4,3
+SID_2024127,78,70.04,Paid,3,75.83,0,Enrolled,Unni Lall,unni39@college.edu,7209318695,Computer Science,2,3,No,4,4
+SID_2024128,102,73.17,Paid,12,78.59,0,Graduate,Henry Ganguly,henry64@college.edu,+914819576958,Computer Science,3,3,No,4,1
+SID_2024128,88,81.18,Paid,12,78.59,0,Graduate,Henry Ganguly,henry64@college.edu,+914819576958,Computer Science,3,3,No,4,2
+SID_2024128,91,78.12,Paid,12,78.59,0,Graduate,Henry Ganguly,henry64@college.edu,+914819576958,Computer Science,3,3,No,4,3
+SID_2024128,96,75.88,Paid,12,78.59,0,Graduate,Henry Ganguly,henry64@college.edu,+914819576958,Computer Science,3,3,No,4,4
+SID_2024129,84,73.73,Paid,9,71.13,1,Enrolled,Ishanvi Toor,ishanvi73@college.edu,+918446199044,Computer Science,2,4,No,5,1
+SID_2024129,72,72.99,Paid,9,71.13,1,Enrolled,Ishanvi Toor,ishanvi73@college.edu,+918446199044,Computer Science,2,4,No,5,2
+SID_2024129,68,74.29,Paid,9,71.13,1,Enrolled,Ishanvi Toor,ishanvi73@college.edu,+918446199044,Computer Science,2,4,No,5,3
+SID_2024129,72,74.32,Paid,9,71.13,1,Enrolled,Ishanvi Toor,ishanvi73@college.edu,+918446199044,Computer Science,2,4,No,5,4
+SID_2024130,80,73.73,Due,9,72.26,0,Enrolled,Bina Dhar,bina59@college.edu,3152483360,Civil,3,3,Yes,5,1
+SID_2024130,82,74.34,Due,9,72.26,0,Enrolled,Bina Dhar,bina59@college.edu,3152483360,Civil,3,3,Yes,5,2
+SID_2024130,80,69.96,Due,9,72.26,0,Enrolled,Bina Dhar,bina59@college.edu,3152483360,Civil,3,3,Yes,5,3
+SID_2024130,80,71.98,Due,9,72.26,0,Enrolled,Bina Dhar,bina59@college.edu,3152483360,Civil,3,3,Yes,5,4
+SID_2024131,87,63.42,Paid,8,77.82,0,Enrolled,Ekaraj Shah,ekaraj62@college.edu,+910557017274,Computer Science,1,4,No,3,1
+SID_2024131,84,64.26,Paid,8,77.82,0,Enrolled,Ekaraj Shah,ekaraj62@college.edu,+910557017274,Computer Science,1,4,No,3,2
+SID_2024131,86,70.21,Paid,8,77.82,0,Enrolled,Ekaraj Shah,ekaraj62@college.edu,+910557017274,Computer Science,1,4,No,3,3
+SID_2024131,84,68.62,Paid,8,77.82,0,Enrolled,Ekaraj Shah,ekaraj62@college.edu,+910557017274,Computer Science,1,4,No,3,4
+SID_2024132,47,31.2,Overdue,0,39.61,1,Dropout,Indrajit Narayan,indrajit21@college.edu,02715943332,Electronics,3,4,Yes,2,1
+SID_2024132,55,32.86,Overdue,0,39.61,1,Dropout,Indrajit Narayan,indrajit21@college.edu,02715943332,Electronics,3,4,Yes,2,2
+SID_2024132,58,34.23,Overdue,0,39.61,1,Dropout,Indrajit Narayan,indrajit21@college.edu,02715943332,Electronics,3,4,Yes,2,3
+SID_2024132,59,32.97,Overdue,0,39.61,1,Dropout,Indrajit Narayan,indrajit21@college.edu,02715943332,Electronics,3,4,Yes,2,4
+SID_2024133,61,30.14,Overdue,0,42.36,1,Dropout,Bhavya Nori,bhavya20@college.edu,+914701803010,Computer Science,2,3,Yes,1,1
+SID_2024133,53,39.89,Overdue,0,42.36,1,Dropout,Bhavya Nori,bhavya20@college.edu,+914701803010,Computer Science,2,3,Yes,1,2
+SID_2024133,48,37.52,Overdue,0,42.36,1,Dropout,Bhavya Nori,bhavya20@college.edu,+914701803010,Computer Science,2,3,Yes,1,3
+SID_2024133,49,34.81,Overdue,0,42.36,1,Dropout,Bhavya Nori,bhavya20@college.edu,+914701803010,Computer Science,2,3,Yes,1,4
+SID_2024134,70,69.44,Paid,5,66.7,1,Enrolled,Chaitaly Borde,chaitaly47@college.edu,8562221294,Computer Science,2,1,No,3,1
+SID_2024134,84,65.76,Paid,5,66.7,1,Enrolled,Chaitaly Borde,chaitaly47@college.edu,8562221294,Computer Science,2,1,No,3,2
+SID_2024134,78,60.68,Paid,5,66.7,1,Enrolled,Chaitaly Borde,chaitaly47@college.edu,8562221294,Computer Science,2,1,No,3,3
+SID_2024134,76,63.41,Paid,5,66.7,1,Enrolled,Chaitaly Borde,chaitaly47@college.edu,8562221294,Computer Science,2,1,No,3,4
+SID_2024135,94,73.61,Paid,7,59.23,1,Enrolled,Eiravati Misra,eiravati57@college.edu,4638664007,Electronics,2,1,Yes,5,1
+SID_2024135,97,64.01,Paid,7,59.23,1,Enrolled,Eiravati Misra,eiravati57@college.edu,4638664007,Electronics,2,1,Yes,5,2
+SID_2024135,86,64.69,Paid,7,59.23,1,Enrolled,Eiravati Misra,eiravati57@college.edu,4638664007,Electronics,2,1,Yes,5,3
+SID_2024135,91,66.54,Paid,7,59.23,1,Enrolled,Eiravati Misra,eiravati57@college.edu,4638664007,Electronics,2,1,Yes,5,4
+SID_2024136,100,80.57,Paid,7,83.14,0,Graduate,David Mishra,david66@college.edu,+918213083355,Civil,4,3,No,4,1
+SID_2024136,90,90.67,Paid,7,83.14,0,Graduate,David Mishra,david66@college.edu,+918213083355,Civil,4,3,No,4,2
+SID_2024136,91,86.08,Paid,7,83.14,0,Graduate,David Mishra,david66@college.edu,+918213083355,Civil,4,3,No,4,3
+SID_2024136,88,89.02,Paid,7,83.14,0,Graduate,David Mishra,david66@college.edu,+918213083355,Civil,4,3,No,4,4
+SID_2024137,40,51.62,Overdue,1,57.68,1,Dropout,Balveer Balakrishnan,balveer15@college.edu,08203218516,Mechanical,2,5,No,2,1
+SID_2024137,46,60.99,Overdue,1,57.68,1,Dropout,Balveer Balakrishnan,balveer15@college.edu,08203218516,Mechanical,2,5,No,2,2
+SID_2024137,40,52.39,Overdue,1,57.68,1,Dropout,Balveer Balakrishnan,balveer15@college.edu,08203218516,Mechanical,2,5,No,2,3
+SID_2024137,40,55.28,Overdue,1,57.68,1,Dropout,Balveer Balakrishnan,balveer15@college.edu,08203218516,Mechanical,2,5,No,2,4
+SID_2024138,56,47.7,Overdue,1,36.21,0,Dropout,Nachiket Kapur,nachiket37@college.edu,+913552253489,Electronics,1,3,No,3,1
+SID_2024138,50,44.77,Overdue,1,36.21,0,Dropout,Nachiket Kapur,nachiket37@college.edu,+913552253489,Electronics,1,3,No,3,2
+SID_2024138,53,50.8,Overdue,1,36.21,0,Dropout,Nachiket Kapur,nachiket37@college.edu,+913552253489,Electronics,1,3,No,3,3
+SID_2024138,50,49.04,Overdue,1,36.21,0,Dropout,Nachiket Kapur,nachiket37@college.edu,+913552253489,Electronics,1,3,No,3,4
+SID_2024139,77,65.79,Paid,6,75.75,1,Enrolled,Gopal Boase,gopal19@college.edu,8565209516,Electrical,3,4,Yes,4,1
+SID_2024139,77,69.28,Paid,6,75.75,1,Enrolled,Gopal Boase,gopal19@college.edu,8565209516,Electrical,3,4,Yes,4,2
+SID_2024139,86,68.92,Paid,6,75.75,1,Enrolled,Gopal Boase,gopal19@college.edu,8565209516,Electrical,3,4,Yes,4,3
+SID_2024139,83,70.55,Paid,6,75.75,1,Enrolled,Gopal Boase,gopal19@college.edu,8565209516,Electrical,3,4,Yes,4,4
+SID_2024140,47,46.77,Overdue,0,50.31,0,Dropout,Umang Sachdeva,umang21@college.edu,8139912190,Computer Science,1,4,Yes,1,1
+SID_2024140,43,47.05,Overdue,0,50.31,0,Dropout,Umang Sachdeva,umang21@college.edu,8139912190,Computer Science,1,4,Yes,1,2
+SID_2024140,45,50.15,Overdue,0,50.31,0,Dropout,Umang Sachdeva,umang21@college.edu,8139912190,Computer Science,1,4,Yes,1,3
+SID_2024140,41,48.68,Overdue,0,50.31,0,Dropout,Umang Sachdeva,umang21@college.edu,8139912190,Computer Science,1,4,Yes,1,4
+SID_2024141,82,92.07,Paid,6,78.0,0,Graduate,Idika Borra,idika13@college.edu,+919083098323,Computer Science,1,1,No,5,1
+SID_2024141,93,91.12,Paid,6,78.0,0,Graduate,Idika Borra,idika13@college.edu,+919083098323,Computer Science,1,1,No,5,2
+SID_2024141,87,97.0,Paid,6,78.0,0,Graduate,Idika Borra,idika13@college.edu,+919083098323,Computer Science,1,1,No,5,3
+SID_2024141,85,95.26,Paid,6,78.0,0,Graduate,Idika Borra,idika13@college.edu,+919083098323,Computer Science,1,1,No,5,4
+SID_2024142,106,84.09,Paid,6,91.34,0,Graduate,Ridhi Walia,ridhi37@college.edu,5093050839,Computer Science,1,3,No,5,1
+SID_2024142,88,87.13,Paid,6,91.34,0,Graduate,Ridhi Walia,ridhi37@college.edu,5093050839,Computer Science,1,3,No,5,2
+SID_2024142,91,81.58,Paid,6,91.34,0,Graduate,Ridhi Walia,ridhi37@college.edu,5093050839,Computer Science,1,3,No,5,3
+SID_2024142,94,83.16,Paid,6,91.34,0,Graduate,Ridhi Walia,ridhi37@college.edu,5093050839,Computer Science,1,3,No,5,4
+SID_2024143,69,34.58,Due,4,46.14,1,Dropout,Pahal Dasgupta,pahal62@college.edu,0237402579,Electronics,2,5,No,3,1
+SID_2024143,72,43.47,Due,4,46.14,1,Dropout,Pahal Dasgupta,pahal62@college.edu,0237402579,Electronics,2,5,No,3,2
+SID_2024143,80,40.93,Due,4,46.14,1,Dropout,Pahal Dasgupta,pahal62@college.edu,0237402579,Electronics,2,5,No,3,3
+SID_2024143,78,41.15,Due,4,46.14,1,Dropout,Pahal Dasgupta,pahal62@college.edu,0237402579,Electronics,2,5,No,3,4
+SID_2024144,91,78.11,Paid,3,59.53,0,Enrolled,Omaja Misra,omaja46@college.edu,+916884129663,Electronics,3,3,No,4,1
+SID_2024144,81,77.74,Paid,3,59.53,0,Enrolled,Omaja Misra,omaja46@college.edu,+916884129663,Electronics,3,3,No,4,2
+SID_2024144,89,84.25,Paid,3,59.53,0,Enrolled,Omaja Misra,omaja46@college.edu,+916884129663,Electronics,3,3,No,4,3
+SID_2024144,85,81.69,Paid,3,59.53,0,Enrolled,Omaja Misra,omaja46@college.edu,+916884129663,Electronics,3,3,No,4,4
+SID_2024145,61,65.4,Paid,7,68.38,1,Enrolled,Amol Babu,amol64@college.edu,9862701832,Computer Science,2,4,No,4,1
+SID_2024145,79,58.59,Paid,7,68.38,1,Enrolled,Amol Babu,amol64@college.edu,9862701832,Computer Science,2,4,No,4,2
+SID_2024145,77,65.12,Paid,7,68.38,1,Enrolled,Amol Babu,amol64@college.edu,9862701832,Computer Science,2,4,No,4,3
+SID_2024145,73,63.49,Paid,7,68.38,1,Enrolled,Amol Babu,amol64@college.edu,9862701832,Computer Science,2,4,No,4,4
+SID_2024146,87,83.88,Paid,5,87.8,1,Graduate,Devansh Sahni,devansh84@college.edu,3238630636,Civil,3,1,No,5,1
+SID_2024146,90,74.45,Paid,5,87.8,1,Graduate,Devansh Sahni,devansh84@college.edu,3238630636,Civil,3,1,No,5,2
+SID_2024146,85,73.47,Paid,5,87.8,1,Graduate,Devansh Sahni,devansh84@college.edu,3238630636,Civil,3,1,No,5,3
+SID_2024146,90,75.03,Paid,5,87.8,1,Graduate,Devansh Sahni,devansh84@college.edu,3238630636,Civil,3,1,No,5,4
+SID_2024147,74,78.7,Due,7,55.45,0,Enrolled,Irya Chaudhry,irya25@college.edu,02131322209,Mechanical,4,1,No,5,1
+SID_2024147,76,78.5,Due,7,55.45,0,Enrolled,Irya Chaudhry,irya25@college.edu,02131322209,Mechanical,4,1,No,5,2
+SID_2024147,73,70.91,Due,7,55.45,0,Enrolled,Irya Chaudhry,irya25@college.edu,02131322209,Mechanical,4,1,No,5,3
+SID_2024147,74,73.04,Due,7,55.45,0,Enrolled,Irya Chaudhry,irya25@college.edu,02131322209,Mechanical,4,1,No,5,4
+SID_2024148,97,59.85,Paid,9,62.34,0,Enrolled,Ekaraj Barad,ekaraj54@college.edu,+919049437637,Mechanical,1,1,Yes,3,1
+SID_2024148,91,63.6,Paid,9,62.34,0,Enrolled,Ekaraj Barad,ekaraj54@college.edu,+919049437637,Mechanical,1,1,Yes,3,2
+SID_2024148,88,62.47,Paid,9,62.34,0,Enrolled,Ekaraj Barad,ekaraj54@college.edu,+919049437637,Mechanical,1,1,Yes,3,3
+SID_2024148,91,64.42,Paid,9,62.34,0,Enrolled,Ekaraj Barad,ekaraj54@college.edu,+919049437637,Mechanical,1,1,Yes,3,4
+SID_2024149,74,74.85,Paid,7,75.72,0,Enrolled,Pooja Gokhale,pooja88@college.edu,5379452719,Electronics,1,4,Yes,4,1
+SID_2024149,71,72.85,Paid,7,75.72,0,Enrolled,Pooja Gokhale,pooja88@college.edu,5379452719,Electronics,1,4,Yes,4,2
+SID_2024149,66,73.25,Paid,7,75.72,0,Enrolled,Pooja Gokhale,pooja88@college.edu,5379452719,Electronics,1,4,Yes,4,3
+SID_2024149,71,73.58,Paid,7,75.72,0,Enrolled,Pooja Gokhale,pooja88@college.edu,5379452719,Electronics,1,4,Yes,4,4
+SID_2024150,51,64.94,Overdue,2,33.08,1,Dropout,Triveni Bava,triveni12@college.edu,+919727014979,Electronics,3,5,Yes,2,1
+SID_2024150,56,62.78,Overdue,2,33.08,1,Dropout,Triveni Bava,triveni12@college.edu,+919727014979,Electronics,3,5,Yes,2,2
+SID_2024150,49,58.61,Overdue,2,33.08,1,Dropout,Triveni Bava,triveni12@college.edu,+919727014979,Electronics,3,5,Yes,2,3
+SID_2024150,54,60.88,Overdue,2,33.08,1,Dropout,Triveni Bava,triveni12@college.edu,+919727014979,Electronics,3,5,Yes,2,4
+SID_2024151,88,72.97,Paid,7,70.31,0,Enrolled,Omaja Krishnan,omaja37@college.edu,+911657598946,Mechanical,1,2,Yes,4,1
+SID_2024151,70,86.95,Paid,7,70.31,0,Enrolled,Omaja Krishnan,omaja37@college.edu,+911657598946,Mechanical,1,2,Yes,4,2
+SID_2024151,78,79.83,Paid,7,70.31,0,Enrolled,Omaja Krishnan,omaja37@college.edu,+911657598946,Mechanical,1,2,Yes,4,3
+SID_2024151,76,81.65,Paid,7,70.31,0,Enrolled,Omaja Krishnan,omaja37@college.edu,+911657598946,Mechanical,1,2,Yes,4,4
+SID_2024152,87,79.31,Paid,14,79.91,0,Graduate,Hemani Ramaswamy,hemani53@college.edu,+917259126212,Mechanical,1,1,No,5,1
+SID_2024152,100,86.63,Paid,14,79.91,0,Graduate,Hemani Ramaswamy,hemani53@college.edu,+917259126212,Mechanical,1,1,No,5,2
+SID_2024152,96,81.13,Paid,14,79.91,0,Graduate,Hemani Ramaswamy,hemani53@college.edu,+917259126212,Mechanical,1,1,No,5,3
+SID_2024152,96,82.12,Paid,14,79.91,0,Graduate,Hemani Ramaswamy,hemani53@college.edu,+917259126212,Mechanical,1,1,No,5,4
+SID_2024153,61,63.69,Overdue,1,34.45,0,Dropout,Jagrati Handa,jagrati34@college.edu,4524241772,Electronics,3,4,Yes,1,1
+SID_2024153,54,57.47,Overdue,1,34.45,0,Dropout,Jagrati Handa,jagrati34@college.edu,4524241772,Electronics,3,4,Yes,1,2
+SID_2024153,53,59.51,Overdue,1,34.45,0,Dropout,Jagrati Handa,jagrati34@college.edu,4524241772,Electronics,3,4,Yes,1,3
+SID_2024153,58,57.41,Overdue,1,34.45,0,Dropout,Jagrati Handa,jagrati34@college.edu,4524241772,Electronics,3,4,Yes,1,4
+SID_2024154,40,37.25,Overdue,4,52.2,1,Dropout,Panini Balan,panini21@college.edu,+913480469109,Computer Science,2,3,Yes,3,1
+SID_2024154,54,49.96,Overdue,4,52.2,1,Dropout,Panini Balan,panini21@college.edu,+913480469109,Computer Science,2,3,Yes,3,2
+SID_2024154,48,42.63,Overdue,4,52.2,1,Dropout,Panini Balan,panini21@college.edu,+913480469109,Computer Science,2,3,Yes,3,3
+SID_2024154,46,44.83,Overdue,4,52.2,1,Dropout,Panini Balan,panini21@college.edu,+913480469109,Computer Science,2,3,Yes,3,4
+SID_2024155,52,58.19,Due,0,47.73,1,Dropout,Warjas Nayar,warjas33@college.edu,5606935832,Mechanical,1,3,No,2,1
+SID_2024155,52,57.0,Due,0,47.73,1,Dropout,Warjas Nayar,warjas33@college.edu,5606935832,Mechanical,1,3,No,2,2
+SID_2024155,56,52.14,Due,0,47.73,1,Dropout,Warjas Nayar,warjas33@college.edu,5606935832,Mechanical,1,3,No,2,3
+SID_2024155,58,52.86,Due,0,47.73,1,Dropout,Warjas Nayar,warjas33@college.edu,5606935832,Mechanical,1,3,No,2,4
+SID_2024156,85,74.54,Paid,6,82.79,0,Graduate,Sanaya Date,sanaya77@college.edu,7626372323,Electronics,1,2,No,4,1
+SID_2024156,91,73.56,Paid,6,82.79,0,Graduate,Sanaya Date,sanaya77@college.edu,7626372323,Electronics,1,2,No,4,2
+SID_2024156,94,78.34,Paid,6,82.79,0,Graduate,Sanaya Date,sanaya77@college.edu,7626372323,Electronics,1,2,No,4,3
+SID_2024156,97,77.39,Paid,6,82.79,0,Graduate,Sanaya Date,sanaya77@college.edu,7626372323,Electronics,1,2,No,4,4
+SID_2024157,70,56.98,Overdue,1,37.49,1,Dropout,Urvi Majumdar,urvi92@college.edu,+918705371769,Civil,2,4,No,2,1
+SID_2024157,63,56.47,Overdue,1,37.49,1,Dropout,Urvi Majumdar,urvi92@college.edu,+918705371769,Civil,2,4,No,2,2
+SID_2024157,69,59.26,Overdue,1,37.49,1,Dropout,Urvi Majumdar,urvi92@college.edu,+918705371769,Civil,2,4,No,2,3
+SID_2024157,67,60.65,Overdue,1,37.49,1,Dropout,Urvi Majumdar,urvi92@college.edu,+918705371769,Civil,2,4,No,2,4
+SID_2024158,90,81.26,Paid,8,67.41,0,Enrolled,Michael Sani,michael95@college.edu,00586047977,Electrical,1,1,No,3,1
+SID_2024158,84,79.9,Paid,8,67.41,0,Enrolled,Michael Sani,michael95@college.edu,00586047977,Electrical,1,1,No,3,2
+SID_2024158,89,84.41,Paid,8,67.41,0,Enrolled,Michael Sani,michael95@college.edu,00586047977,Electrical,1,1,No,3,3
+SID_2024158,90,84.73,Paid,8,67.41,0,Enrolled,Michael Sani,michael95@college.edu,00586047977,Electrical,1,1,No,3,4
+SID_2024159,95,77.75,Paid,8,71.77,0,Enrolled,Mohammed Parmar,mohammed64@college.edu,03047705835,Electronics,1,2,No,4,1
+SID_2024159,83,77.18,Paid,8,71.77,0,Enrolled,Mohammed Parmar,mohammed64@college.edu,03047705835,Electronics,1,2,No,4,2
+SID_2024159,85,77.14,Paid,8,71.77,0,Enrolled,Mohammed Parmar,mohammed64@college.edu,03047705835,Electronics,1,2,No,4,3
+SID_2024159,83,78.46,Paid,8,71.77,0,Enrolled,Mohammed Parmar,mohammed64@college.edu,03047705835,Electronics,1,2,No,4,4
+SID_2024160,78,78.36,Paid,10,73.9,0,Graduate,Finn Bala,finn91@college.edu,09255520911,Electrical,1,2,No,5,1
+SID_2024160,86,75.4,Paid,10,73.9,0,Graduate,Finn Bala,finn91@college.edu,09255520911,Electrical,1,2,No,5,2
+SID_2024160,89,77.24,Paid,10,73.9,0,Graduate,Finn Bala,finn91@college.edu,09255520911,Electrical,1,2,No,5,3
+SID_2024160,90,76.02,Paid,10,73.9,0,Graduate,Finn Bala,finn91@college.edu,09255520911,Electrical,1,2,No,5,4
+SID_2024161,97,83.73,Paid,7,89.7,1,Graduate,Yashoda Tank,yashoda20@college.edu,+911841642105,Civil,3,2,No,4,1
+SID_2024161,94,78.6,Paid,7,89.7,1,Graduate,Yashoda Tank,yashoda20@college.edu,+911841642105,Civil,3,2,No,4,2
+SID_2024161,90,75.71,Paid,7,89.7,1,Graduate,Yashoda Tank,yashoda20@college.edu,+911841642105,Civil,3,2,No,4,3
+SID_2024161,94,75.0,Paid,7,89.7,1,Graduate,Yashoda Tank,yashoda20@college.edu,+911841642105,Civil,3,2,No,4,4
+SID_2024162,93,81.31,Paid,9,83.34,0,Graduate,Bhavani Ramaswamy,bhavani10@college.edu,+919282986773,Mechanical,4,3,No,5,1
+SID_2024162,91,80.61,Paid,9,83.34,0,Graduate,Bhavani Ramaswamy,bhavani10@college.edu,+919282986773,Mechanical,4,3,No,5,2
+SID_2024162,84,81.85,Paid,9,83.34,0,Graduate,Bhavani Ramaswamy,bhavani10@college.edu,+919282986773,Mechanical,4,3,No,5,3
+SID_2024162,87,80.87,Paid,9,83.34,0,Graduate,Bhavani Ramaswamy,bhavani10@college.edu,+919282986773,Mechanical,4,3,No,5,4
+SID_2024163,65,62.54,Paid,5,71.36,0,Enrolled,Reva Brar,reva69@college.edu,9992384301,Computer Science,2,3,No,5,1
+SID_2024163,70,61.85,Paid,5,71.36,0,Enrolled,Reva Brar,reva69@college.edu,9992384301,Computer Science,2,3,No,5,2
+SID_2024163,76,64.12,Paid,5,71.36,0,Enrolled,Reva Brar,reva69@college.edu,9992384301,Computer Science,2,3,No,5,3
+SID_2024163,74,62.22,Paid,5,71.36,0,Enrolled,Reva Brar,reva69@college.edu,9992384301,Computer Science,2,3,No,5,4
+SID_2024164,40,43.57,Overdue,4,55.73,0,Dropout,Agastya Chawla,agastya30@college.edu,3496115532,Computer Science,2,3,No,2,1
+SID_2024164,46,48.63,Overdue,4,55.73,0,Dropout,Agastya Chawla,agastya30@college.edu,3496115532,Computer Science,2,3,No,2,2
+SID_2024164,42,46.03,Overdue,4,55.73,0,Dropout,Agastya Chawla,agastya30@college.edu,3496115532,Computer Science,2,3,No,2,3
+SID_2024164,40,48.29,Overdue,4,55.73,0,Dropout,Agastya Chawla,agastya30@college.edu,3496115532,Computer Science,2,3,No,2,4
+SID_2024165,59,32.68,Paid,4,43.93,0,Dropout,Yashasvi Chana,yashasvi92@college.edu,6593750648,Electrical,3,3,Yes,2,1
+SID_2024165,51,30.0,Paid,4,43.93,0,Dropout,Yashasvi Chana,yashasvi92@college.edu,6593750648,Electrical,3,3,Yes,2,2
+SID_2024165,61,34.14,Paid,4,43.93,0,Dropout,Yashasvi Chana,yashasvi92@college.edu,6593750648,Electrical,3,3,Yes,2,3
+SID_2024165,59,31.55,Paid,4,43.93,0,Dropout,Yashasvi Chana,yashasvi92@college.edu,6593750648,Electrical,3,3,Yes,2,4
+SID_2024166,100,63.74,Paid,7,55.9,0,Enrolled,Bhavani Dugar,bhavani68@college.edu,02748282723,Computer Science,1,4,No,3,1
+SID_2024166,100,64.46,Paid,7,55.9,0,Enrolled,Bhavani Dugar,bhavani68@college.edu,02748282723,Computer Science,1,4,No,3,2
+SID_2024166,90,71.53,Paid,7,55.9,0,Enrolled,Bhavani Dugar,bhavani68@college.edu,02748282723,Computer Science,1,4,No,3,3
+SID_2024166,94,69.5,Paid,7,55.9,0,Enrolled,Bhavani Dugar,bhavani68@college.edu,02748282723,Computer Science,1,4,No,3,4
+SID_2024167,75,32.07,Overdue,2,33.74,0,Dropout,Rudra Purohit,rudra14@college.edu,9269680317,Computer Science,2,3,Yes,1,1
+SID_2024167,65,38.61,Overdue,2,33.74,0,Dropout,Rudra Purohit,rudra14@college.edu,9269680317,Computer Science,2,3,Yes,1,2
+SID_2024167,69,37.35,Overdue,2,33.74,0,Dropout,Rudra Purohit,rudra14@college.edu,9269680317,Computer Science,2,3,Yes,1,3
+SID_2024167,69,34.6,Overdue,2,33.74,0,Dropout,Rudra Purohit,rudra14@college.edu,9269680317,Computer Science,2,3,Yes,1,4
+SID_2024168,102,70.33,Due,8,79.64,0,Enrolled,Kashvi Majumdar,kashvi69@college.edu,4225903311,Civil,2,1,No,3,1
+SID_2024168,89,69.21,Due,8,79.64,0,Enrolled,Kashvi Majumdar,kashvi69@college.edu,4225903311,Civil,2,1,No,3,2
+SID_2024168,97,68.94,Due,8,79.64,0,Enrolled,Kashvi Majumdar,kashvi69@college.edu,4225903311,Civil,2,1,No,3,3
+SID_2024168,93,70.82,Due,8,79.64,0,Enrolled,Kashvi Majumdar,kashvi69@college.edu,4225903311,Civil,2,1,No,3,4
+SID_2024169,89,100.62,Paid,8,79.48,0,Graduate,Idika Sandhu,idika26@college.edu,+918542173802,Civil,2,1,No,5,1
+SID_2024169,93,94.84,Paid,8,79.48,0,Graduate,Idika Sandhu,idika26@college.edu,+918542173802,Civil,2,1,No,5,2
+SID_2024169,95,90.92,Paid,8,79.48,0,Graduate,Idika Sandhu,idika26@college.edu,+918542173802,Civil,2,1,No,5,3
+SID_2024169,95,91.87,Paid,8,79.48,0,Graduate,Idika Sandhu,idika26@college.edu,+918542173802,Civil,2,1,No,5,4
+SID_2024170,96,81.61,Paid,13,82.66,0,Graduate,Zayan Kapur,zayan67@college.edu,+913352366908,Civil,1,1,No,4,1
+SID_2024170,87,83.01,Paid,13,82.66,0,Graduate,Zayan Kapur,zayan67@college.edu,+913352366908,Civil,1,1,No,4,2
+SID_2024170,89,78.18,Paid,13,82.66,0,Graduate,Zayan Kapur,zayan67@college.edu,+913352366908,Civil,1,1,No,4,3
+SID_2024170,87,79.01,Paid,13,82.66,0,Graduate,Zayan Kapur,zayan67@college.edu,+913352366908,Civil,1,1,No,4,4
+SID_2024171,76,72.97,Paid,6,61.79,1,Enrolled,Akshay Mistry,akshay13@college.edu,+916060842102,Computer Science,1,3,No,3,1
+SID_2024171,79,63.96,Paid,6,61.79,1,Enrolled,Akshay Mistry,akshay13@college.edu,+916060842102,Computer Science,1,3,No,3,2
+SID_2024171,81,65.33,Paid,6,61.79,1,Enrolled,Akshay Mistry,akshay13@college.edu,+916060842102,Computer Science,1,3,No,3,3
+SID_2024171,79,65.11,Paid,6,61.79,1,Enrolled,Akshay Mistry,akshay13@college.edu,+916060842102,Computer Science,1,3,No,3,4
+SID_2024172,76,68.42,Paid,4,71.94,0,Enrolled,Yashodhara Tripathi,yashodhara15@college.edu,07253560107,Mechanical,1,3,Yes,5,1
+SID_2024172,78,68.94,Paid,4,71.94,0,Enrolled,Yashodhara Tripathi,yashodhara15@college.edu,07253560107,Mechanical,1,3,Yes,5,2
+SID_2024172,85,72.34,Paid,4,71.94,0,Enrolled,Yashodhara Tripathi,yashodhara15@college.edu,07253560107,Mechanical,1,3,Yes,5,3
+SID_2024172,82,69.35,Paid,4,71.94,0,Enrolled,Yashodhara Tripathi,yashodhara15@college.edu,07253560107,Mechanical,1,3,Yes,5,4
+SID_2024173,105,71.11,Paid,6,71.68,0,Enrolled,Ryan Kothari,ryan90@college.edu,+918659746665,Electronics,2,3,No,4,1
+SID_2024173,91,67.02,Paid,6,71.68,0,Enrolled,Ryan Kothari,ryan90@college.edu,+918659746665,Electronics,2,3,No,4,2
+SID_2024173,93,66.89,Paid,6,71.68,0,Enrolled,Ryan Kothari,ryan90@college.edu,+918659746665,Electronics,2,3,No,4,3
+SID_2024173,93,69.07,Paid,6,71.68,0,Enrolled,Ryan Kothari,ryan90@college.edu,+918659746665,Electronics,2,3,No,4,4
+SID_2024174,103,76.16,Paid,7,66.04,1,Enrolled,Ikbal Rau,ikbal14@college.edu,4401910935,Electronics,1,2,No,3,1
+SID_2024174,84,82.24,Paid,7,66.04,1,Enrolled,Ikbal Rau,ikbal14@college.edu,4401910935,Electronics,1,2,No,3,2
+SID_2024174,98,80.57,Paid,7,66.04,1,Enrolled,Ikbal Rau,ikbal14@college.edu,4401910935,Electronics,1,2,No,3,3
+SID_2024174,94,77.74,Paid,7,66.04,1,Enrolled,Ikbal Rau,ikbal14@college.edu,4401910935,Electronics,1,2,No,3,4
+SID_2024175,98,94.94,Paid,8,89.21,0,Graduate,Ranbir Bose,ranbir14@college.edu,+916694152132,Computer Science,1,3,No,5,1
+SID_2024175,84,94.71,Paid,8,89.21,0,Graduate,Ranbir Bose,ranbir14@college.edu,+916694152132,Computer Science,1,3,No,5,2
+SID_2024175,89,95.43,Paid,8,89.21,0,Graduate,Ranbir Bose,ranbir14@college.edu,+916694152132,Computer Science,1,3,No,5,3
+SID_2024175,86,94.11,Paid,8,89.21,0,Graduate,Ranbir Bose,ranbir14@college.edu,+916694152132,Computer Science,1,3,No,5,4
+SID_2024176,85,92.03,Paid,4,75.19,0,Enrolled,Qushi Dar,qushi22@college.edu,+912677242831,Computer Science,2,3,No,5,1
+SID_2024176,84,88.4,Paid,4,75.19,0,Enrolled,Qushi Dar,qushi22@college.edu,+912677242831,Computer Science,2,3,No,5,2
+SID_2024176,77,83.99,Paid,4,75.19,0,Enrolled,Qushi Dar,qushi22@college.edu,+912677242831,Computer Science,2,3,No,5,3
+SID_2024176,82,84.77,Paid,4,75.19,0,Enrolled,Qushi Dar,qushi22@college.edu,+912677242831,Computer Science,2,3,No,5,4
+SID_2024177,66,68.56,Due,3,75.32,1,Enrolled,Pahal Karnik,pahal48@college.edu,6685223960,Mechanical,1,1,No,3,1
+SID_2024177,83,78.24,Due,3,75.32,1,Enrolled,Pahal Karnik,pahal48@college.edu,6685223960,Mechanical,1,1,No,3,2
+SID_2024177,73,75.12,Due,3,75.32,1,Enrolled,Pahal Karnik,pahal48@college.edu,6685223960,Mechanical,1,1,No,3,3
+SID_2024177,75,73.47,Due,3,75.32,1,Enrolled,Pahal Karnik,pahal48@college.edu,6685223960,Mechanical,1,1,No,3,4
+SID_2024178,102,83.18,Paid,9,77.64,1,Graduate,Tripti Sagar,tripti83@college.edu,+913796035364,Electrical,1,3,No,5,1
+SID_2024178,91,88.28,Paid,9,77.64,1,Graduate,Tripti Sagar,tripti83@college.edu,+913796035364,Electrical,1,3,No,5,2
+SID_2024178,99,89.43,Paid,9,77.64,1,Graduate,Tripti Sagar,tripti83@college.edu,+913796035364,Electrical,1,3,No,5,3
+SID_2024178,99,89.36,Paid,9,77.64,1,Graduate,Tripti Sagar,tripti83@college.edu,+913796035364,Electrical,1,3,No,5,4
+SID_2024179,69,83.49,Paid,3,64.46,1,Enrolled,Ranbir Sekhon,ranbir81@college.edu,8323408792,Electronics,1,4,No,5,1
+SID_2024179,76,86.71,Paid,3,64.46,1,Enrolled,Ranbir Sekhon,ranbir81@college.edu,8323408792,Electronics,1,4,No,5,2
+SID_2024179,74,80.14,Paid,3,64.46,1,Enrolled,Ranbir Sekhon,ranbir81@college.edu,8323408792,Electronics,1,4,No,5,3
+SID_2024179,72,83.05,Paid,3,64.46,1,Enrolled,Ranbir Sekhon,ranbir81@college.edu,8323408792,Electronics,1,4,No,5,4
+SID_2024180,70,60.83,Due,4,59.04,1,Enrolled,Jeevika Sem,jeevika11@college.edu,+912510731945,Computer Science,2,2,No,5,1
+SID_2024180,78,69.57,Due,4,59.04,1,Enrolled,Jeevika Sem,jeevika11@college.edu,+912510731945,Computer Science,2,2,No,5,2
+SID_2024180,80,67.91,Due,4,59.04,1,Enrolled,Jeevika Sem,jeevika11@college.edu,+912510731945,Computer Science,2,2,No,5,3
+SID_2024180,82,66.06,Due,4,59.04,1,Enrolled,Jeevika Sem,jeevika11@college.edu,+912510731945,Computer Science,2,2,No,5,4
+SID_2024181,100,89.68,Paid,11,93.73,0,Graduate,Vinaya Ranganathan,vinaya97@college.edu,4928306681,Mechanical,2,2,No,4,1
+SID_2024181,83,80.42,Paid,11,93.73,0,Graduate,Vinaya Ranganathan,vinaya97@college.edu,4928306681,Mechanical,2,2,No,4,2
+SID_2024181,89,79.59,Paid,11,93.73,0,Graduate,Vinaya Ranganathan,vinaya97@college.edu,4928306681,Mechanical,2,2,No,4,3
+SID_2024181,91,82.43,Paid,11,93.73,0,Graduate,Vinaya Ranganathan,vinaya97@college.edu,4928306681,Mechanical,2,2,No,4,4
+SID_2024182,90,86.55,Paid,7,76.04,0,Graduate,Pushti Sheth,pushti87@college.edu,+910907445560,Civil,1,2,No,5,1
+SID_2024182,84,87.81,Paid,7,76.04,0,Graduate,Pushti Sheth,pushti87@college.edu,+910907445560,Civil,1,2,No,5,2
+SID_2024182,85,83.64,Paid,7,76.04,0,Graduate,Pushti Sheth,pushti87@college.edu,+910907445560,Civil,1,2,No,5,3
+SID_2024182,90,86.32,Paid,7,76.04,0,Graduate,Pushti Sheth,pushti87@college.edu,+910907445560,Civil,1,2,No,5,4
+SID_2024183,75,71.94,Overdue,3,54.35,1,Dropout,Manbir Pau,manbir56@college.edu,06854970634,Electrical,1,3,Yes,3,1
+SID_2024183,69,63.07,Overdue,3,54.35,1,Dropout,Manbir Pau,manbir56@college.edu,06854970634,Electrical,1,3,Yes,3,2
+SID_2024183,69,60.97,Overdue,3,54.35,1,Dropout,Manbir Pau,manbir56@college.edu,06854970634,Electrical,1,3,Yes,3,3
+SID_2024183,69,63.07,Overdue,3,54.35,1,Dropout,Manbir Pau,manbir56@college.edu,06854970634,Electrical,1,3,Yes,3,4
+SID_2024184,54,69.53,Due,4,56.71,1,Dropout,Aarush Balay,aarush20@college.edu,+911989555723,Civil,1,3,No,2,1
+SID_2024184,45,59.94,Due,4,56.71,1,Dropout,Aarush Balay,aarush20@college.edu,+911989555723,Civil,1,3,No,2,2
+SID_2024184,51,61.48,Due,4,56.71,1,Dropout,Aarush Balay,aarush20@college.edu,+911989555723,Civil,1,3,No,2,3
+SID_2024184,51,62.3,Due,4,56.71,1,Dropout,Aarush Balay,aarush20@college.edu,+911989555723,Civil,1,3,No,2,4
+SID_2024185,92,83.79,Paid,7,79.54,1,Graduate,Girish Ahluwalia,girish91@college.edu,4897526126,Mechanical,3,1,No,4,1
+SID_2024185,88,93.55,Paid,7,79.54,1,Graduate,Girish Ahluwalia,girish91@college.edu,4897526126,Mechanical,3,1,No,4,2
+SID_2024185,96,88.02,Paid,7,79.54,1,Graduate,Girish Ahluwalia,girish91@college.edu,4897526126,Mechanical,3,1,No,4,3
+SID_2024185,92,88.14,Paid,7,79.54,1,Graduate,Girish Ahluwalia,girish91@college.edu,4897526126,Mechanical,3,1,No,4,4
+SID_2024186,56,35.26,Overdue,2,44.2,1,Dropout,Ekta Swaminathan,ekta22@college.edu,+910151272404,Civil,3,5,No,2,1
+SID_2024186,63,34.74,Overdue,2,44.2,1,Dropout,Ekta Swaminathan,ekta22@college.edu,+910151272404,Civil,3,5,No,2,2
+SID_2024186,63,30.0,Overdue,2,44.2,1,Dropout,Ekta Swaminathan,ekta22@college.edu,+910151272404,Civil,3,5,No,2,3
+SID_2024186,65,30.17,Overdue,2,44.2,1,Dropout,Ekta Swaminathan,ekta22@college.edu,+910151272404,Civil,3,5,No,2,4
+SID_2024187,78,87.27,Due,7,60.28,1,Enrolled,Owen Mitra,owen46@college.edu,5552014860,Computer Science,1,2,No,5,1
+SID_2024187,86,81.59,Due,7,60.28,1,Enrolled,Owen Mitra,owen46@college.edu,5552014860,Computer Science,1,2,No,5,2
+SID_2024187,85,76.62,Due,7,60.28,1,Enrolled,Owen Mitra,owen46@college.edu,5552014860,Computer Science,1,2,No,5,3
+SID_2024187,90,78.96,Due,7,60.28,1,Enrolled,Owen Mitra,owen46@college.edu,5552014860,Computer Science,1,2,No,5,4
+SID_2024188,79,96.05,Paid,8,75.89,0,Graduate,Alexander Kumer,alexander39@college.edu,+915027351327,Electronics,1,3,No,4,1
+SID_2024188,86,94.72,Paid,8,75.89,0,Graduate,Alexander Kumer,alexander39@college.edu,+915027351327,Electronics,1,3,No,4,2
+SID_2024188,87,91.4,Paid,8,75.89,0,Graduate,Alexander Kumer,alexander39@college.edu,+915027351327,Electronics,1,3,No,4,3
+SID_2024188,88,90.57,Paid,8,75.89,0,Graduate,Alexander Kumer,alexander39@college.edu,+915027351327,Electronics,1,3,No,4,4
+SID_2024189,110,78.98,Paid,14,82.79,1,Graduate,Christopher Raval,christopher93@college.edu,+915380315248,Computer Science,1,1,No,4,1
+SID_2024189,106,80.78,Paid,14,82.79,1,Graduate,Christopher Raval,christopher93@college.edu,+915380315248,Computer Science,1,1,No,4,2
+SID_2024189,99,81.04,Paid,14,82.79,1,Graduate,Christopher Raval,christopher93@college.edu,+915380315248,Computer Science,1,1,No,4,3
+SID_2024189,98,78.74,Paid,14,82.79,1,Graduate,Christopher Raval,christopher93@college.edu,+915380315248,Computer Science,1,1,No,4,4
+SID_2024190,88,84.57,Paid,12,85.17,1,Graduate,Tanvi Chander,tanvi84@college.edu,00458890655,Computer Science,1,1,No,5,1
+SID_2024190,87,80.58,Paid,12,85.17,1,Graduate,Tanvi Chander,tanvi84@college.edu,00458890655,Computer Science,1,1,No,5,2
+SID_2024190,85,81.64,Paid,12,85.17,1,Graduate,Tanvi Chander,tanvi84@college.edu,00458890655,Computer Science,1,1,No,5,3
+SID_2024190,85,82.89,Paid,12,85.17,1,Graduate,Tanvi Chander,tanvi84@college.edu,00458890655,Computer Science,1,1,No,5,4
+SID_2024191,81,49.5,Due,2,35.84,0,Dropout,Qabil Borde,qabil28@college.edu,7916938372,Computer Science,2,3,Yes,2,1
+SID_2024191,83,55.61,Due,2,35.84,0,Dropout,Qabil Borde,qabil28@college.edu,7916938372,Computer Science,2,3,Yes,2,2
+SID_2024191,70,55.5,Due,2,35.84,0,Dropout,Qabil Borde,qabil28@college.edu,7916938372,Computer Science,2,3,Yes,2,3
+SID_2024191,75,53.51,Due,2,35.84,0,Dropout,Qabil Borde,qabil28@college.edu,7916938372,Computer Science,2,3,Yes,2,4
+SID_2024192,80,80.18,Paid,8,84.16,1,Graduate,Orinder Pillay,orinder14@college.edu,01959503438,Civil,1,3,No,5,1
+SID_2024192,89,74.02,Paid,8,84.16,1,Graduate,Orinder Pillay,orinder14@college.edu,01959503438,Civil,1,3,No,5,2
+SID_2024192,97,80.72,Paid,8,84.16,1,Graduate,Orinder Pillay,orinder14@college.edu,01959503438,Civil,1,3,No,5,3
+SID_2024192,95,77.89,Paid,8,84.16,1,Graduate,Orinder Pillay,orinder14@college.edu,01959503438,Civil,1,3,No,5,4
+SID_2024193,90,49.78,Overdue,2,47.53,1,Dropout,Brinda Kashyap,brinda52@college.edu,02671949800,Electrical,3,4,Yes,1,1
+SID_2024193,68,39.01,Overdue,2,47.53,1,Dropout,Brinda Kashyap,brinda52@college.edu,02671949800,Electrical,3,4,Yes,1,2
+SID_2024193,74,42.64,Overdue,2,47.53,1,Dropout,Brinda Kashyap,brinda52@college.edu,02671949800,Electrical,3,4,Yes,1,3
+SID_2024193,78,42.93,Overdue,2,47.53,1,Dropout,Brinda Kashyap,brinda52@college.edu,02671949800,Electrical,3,4,Yes,1,4
+SID_2024194,76,77.81,Due,7,57.58,1,Enrolled,Vincent Dhawan,vincent94@college.edu,6639507538,Electrical,3,3,No,3,1
+SID_2024194,81,80.68,Due,7,57.58,1,Enrolled,Vincent Dhawan,vincent94@college.edu,6639507538,Electrical,3,3,No,3,2
+SID_2024194,86,83.71,Due,7,57.58,1,Enrolled,Vincent Dhawan,vincent94@college.edu,6639507538,Electrical,3,3,No,3,3
+SID_2024194,91,82.39,Due,7,57.58,1,Enrolled,Vincent Dhawan,vincent94@college.edu,6639507538,Electrical,3,3,No,3,4
+SID_2024195,65,48.45,Due,4,29.12,1,Dropout,Wakeeta Rajagopalan,wakeeta97@college.edu,+914399410317,Electronics,4,5,Yes,1,1
+SID_2024195,83,53.15,Due,4,29.12,1,Dropout,Wakeeta Rajagopalan,wakeeta97@college.edu,+914399410317,Electronics,4,5,Yes,1,2
+SID_2024195,81,56.47,Due,4,29.12,1,Dropout,Wakeeta Rajagopalan,wakeeta97@college.edu,+914399410317,Electronics,4,5,Yes,1,3
+SID_2024195,77,55.25,Due,4,29.12,1,Dropout,Wakeeta Rajagopalan,wakeeta97@college.edu,+914399410317,Electronics,4,5,Yes,1,4
+SID_2024196,64,68.62,Due,6,59.14,1,Enrolled,Lekha Nagy,lekha12@college.edu,01639489018,Computer Science,1,2,No,3,1
+SID_2024196,67,63.13,Due,6,59.14,1,Enrolled,Lekha Nagy,lekha12@college.edu,01639489018,Computer Science,1,2,No,3,2
+SID_2024196,72,65.52,Due,6,59.14,1,Enrolled,Lekha Nagy,lekha12@college.edu,01639489018,Computer Science,1,2,No,3,3
+SID_2024196,73,63.31,Due,6,59.14,1,Enrolled,Lekha Nagy,lekha12@college.edu,01639489018,Computer Science,1,2,No,3,4
+SID_2024197,45,30.0,Overdue,4,57.07,1,Dropout,Faraj Barad,faraj18@college.edu,+914708171618,Electronics,4,3,Yes,1,1
+SID_2024197,40,30.0,Overdue,4,57.07,1,Dropout,Faraj Barad,faraj18@college.edu,+914708171618,Electronics,4,3,Yes,1,2
+SID_2024197,46,30.0,Overdue,4,57.07,1,Dropout,Faraj Barad,faraj18@college.edu,+914708171618,Electronics,4,3,Yes,1,3
+SID_2024197,45,31.7,Overdue,4,57.07,1,Dropout,Faraj Barad,faraj18@college.edu,+914708171618,Electronics,4,3,Yes,1,4
+SID_2024198,77,88.16,Paid,3,58.71,1,Enrolled,Mugdha Chaudhry,mugdha84@college.edu,08171433020,Computer Science,2,3,No,4,1
+SID_2024198,85,77.46,Paid,3,58.71,1,Enrolled,Mugdha Chaudhry,mugdha84@college.edu,08171433020,Computer Science,2,3,No,4,2
+SID_2024198,83,78.87,Paid,3,58.71,1,Enrolled,Mugdha Chaudhry,mugdha84@college.edu,08171433020,Computer Science,2,3,No,4,3
+SID_2024198,83,79.84,Paid,3,58.71,1,Enrolled,Mugdha Chaudhry,mugdha84@college.edu,08171433020,Computer Science,2,3,No,4,4
+SID_2024199,85,55.07,Paid,4,56.37,0,Enrolled,Naveen Murthy,naveen87@college.edu,02551738174,Civil,4,2,No,4,1
+SID_2024199,67,60.01,Paid,4,56.37,0,Enrolled,Naveen Murthy,naveen87@college.edu,02551738174,Civil,4,2,No,4,2
+SID_2024199,71,62.3,Paid,4,56.37,0,Enrolled,Naveen Murthy,naveen87@college.edu,02551738174,Civil,4,2,No,4,3
+SID_2024199,73,61.52,Paid,4,56.37,0,Enrolled,Naveen Murthy,naveen87@college.edu,02551738174,Civil,4,2,No,4,4
+SID_2024200,98,73.33,Paid,7,60.25,1,Enrolled,Rohan Venkatesh,rohan53@college.edu,9790517681,Computer Science,4,4,No,3,1
+SID_2024200,92,70.95,Paid,7,60.25,1,Enrolled,Rohan Venkatesh,rohan53@college.edu,9790517681,Computer Science,4,4,No,3,2
+SID_2024200,81,77.12,Paid,7,60.25,1,Enrolled,Rohan Venkatesh,rohan53@college.edu,9790517681,Computer Science,4,4,No,3,3
+SID_2024200,86,75.58,Paid,7,60.25,1,Enrolled,Rohan Venkatesh,rohan53@college.edu,9790517681,Computer Science,4,4,No,3,4
+SID_2024201,76,84.33,Paid,6,89.97,0,Graduate,Zehaan Morar,zehaan60@college.edu,+911767508626,Mechanical,1,1,No,5,1
+SID_2024201,79,80.34,Paid,6,89.97,0,Graduate,Zehaan Morar,zehaan60@college.edu,+911767508626,Mechanical,1,1,No,5,2
+SID_2024201,85,80.01,Paid,6,89.97,0,Graduate,Zehaan Morar,zehaan60@college.edu,+911767508626,Mechanical,1,1,No,5,3
+SID_2024201,85,81.04,Paid,6,89.97,0,Graduate,Zehaan Morar,zehaan60@college.edu,+911767508626,Mechanical,1,1,No,5,4
+SID_2024202,57,67.79,Paid,9,75.35,1,Enrolled,Aadi Hora,aadi11@college.edu,0027912841,Mechanical,3,3,No,3,1
+SID_2024202,74,62.17,Paid,9,75.35,1,Enrolled,Aadi Hora,aadi11@college.edu,0027912841,Mechanical,3,3,No,3,2
+SID_2024202,76,62.94,Paid,9,75.35,1,Enrolled,Aadi Hora,aadi11@college.edu,0027912841,Mechanical,3,3,No,3,3
+SID_2024202,72,61.96,Paid,9,75.35,1,Enrolled,Aadi Hora,aadi11@college.edu,0027912841,Mechanical,3,3,No,3,4
+SID_2024203,99,78.77,Paid,6,74.81,0,Graduate,Jagdish Pillai,jagdish20@college.edu,02116511807,Civil,1,3,No,4,1
+SID_2024203,79,79.8,Paid,6,74.81,0,Graduate,Jagdish Pillai,jagdish20@college.edu,02116511807,Civil,1,3,No,4,2
+SID_2024203,85,74.45,Paid,6,74.81,0,Graduate,Jagdish Pillai,jagdish20@college.edu,02116511807,Civil,1,3,No,4,3
+SID_2024203,87,77.14,Paid,6,74.81,0,Graduate,Jagdish Pillai,jagdish20@college.edu,02116511807,Civil,1,3,No,4,4
+SID_2024204,76,79.5,Paid,4,76.26,0,Enrolled,Netra Khurana,netra77@college.edu,+918280257309,Computer Science,1,1,No,5,1
+SID_2024204,93,79.85,Paid,4,76.26,0,Enrolled,Netra Khurana,netra77@college.edu,+918280257309,Computer Science,1,1,No,5,2
+SID_2024204,94,80.0,Paid,4,76.26,0,Enrolled,Netra Khurana,netra77@college.edu,+918280257309,Computer Science,1,1,No,5,3
+SID_2024204,91,79.54,Paid,4,76.26,0,Enrolled,Netra Khurana,netra77@college.edu,+918280257309,Computer Science,1,1,No,5,4
+SID_2024205,68,74.2,Paid,5,77.9,0,Enrolled,Gopal Deshpande,gopal75@college.edu,7415799251,Electronics,2,1,Yes,5,1
+SID_2024205,61,75.23,Paid,5,77.9,0,Enrolled,Gopal Deshpande,gopal75@college.edu,7415799251,Electronics,2,1,Yes,5,2
+SID_2024205,70,72.62,Paid,5,77.9,0,Enrolled,Gopal Deshpande,gopal75@college.edu,7415799251,Electronics,2,1,Yes,5,3
+SID_2024205,71,70.45,Paid,5,77.9,0,Enrolled,Gopal Deshpande,gopal75@college.edu,7415799251,Electronics,2,1,Yes,5,4
+SID_2024206,77,54.1,Due,3,65.63,0,Enrolled,Turvi Ghosh,turvi43@college.edu,+917487543262,Electrical,2,3,No,3,1
+SID_2024206,77,62.52,Due,3,65.63,0,Enrolled,Turvi Ghosh,turvi43@college.edu,+917487543262,Electrical,2,3,No,3,2
+SID_2024206,72,57.74,Due,3,65.63,0,Enrolled,Turvi Ghosh,turvi43@college.edu,+917487543262,Electrical,2,3,No,3,3
+SID_2024206,77,60.18,Due,3,65.63,0,Enrolled,Turvi Ghosh,turvi43@college.edu,+917487543262,Electrical,2,3,No,3,4
+SID_2024207,89,66.58,Paid,9,72.58,0,Enrolled,Janani Bedi,janani84@college.edu,00626573517,Mechanical,2,3,No,5,1
+SID_2024207,84,68.47,Paid,9,72.58,0,Enrolled,Janani Bedi,janani84@college.edu,00626573517,Mechanical,2,3,No,5,2
+SID_2024207,80,71.52,Paid,9,72.58,0,Enrolled,Janani Bedi,janani84@college.edu,00626573517,Mechanical,2,3,No,5,3
+SID_2024207,80,69.2,Paid,9,72.58,0,Enrolled,Janani Bedi,janani84@college.edu,00626573517,Mechanical,2,3,No,5,4
+SID_2024208,58,73.5,Paid,8,71.33,1,Enrolled,Tejas Khalsa,tejas62@college.edu,8538381092,Mechanical,2,1,Yes,4,1
+SID_2024208,63,82.92,Paid,8,71.33,1,Enrolled,Tejas Khalsa,tejas62@college.edu,8538381092,Mechanical,2,1,Yes,4,2
+SID_2024208,76,79.19,Paid,8,71.33,1,Enrolled,Tejas Khalsa,tejas62@college.edu,8538381092,Mechanical,2,1,Yes,4,3
+SID_2024208,73,79.35,Paid,8,71.33,1,Enrolled,Tejas Khalsa,tejas62@college.edu,8538381092,Mechanical,2,1,Yes,4,4
+SID_2024209,78,83.75,Paid,5,63.18,0,Enrolled,Chaman Doctor,chaman65@college.edu,1759213277,Mechanical,2,1,Yes,4,1
+SID_2024209,90,76.26,Paid,5,63.18,0,Enrolled,Chaman Doctor,chaman65@college.edu,1759213277,Mechanical,2,1,Yes,4,2
+SID_2024209,86,76.04,Paid,5,63.18,0,Enrolled,Chaman Doctor,chaman65@college.edu,1759213277,Mechanical,2,1,Yes,4,3
+SID_2024209,90,77.06,Paid,5,63.18,0,Enrolled,Chaman Doctor,chaman65@college.edu,1759213277,Mechanical,2,1,Yes,4,4
+SID_2024210,78,57.05,Due,4,59.0,0,Dropout,Ranveer Garde,ranveer79@college.edu,09232478924,Electronics,1,4,Yes,1,1
+SID_2024210,74,53.77,Due,4,59.0,0,Dropout,Ranveer Garde,ranveer79@college.edu,09232478924,Electronics,1,4,Yes,1,2
+SID_2024210,79,53.16,Due,4,59.0,0,Dropout,Ranveer Garde,ranveer79@college.edu,09232478924,Electronics,1,4,Yes,1,3
+SID_2024210,78,53.12,Due,4,59.0,0,Dropout,Ranveer Garde,ranveer79@college.edu,09232478924,Electronics,1,4,Yes,1,4
+SID_2024211,68,73.41,Paid,4,73.0,1,Enrolled,Amaira Kadakia,amaira60@college.edu,+912606816114,Mechanical,1,1,Yes,5,1
+SID_2024211,79,69.32,Paid,4,73.0,1,Enrolled,Amaira Kadakia,amaira60@college.edu,+912606816114,Mechanical,1,1,Yes,5,2
+SID_2024211,75,72.34,Paid,4,73.0,1,Enrolled,Amaira Kadakia,amaira60@college.edu,+912606816114,Mechanical,1,1,Yes,5,3
+SID_2024211,77,75.19,Paid,4,73.0,1,Enrolled,Amaira Kadakia,amaira60@college.edu,+912606816114,Mechanical,1,1,Yes,5,4
+SID_2024212,101,89.05,Paid,10,70.68,0,Graduate,Ganga Kala,ganga49@college.edu,02717889770,Computer Science,4,3,No,5,1
+SID_2024212,86,86.39,Paid,10,70.68,0,Graduate,Ganga Kala,ganga49@college.edu,02717889770,Computer Science,4,3,No,5,2
+SID_2024212,90,84.56,Paid,10,70.68,0,Graduate,Ganga Kala,ganga49@college.edu,02717889770,Computer Science,4,3,No,5,3
+SID_2024212,92,83.27,Paid,10,70.68,0,Graduate,Ganga Kala,ganga49@college.edu,02717889770,Computer Science,4,3,No,5,4
+SID_2024213,61,56.68,Overdue,1,30.6,1,Dropout,Yashoda Shroff,yashoda94@college.edu,08799089074,Computer Science,1,4,No,3,1
+SID_2024213,62,42.72,Overdue,1,30.6,1,Dropout,Yashoda Shroff,yashoda94@college.edu,08799089074,Computer Science,1,4,No,3,2
+SID_2024213,57,48.26,Overdue,1,30.6,1,Dropout,Yashoda Shroff,yashoda94@college.edu,08799089074,Computer Science,1,4,No,3,3
+SID_2024213,58,48.33,Overdue,1,30.6,1,Dropout,Yashoda Shroff,yashoda94@college.edu,08799089074,Computer Science,1,4,No,3,4
+SID_2024214,82,81.63,Due,5,71.44,0,Enrolled,Baghyawati Pradhan,baghyawati27@college.edu,01785378470,Computer Science,4,1,No,5,1
+SID_2024214,78,82.26,Due,5,71.44,0,Enrolled,Baghyawati Pradhan,baghyawati27@college.edu,01785378470,Computer Science,4,1,No,5,2
+SID_2024214,82,81.74,Due,5,71.44,0,Enrolled,Baghyawati Pradhan,baghyawati27@college.edu,01785378470,Computer Science,4,1,No,5,3
+SID_2024214,82,81.0,Due,5,71.44,0,Enrolled,Baghyawati Pradhan,baghyawati27@college.edu,01785378470,Computer Science,4,1,No,5,4
+SID_2024215,43,51.31,Due,3,28.17,0,Dropout,Gagan Tank,gagan22@college.edu,+912135025838,Mechanical,1,5,No,2,1
+SID_2024215,63,46.27,Due,3,28.17,0,Dropout,Gagan Tank,gagan22@college.edu,+912135025838,Mechanical,1,5,No,2,2
+SID_2024215,57,45.7,Due,3,28.17,0,Dropout,Gagan Tank,gagan22@college.edu,+912135025838,Mechanical,1,5,No,2,3
+SID_2024215,55,43.48,Due,3,28.17,0,Dropout,Gagan Tank,gagan22@college.edu,+912135025838,Mechanical,1,5,No,2,4
+SID_2024216,74,89.68,Paid,9,80.32,0,Graduate,Dalaja Bava,dalaja97@college.edu,+912924967600,Computer Science,3,3,No,4,1
+SID_2024216,89,95.71,Paid,9,80.32,0,Graduate,Dalaja Bava,dalaja97@college.edu,+912924967600,Computer Science,3,3,No,4,2
+SID_2024216,87,90.99,Paid,9,80.32,0,Graduate,Dalaja Bava,dalaja97@college.edu,+912924967600,Computer Science,3,3,No,4,3
+SID_2024216,89,90.54,Paid,9,80.32,0,Graduate,Dalaja Bava,dalaja97@college.edu,+912924967600,Computer Science,3,3,No,4,4
+SID_2024217,98,70.6,Paid,6,63.37,0,Enrolled,Yashvi Narasimhan,yashvi86@college.edu,9091209635,Computer Science,3,3,Yes,5,1
+SID_2024217,95,75.53,Paid,6,63.37,0,Enrolled,Yashvi Narasimhan,yashvi86@college.edu,9091209635,Computer Science,3,3,Yes,5,2
+SID_2024217,92,77.71,Paid,6,63.37,0,Enrolled,Yashvi Narasimhan,yashvi86@college.edu,9091209635,Computer Science,3,3,Yes,5,3
+SID_2024217,89,79.41,Paid,6,63.37,0,Enrolled,Yashvi Narasimhan,yashvi86@college.edu,9091209635,Computer Science,3,3,Yes,5,4
+SID_2024218,40,53.01,Overdue,1,37.32,0,Dropout,Zarna Kakar,zarna67@college.edu,05675293865,Computer Science,2,4,Yes,3,1
+SID_2024218,43,50.91,Overdue,1,37.32,0,Dropout,Zarna Kakar,zarna67@college.edu,05675293865,Computer Science,2,4,Yes,3,2
+SID_2024218,45,51.49,Overdue,1,37.32,0,Dropout,Zarna Kakar,zarna67@college.edu,05675293865,Computer Science,2,4,Yes,3,3
+SID_2024218,49,53.48,Overdue,1,37.32,0,Dropout,Zarna Kakar,zarna67@college.edu,05675293865,Computer Science,2,4,Yes,3,4
+SID_2024219,72,80.73,Due,9,59.39,0,Enrolled,Zehaan Acharya,zehaan74@college.edu,01900137773,Mechanical,1,2,No,4,1
+SID_2024219,89,79.88,Due,9,59.39,0,Enrolled,Zehaan Acharya,zehaan74@college.edu,01900137773,Mechanical,1,2,No,4,2
+SID_2024219,85,85.57,Due,9,59.39,0,Enrolled,Zehaan Acharya,zehaan74@college.edu,01900137773,Mechanical,1,2,No,4,3
+SID_2024219,81,84.88,Due,9,59.39,0,Enrolled,Zehaan Acharya,zehaan74@college.edu,01900137773,Mechanical,1,2,No,4,4
+SID_2024220,75,68.8,Paid,6,56.27,1,Enrolled,Varsha Kala,varsha39@college.edu,+915642112810,Electronics,4,1,No,5,1
+SID_2024220,86,67.21,Paid,6,56.27,1,Enrolled,Varsha Kala,varsha39@college.edu,+915642112810,Electronics,4,1,No,5,2
+SID_2024220,88,59.79,Paid,6,56.27,1,Enrolled,Varsha Kala,varsha39@college.edu,+915642112810,Electronics,4,1,No,5,3
+SID_2024220,90,62.71,Paid,6,56.27,1,Enrolled,Varsha Kala,varsha39@college.edu,+915642112810,Electronics,4,1,No,5,4
+SID_2024221,58,59.0,Due,4,37.43,1,Dropout,Pratyush Uppal,pratyush11@college.edu,+911905263497,Mechanical,1,5,No,2,1
+SID_2024221,53,62.28,Due,4,37.43,1,Dropout,Pratyush Uppal,pratyush11@college.edu,+911905263497,Mechanical,1,5,No,2,2
+SID_2024221,56,60.49,Due,4,37.43,1,Dropout,Pratyush Uppal,pratyush11@college.edu,+911905263497,Mechanical,1,5,No,2,3
+SID_2024221,61,62.03,Due,4,37.43,1,Dropout,Pratyush Uppal,pratyush11@college.edu,+911905263497,Mechanical,1,5,No,2,4
+SID_2024222,98,94.41,Paid,12,83.75,0,Graduate,Oni Thaman,oni53@college.edu,01651587833,Computer Science,2,2,Yes,5,1
+SID_2024222,87,96.55,Paid,12,83.75,0,Graduate,Oni Thaman,oni53@college.edu,01651587833,Computer Science,2,2,Yes,5,2
+SID_2024222,91,90.69,Paid,12,83.75,0,Graduate,Oni Thaman,oni53@college.edu,01651587833,Computer Science,2,2,Yes,5,3
+SID_2024222,95,92.01,Paid,12,83.75,0,Graduate,Oni Thaman,oni53@college.edu,01651587833,Computer Science,2,2,Yes,5,4
+SID_2024223,78,68.92,Paid,3,55.73,1,Enrolled,Chakradev Varty,chakradev56@college.edu,08630196247,Electronics,1,4,No,4,1
+SID_2024223,88,75.3,Paid,3,55.73,1,Enrolled,Chakradev Varty,chakradev56@college.edu,08630196247,Electronics,1,4,No,4,2
+SID_2024223,88,75.05,Paid,3,55.73,1,Enrolled,Chakradev Varty,chakradev56@college.edu,08630196247,Electronics,1,4,No,4,3
+SID_2024223,90,77.35,Paid,3,55.73,1,Enrolled,Chakradev Varty,chakradev56@college.edu,08630196247,Electronics,1,4,No,4,4
+SID_2024224,51,57.45,Due,3,41.56,1,Dropout,Reyansh Amble,reyansh22@college.edu,+910816870083,Computer Science,3,5,No,2,1
+SID_2024224,55,48.72,Due,3,41.56,1,Dropout,Reyansh Amble,reyansh22@college.edu,+910816870083,Computer Science,3,5,No,2,2
+SID_2024224,54,50.67,Due,3,41.56,1,Dropout,Reyansh Amble,reyansh22@college.edu,+910816870083,Computer Science,3,5,No,2,3
+SID_2024224,51,53.51,Due,3,41.56,1,Dropout,Reyansh Amble,reyansh22@college.edu,+910816870083,Computer Science,3,5,No,2,4
+SID_2024225,68,72.52,Due,4,71.17,0,Enrolled,Ekbal Date,ekbal87@college.edu,1977341695,Computer Science,2,3,Yes,3,1
+SID_2024225,74,71.23,Due,4,71.17,0,Enrolled,Ekbal Date,ekbal87@college.edu,1977341695,Computer Science,2,3,Yes,3,2
+SID_2024225,75,76.6,Due,4,71.17,0,Enrolled,Ekbal Date,ekbal87@college.edu,1977341695,Computer Science,2,3,Yes,3,3
+SID_2024225,80,75.29,Due,4,71.17,0,Enrolled,Ekbal Date,ekbal87@college.edu,1977341695,Computer Science,2,3,Yes,3,4
+SID_2024226,105,62.19,Due,4,72.81,0,Enrolled,Warda Tara,warda23@college.edu,7018099079,Civil,3,4,Yes,3,1
+SID_2024226,101,64.85,Due,4,72.81,0,Enrolled,Warda Tara,warda23@college.edu,7018099079,Civil,3,4,Yes,3,2
+SID_2024226,91,68.22,Due,4,72.81,0,Enrolled,Warda Tara,warda23@college.edu,7018099079,Civil,3,4,Yes,3,3
+SID_2024226,93,67.99,Due,4,72.81,0,Enrolled,Warda Tara,warda23@college.edu,7018099079,Civil,3,4,Yes,3,4
+SID_2024227,58,63.95,Paid,4,75.42,0,Enrolled,Avi Iyengar,avi39@college.edu,3399348135,Computer Science,1,4,No,3,1
+SID_2024227,62,65.87,Paid,4,75.42,0,Enrolled,Avi Iyengar,avi39@college.edu,3399348135,Computer Science,1,4,No,3,2
+SID_2024227,65,63.1,Paid,4,75.42,0,Enrolled,Avi Iyengar,avi39@college.edu,3399348135,Computer Science,1,4,No,3,3
+SID_2024227,70,63.26,Paid,4,75.42,0,Enrolled,Avi Iyengar,avi39@college.edu,3399348135,Computer Science,1,4,No,3,4
+SID_2024228,76,37.23,Paid,0,35.97,1,Dropout,Aadi Kanda,aadi64@college.edu,07304176688,Civil,2,3,Yes,3,1
+SID_2024228,70,40.83,Paid,0,35.97,1,Dropout,Aadi Kanda,aadi64@college.edu,07304176688,Civil,2,3,Yes,3,2
+SID_2024228,61,36.55,Paid,0,35.97,1,Dropout,Aadi Kanda,aadi64@college.edu,07304176688,Civil,2,3,Yes,3,3
+SID_2024228,64,36.25,Paid,0,35.97,1,Dropout,Aadi Kanda,aadi64@college.edu,07304176688,Civil,2,3,Yes,3,4
+SID_2024229,82,45.13,Overdue,3,43.64,0,Dropout,Vedhika Chawla,vedhika58@college.edu,0831911627,Computer Science,4,3,Yes,3,1
+SID_2024229,68,50.84,Overdue,3,43.64,0,Dropout,Vedhika Chawla,vedhika58@college.edu,0831911627,Computer Science,4,3,Yes,3,2
+SID_2024229,73,47.14,Overdue,3,43.64,0,Dropout,Vedhika Chawla,vedhika58@college.edu,0831911627,Computer Science,4,3,Yes,3,3
+SID_2024229,70,46.56,Overdue,3,43.64,0,Dropout,Vedhika Chawla,vedhika58@college.edu,0831911627,Computer Science,4,3,Yes,3,4
+SID_2024230,68,57.56,Overdue,0,35.86,1,Dropout,Ethan Soman,ethan34@college.edu,+916360483884,Computer Science,3,5,Yes,2,1
+SID_2024230,60,53.85,Overdue,0,35.86,1,Dropout,Ethan Soman,ethan34@college.edu,+916360483884,Computer Science,3,5,Yes,2,2
+SID_2024230,59,50.85,Overdue,0,35.86,1,Dropout,Ethan Soman,ethan34@college.edu,+916360483884,Computer Science,3,5,Yes,2,3
+SID_2024230,56,51.31,Overdue,0,35.86,1,Dropout,Ethan Soman,ethan34@college.edu,+916360483884,Computer Science,3,5,Yes,2,4
+SID_2024231,97,66.18,Paid,5,74.33,1,Enrolled,Vyanjana Deo,vyanjana40@college.edu,+915024408630,Computer Science,1,1,Yes,4,1
+SID_2024231,97,77.14,Paid,5,74.33,1,Enrolled,Vyanjana Deo,vyanjana40@college.edu,+915024408630,Computer Science,1,1,Yes,4,2
+SID_2024231,87,73.53,Paid,5,74.33,1,Enrolled,Vyanjana Deo,vyanjana40@college.edu,+915024408630,Computer Science,1,1,Yes,4,3
+SID_2024231,91,73.41,Paid,5,74.33,1,Enrolled,Vyanjana Deo,vyanjana40@college.edu,+915024408630,Computer Science,1,1,Yes,4,4
+SID_2024232,46,42.2,Overdue,0,48.88,0,Dropout,Laksh Suresh,laksh64@college.edu,3036992194,Civil,4,4,No,1,1
+SID_2024232,40,33.44,Overdue,0,48.88,0,Dropout,Laksh Suresh,laksh64@college.edu,3036992194,Civil,4,4,No,1,2
+SID_2024232,40,35.87,Overdue,0,48.88,0,Dropout,Laksh Suresh,laksh64@college.edu,3036992194,Civil,4,4,No,1,3
+SID_2024232,40,38.7,Overdue,0,48.88,0,Dropout,Laksh Suresh,laksh64@college.edu,3036992194,Civil,4,4,No,1,4
+SID_2024233,64,61.19,Overdue,4,53.52,1,Dropout,Vedika Madan,vedika94@college.edu,+919758990965,Mechanical,2,4,Yes,3,1
+SID_2024233,55,54.98,Overdue,4,53.52,1,Dropout,Vedika Madan,vedika94@college.edu,+919758990965,Mechanical,2,4,Yes,3,2
+SID_2024233,64,54.57,Overdue,4,53.52,1,Dropout,Vedika Madan,vedika94@college.edu,+919758990965,Mechanical,2,4,Yes,3,3
+SID_2024233,61,56.51,Overdue,4,53.52,1,Dropout,Vedika Madan,vedika94@college.edu,+919758990965,Mechanical,2,4,Yes,3,4
+SID_2024234,83,59.51,Overdue,2,34.37,0,Dropout,Advay Ben,advay20@college.edu,0870989422,Electronics,1,3,Yes,1,1
+SID_2024234,77,50.56,Overdue,2,34.37,0,Dropout,Advay Ben,advay20@college.edu,0870989422,Electronics,1,3,Yes,1,2
+SID_2024234,69,58.22,Overdue,2,34.37,0,Dropout,Advay Ben,advay20@college.edu,0870989422,Electronics,1,3,Yes,1,3
+SID_2024234,71,55.54,Overdue,2,34.37,0,Dropout,Advay Ben,advay20@college.edu,0870989422,Electronics,1,3,Yes,1,4
+SID_2024235,101,97.26,Paid,5,86.48,0,Graduate,Ekalinga Gour,ekalinga91@college.edu,02623560776,Computer Science,2,1,No,5,1
+SID_2024235,98,91.66,Paid,5,86.48,0,Graduate,Ekalinga Gour,ekalinga91@college.edu,02623560776,Computer Science,2,1,No,5,2
+SID_2024235,88,93.23,Paid,5,86.48,0,Graduate,Ekalinga Gour,ekalinga91@college.edu,02623560776,Computer Science,2,1,No,5,3
+SID_2024235,92,92.19,Paid,5,86.48,0,Graduate,Ekalinga Gour,ekalinga91@college.edu,02623560776,Computer Science,2,1,No,5,4
+SID_2024236,58,70.59,Paid,3,65.42,1,Enrolled,Widisha Khanna,widisha91@college.edu,+915032597933,Electronics,2,2,Yes,4,1
+SID_2024236,79,72.28,Paid,3,65.42,1,Enrolled,Widisha Khanna,widisha91@college.edu,+915032597933,Electronics,2,2,Yes,4,2
+SID_2024236,72,70.23,Paid,3,65.42,1,Enrolled,Widisha Khanna,widisha91@college.edu,+915032597933,Electronics,2,2,Yes,4,3
+SID_2024236,73,72.7,Paid,3,65.42,1,Enrolled,Widisha Khanna,widisha91@college.edu,+915032597933,Electronics,2,2,Yes,4,4
+SID_2024237,94,76.35,Paid,5,63.94,0,Enrolled,Bina Nanda,bina50@college.edu,7292569714,Mechanical,2,3,Yes,5,1
+SID_2024237,96,72.94,Paid,5,63.94,0,Enrolled,Bina Nanda,bina50@college.edu,7292569714,Mechanical,2,3,Yes,5,2
+SID_2024237,92,77.17,Paid,5,63.94,0,Enrolled,Bina Nanda,bina50@college.edu,7292569714,Mechanical,2,3,Yes,5,3
+SID_2024237,88,75.4,Paid,5,63.94,0,Enrolled,Bina Nanda,bina50@college.edu,7292569714,Mechanical,2,3,Yes,5,4
+SID_2024238,64,82.83,Paid,3,69.78,0,Enrolled,Lucky Aggarwal,lucky91@college.edu,01080758087,Civil,3,1,No,5,1
+SID_2024238,81,71.87,Paid,3,69.78,0,Enrolled,Lucky Aggarwal,lucky91@college.edu,01080758087,Civil,3,1,No,5,2
+SID_2024238,76,77.5,Paid,3,69.78,0,Enrolled,Lucky Aggarwal,lucky91@college.edu,01080758087,Civil,3,1,No,5,3
+SID_2024238,79,75.69,Paid,3,69.78,0,Enrolled,Lucky Aggarwal,lucky91@college.edu,01080758087,Civil,3,1,No,5,4
+SID_2024239,85,77.83,Paid,11,70.79,1,Graduate,Timothy Walia,timothy11@college.edu,+912788782925,Electrical,1,1,No,4,1
+SID_2024239,90,77.33,Paid,11,70.79,1,Graduate,Timothy Walia,timothy11@college.edu,+912788782925,Electrical,1,1,No,4,2
+SID_2024239,92,76.86,Paid,11,70.79,1,Graduate,Timothy Walia,timothy11@college.edu,+912788782925,Electrical,1,1,No,4,3
+SID_2024239,94,76.92,Paid,11,70.79,1,Graduate,Timothy Walia,timothy11@college.edu,+912788782925,Electrical,1,1,No,4,4
+SID_2024240,56,66.41,Paid,3,60.74,0,Enrolled,Ishaan Sani,ishaan40@college.edu,+913385854427,Electronics,2,1,No,3,1
+SID_2024240,77,68.92,Paid,3,60.74,0,Enrolled,Ishaan Sani,ishaan40@college.edu,+913385854427,Electronics,2,1,No,3,2
+SID_2024240,74,67.04,Paid,3,60.74,0,Enrolled,Ishaan Sani,ishaan40@college.edu,+913385854427,Electronics,2,1,No,3,3
+SID_2024240,71,66.58,Paid,3,60.74,0,Enrolled,Ishaan Sani,ishaan40@college.edu,+913385854427,Electronics,2,1,No,3,4
+SID_2024241,105,81.48,Paid,9,77.64,1,Graduate,Ganga Dewan,ganga52@college.edu,+911898917421,Computer Science,2,1,No,4,1
+SID_2024241,95,91.64,Paid,9,77.64,1,Graduate,Ganga Dewan,ganga52@college.edu,+911898917421,Computer Science,2,1,No,4,2
+SID_2024241,96,87.15,Paid,9,77.64,1,Graduate,Ganga Dewan,ganga52@college.edu,+911898917421,Computer Science,2,1,No,4,3
+SID_2024241,99,86.49,Paid,9,77.64,1,Graduate,Ganga Dewan,ganga52@college.edu,+911898917421,Computer Science,2,1,No,4,4
+SID_2024242,96,68.73,Paid,6,76.28,0,Graduate,George Mohan,george57@college.edu,+913930137566,Civil,2,2,No,4,1
+SID_2024242,93,76.5,Paid,6,76.28,0,Graduate,George Mohan,george57@college.edu,+913930137566,Civil,2,2,No,4,2
+SID_2024242,99,75.96,Paid,6,76.28,0,Graduate,George Mohan,george57@college.edu,+913930137566,Civil,2,2,No,4,3
+SID_2024242,99,77.6,Paid,6,76.28,0,Graduate,George Mohan,george57@college.edu,+913930137566,Civil,2,2,No,4,4
+SID_2024243,95,64.35,Paid,3,59.63,0,Enrolled,Bhanumati Sachar,bhanumati58@college.edu,00245044669,Electronics,2,2,No,4,1
+SID_2024243,79,59.46,Paid,3,59.63,0,Enrolled,Bhanumati Sachar,bhanumati58@college.edu,00245044669,Electronics,2,2,No,4,2
+SID_2024243,93,60.31,Paid,3,59.63,0,Enrolled,Bhanumati Sachar,bhanumati58@college.edu,00245044669,Electronics,2,2,No,4,3
+SID_2024243,89,62.9,Paid,3,59.63,0,Enrolled,Bhanumati Sachar,bhanumati58@college.edu,00245044669,Electronics,2,2,No,4,4
+SID_2024244,84,75.18,Paid,7,68.35,0,Enrolled,Abha Deo,abha14@college.edu,5169743083,Civil,3,2,Yes,5,1
+SID_2024244,80,71.16,Paid,7,68.35,0,Enrolled,Abha Deo,abha14@college.edu,5169743083,Civil,3,2,Yes,5,2
+SID_2024244,76,70.71,Paid,7,68.35,0,Enrolled,Abha Deo,abha14@college.edu,5169743083,Civil,3,2,Yes,5,3
+SID_2024244,78,72.71,Paid,7,68.35,0,Enrolled,Abha Deo,abha14@college.edu,5169743083,Civil,3,2,Yes,5,4
+SID_2024245,75,51.6,Overdue,0,59.68,0,Dropout,Jonathan Wali,jonathan44@college.edu,08134163912,Electrical,1,4,No,3,1
+SID_2024245,73,55.21,Overdue,0,59.68,0,Dropout,Jonathan Wali,jonathan44@college.edu,08134163912,Electrical,1,4,No,3,2
+SID_2024245,79,52.06,Overdue,0,59.68,0,Dropout,Jonathan Wali,jonathan44@college.edu,08134163912,Electrical,1,4,No,3,3
+SID_2024245,75,54.38,Overdue,0,59.68,0,Dropout,Jonathan Wali,jonathan44@college.edu,08134163912,Electrical,1,4,No,3,4
+SID_2024246,76,67.49,Paid,4,55.11,0,Enrolled,Viraj Om,viraj58@college.edu,3598448348,Computer Science,1,3,No,5,1
+SID_2024246,91,67.22,Paid,4,55.11,0,Enrolled,Viraj Om,viraj58@college.edu,3598448348,Computer Science,1,3,No,5,2
+SID_2024246,85,62.89,Paid,4,55.11,0,Enrolled,Viraj Om,viraj58@college.edu,3598448348,Computer Science,1,3,No,5,3
+SID_2024246,85,62.87,Paid,4,55.11,0,Enrolled,Viraj Om,viraj58@college.edu,3598448348,Computer Science,1,3,No,5,4
+SID_2024247,77,77.58,Paid,8,57.38,0,Enrolled,Azad Bajaj,azad46@college.edu,06110342771,Electrical,4,3,Yes,5,1
+SID_2024247,83,84.25,Paid,8,57.38,0,Enrolled,Azad Bajaj,azad46@college.edu,06110342771,Electrical,4,3,Yes,5,2
+SID_2024247,90,82.36,Paid,8,57.38,0,Enrolled,Azad Bajaj,azad46@college.edu,06110342771,Electrical,4,3,Yes,5,3
+SID_2024247,89,81.41,Paid,8,57.38,0,Enrolled,Azad Bajaj,azad46@college.edu,06110342771,Electrical,4,3,Yes,5,4
+SID_2024248,86,93.57,Paid,11,85.43,0,Graduate,Upadhriti Yohannan,upadhriti66@college.edu,09529416286,Electronics,1,3,No,5,1
+SID_2024248,88,85.95,Paid,11,85.43,0,Graduate,Upadhriti Yohannan,upadhriti66@college.edu,09529416286,Electronics,1,3,No,5,2
+SID_2024248,84,89.36,Paid,11,85.43,0,Graduate,Upadhriti Yohannan,upadhriti66@college.edu,09529416286,Electronics,1,3,No,5,3
+SID_2024248,86,90.5,Paid,11,85.43,0,Graduate,Upadhriti Yohannan,upadhriti66@college.edu,09529416286,Electronics,1,3,No,5,4
+SID_2024249,85,72.43,Paid,5,63.94,0,Enrolled,George Sangha,george14@college.edu,+911474978188,Computer Science,1,1,No,3,1
+SID_2024249,75,65.06,Paid,5,63.94,0,Enrolled,George Sangha,george14@college.edu,+911474978188,Computer Science,1,1,No,3,2
+SID_2024249,79,73.21,Paid,5,63.94,0,Enrolled,George Sangha,george14@college.edu,+911474978188,Computer Science,1,1,No,3,3
+SID_2024249,79,70.32,Paid,5,63.94,0,Enrolled,George Sangha,george14@college.edu,+911474978188,Computer Science,1,1,No,3,4
+SID_2024250,93,67.38,Paid,6,64.98,1,Enrolled,Baljiwan Singhal,baljiwan25@college.edu,+911154425471,Civil,2,4,Yes,4,1
+SID_2024250,88,73.35,Paid,6,64.98,1,Enrolled,Baljiwan Singhal,baljiwan25@college.edu,+911154425471,Civil,2,4,Yes,4,2
+SID_2024250,91,76.01,Paid,6,64.98,1,Enrolled,Baljiwan Singhal,baljiwan25@college.edu,+911154425471,Civil,2,4,Yes,4,3
+SID_2024250,90,73.55,Paid,6,64.98,1,Enrolled,Baljiwan Singhal,baljiwan25@college.edu,+911154425471,Civil,2,4,Yes,4,4
+SID_2024251,85,68.34,Paid,6,73.52,0,Enrolled,Zilmil Hora,zilmil56@college.edu,+919754631159,Electronics,1,2,Yes,5,1
+SID_2024251,81,75.6,Paid,6,73.52,0,Enrolled,Zilmil Hora,zilmil56@college.edu,+919754631159,Electronics,1,2,Yes,5,2
+SID_2024251,88,70.57,Paid,6,73.52,0,Enrolled,Zilmil Hora,zilmil56@college.edu,+919754631159,Electronics,1,2,Yes,5,3
+SID_2024251,91,71.77,Paid,6,73.52,0,Enrolled,Zilmil Hora,zilmil56@college.edu,+919754631159,Electronics,1,2,Yes,5,4
+SID_2024252,108,82.76,Paid,10,76.74,1,Graduate,Chasmum Parikh,chasmum48@college.edu,+910983997176,Mechanical,3,3,No,4,1
+SID_2024252,89,88.96,Paid,10,76.74,1,Graduate,Chasmum Parikh,chasmum48@college.edu,+910983997176,Mechanical,3,3,No,4,2
+SID_2024252,97,81.59,Paid,10,76.74,1,Graduate,Chasmum Parikh,chasmum48@college.edu,+910983997176,Mechanical,3,3,No,4,3
+SID_2024252,99,84.59,Paid,10,76.74,1,Graduate,Chasmum Parikh,chasmum48@college.edu,+910983997176,Mechanical,3,3,No,4,4
+SID_2024253,52,61.5,Due,0,59.13,0,Dropout,Banjeet Bhasin,banjeet41@college.edu,+915962223988,Mechanical,3,3,Yes,2,1
+SID_2024253,41,60.09,Due,0,59.13,0,Dropout,Banjeet Bhasin,banjeet41@college.edu,+915962223988,Mechanical,3,3,Yes,2,2
+SID_2024253,41,66.37,Due,0,59.13,0,Dropout,Banjeet Bhasin,banjeet41@college.edu,+915962223988,Mechanical,3,3,Yes,2,3
+SID_2024253,43,64.49,Due,0,59.13,0,Dropout,Banjeet Bhasin,banjeet41@college.edu,+915962223988,Mechanical,3,3,Yes,2,4
+SID_2024254,76,40.14,Paid,4,59.51,0,Dropout,Faris Chopra,faris44@college.edu,4249507652,Electronics,1,5,Yes,3,1
+SID_2024254,59,41.06,Paid,4,59.51,0,Dropout,Faris Chopra,faris44@college.edu,4249507652,Electronics,1,5,Yes,3,2
+SID_2024254,65,41.06,Paid,4,59.51,0,Dropout,Faris Chopra,faris44@college.edu,4249507652,Electronics,1,5,Yes,3,3
+SID_2024254,67,41.78,Paid,4,59.51,0,Dropout,Faris Chopra,faris44@college.edu,4249507652,Electronics,1,5,Yes,3,4
+SID_2024255,58,65.16,Paid,6,57.04,0,Enrolled,Lajita Chaudhuri,lajita17@college.edu,03578574658,Civil,1,2,No,3,1
+SID_2024255,69,60.76,Paid,6,57.04,0,Enrolled,Lajita Chaudhuri,lajita17@college.edu,03578574658,Civil,1,2,No,3,2
+SID_2024255,72,65.47,Paid,6,57.04,0,Enrolled,Lajita Chaudhuri,lajita17@college.edu,03578574658,Civil,1,2,No,3,3
+SID_2024255,73,66.28,Paid,6,57.04,0,Enrolled,Lajita Chaudhuri,lajita17@college.edu,03578574658,Civil,1,2,No,3,4
+SID_2024256,84,73.46,Paid,7,55.85,0,Enrolled,Theodore Sarin,theodore28@college.edu,06625157626,Electronics,1,1,No,4,1
+SID_2024256,75,65.83,Paid,7,55.85,0,Enrolled,Theodore Sarin,theodore28@college.edu,06625157626,Electronics,1,1,No,4,2
+SID_2024256,82,65.86,Paid,7,55.85,0,Enrolled,Theodore Sarin,theodore28@college.edu,06625157626,Electronics,1,1,No,4,3
+SID_2024256,81,65.45,Paid,7,55.85,0,Enrolled,Theodore Sarin,theodore28@college.edu,06625157626,Electronics,1,1,No,4,4
+SID_2024257,111,92.87,Paid,9,82.32,0,Graduate,Jagat Kohli,jagat23@college.edu,07652546014,Electronics,4,1,No,4,1
+SID_2024257,107,84.75,Paid,9,82.32,0,Graduate,Jagat Kohli,jagat23@college.edu,07652546014,Electronics,4,1,No,4,2
+SID_2024257,100,85.69,Paid,9,82.32,0,Graduate,Jagat Kohli,jagat23@college.edu,07652546014,Electronics,4,1,No,4,3
+SID_2024257,99,86.21,Paid,9,82.32,0,Graduate,Jagat Kohli,jagat23@college.edu,07652546014,Electronics,4,1,No,4,4
+SID_2024258,88,84.17,Due,9,65.64,0,Enrolled,Ayaan Kamdar,ayaan28@college.edu,04341614807,Civil,1,4,No,5,1
+SID_2024258,66,79.64,Due,9,65.64,0,Enrolled,Ayaan Kamdar,ayaan28@college.edu,04341614807,Civil,1,4,No,5,2
+SID_2024258,73,83.77,Due,9,65.64,0,Enrolled,Ayaan Kamdar,ayaan28@college.edu,04341614807,Civil,1,4,No,5,3
+SID_2024258,76,82.81,Due,9,65.64,0,Enrolled,Ayaan Kamdar,ayaan28@college.edu,04341614807,Civil,1,4,No,5,4
+SID_2024259,94,89.19,Paid,9,90.4,1,Graduate,Michael Chad,michael94@college.edu,+919232959160,Computer Science,4,3,No,4,1
+SID_2024259,86,92.52,Paid,9,90.4,1,Graduate,Michael Chad,michael94@college.edu,+919232959160,Computer Science,4,3,No,4,2
+SID_2024259,85,97.84,Paid,9,90.4,1,Graduate,Michael Chad,michael94@college.edu,+919232959160,Computer Science,4,3,No,4,3
+SID_2024259,88,95.41,Paid,9,90.4,1,Graduate,Michael Chad,michael94@college.edu,+919232959160,Computer Science,4,3,No,4,4
+SID_2024260,95,54.91,Paid,5,64.5,0,Enrolled,Yuvraj Basu,yuvraj82@college.edu,+911618838758,Electrical,4,4,No,4,1
+SID_2024260,89,63.8,Paid,5,64.5,0,Enrolled,Yuvraj Basu,yuvraj82@college.edu,+911618838758,Electrical,4,4,No,4,2
+SID_2024260,82,63.23,Paid,5,64.5,0,Enrolled,Yuvraj Basu,yuvraj82@college.edu,+911618838758,Electrical,4,4,No,4,3
+SID_2024260,83,62.36,Paid,5,64.5,0,Enrolled,Yuvraj Basu,yuvraj82@college.edu,+911618838758,Electrical,4,4,No,4,4
+SID_2024261,68,72.57,Paid,7,58.4,1,Enrolled,Nandini Vasa,nandini52@college.edu,+918104029275,Electronics,1,4,No,5,1
+SID_2024261,75,61.71,Paid,7,58.4,1,Enrolled,Nandini Vasa,nandini52@college.edu,+918104029275,Electronics,1,4,No,5,2
+SID_2024261,84,62.76,Paid,7,58.4,1,Enrolled,Nandini Vasa,nandini52@college.edu,+918104029275,Electronics,1,4,No,5,3
+SID_2024261,83,64.75,Paid,7,58.4,1,Enrolled,Nandini Vasa,nandini52@college.edu,+918104029275,Electronics,1,4,No,5,4
+SID_2024262,92,73.57,Due,4,57.21,1,Enrolled,Wakeeta Padmanabhan,wakeeta91@college.edu,4982475966,Mechanical,1,2,Yes,3,1
+SID_2024262,88,69.63,Due,4,57.21,1,Enrolled,Wakeeta Padmanabhan,wakeeta91@college.edu,4982475966,Mechanical,1,2,Yes,3,2
+SID_2024262,93,67.45,Due,4,57.21,1,Enrolled,Wakeeta Padmanabhan,wakeeta91@college.edu,4982475966,Mechanical,1,2,Yes,3,3
+SID_2024262,92,68.68,Due,4,57.21,1,Enrolled,Wakeeta Padmanabhan,wakeeta91@college.edu,4982475966,Mechanical,1,2,Yes,3,4
+SID_2024263,55,55.45,Paid,4,61.05,0,Enrolled,Garima Bahl,garima78@college.edu,04882684912,Computer Science,1,2,No,4,1
+SID_2024263,66,57.27,Paid,4,61.05,0,Enrolled,Garima Bahl,garima78@college.edu,04882684912,Computer Science,1,2,No,4,2
+SID_2024263,67,59.88,Paid,4,61.05,0,Enrolled,Garima Bahl,garima78@college.edu,04882684912,Computer Science,1,2,No,4,3
+SID_2024263,70,62.59,Paid,4,61.05,0,Enrolled,Garima Bahl,garima78@college.edu,04882684912,Computer Science,1,2,No,4,4
+SID_2024264,94,96.44,Paid,9,71.28,0,Graduate,Isaac Lall,isaac73@college.edu,06618010381,Electronics,2,1,No,5,1
+SID_2024264,81,93.54,Paid,9,71.28,0,Graduate,Isaac Lall,isaac73@college.edu,06618010381,Electronics,2,1,No,5,2
+SID_2024264,82,86.63,Paid,9,71.28,0,Graduate,Isaac Lall,isaac73@college.edu,06618010381,Electronics,2,1,No,5,3
+SID_2024264,85,87.66,Paid,9,71.28,0,Graduate,Isaac Lall,isaac73@college.edu,06618010381,Electronics,2,1,No,5,4
+SID_2024265,46,53.11,Overdue,0,53.09,0,Dropout,Fiyaz Bhalla,fiyaz92@college.edu,+918604334727,Computer Science,2,4,Yes,2,1
+SID_2024265,57,54.47,Overdue,0,53.09,0,Dropout,Fiyaz Bhalla,fiyaz92@college.edu,+918604334727,Computer Science,2,4,Yes,2,2
+SID_2024265,59,54.26,Overdue,0,53.09,0,Dropout,Fiyaz Bhalla,fiyaz92@college.edu,+918604334727,Computer Science,2,4,Yes,2,3
+SID_2024265,55,55.08,Overdue,0,53.09,0,Dropout,Fiyaz Bhalla,fiyaz92@college.edu,+918604334727,Computer Science,2,4,Yes,2,4
+SID_2024266,91,68.69,Paid,4,78.11,0,Enrolled,Shaurya Bhandari,shaurya31@college.edu,05158255269,Mechanical,3,2,Yes,3,1
+SID_2024266,93,66.98,Paid,4,78.11,0,Enrolled,Shaurya Bhandari,shaurya31@college.edu,05158255269,Mechanical,3,2,Yes,3,2
+SID_2024266,91,65.83,Paid,4,78.11,0,Enrolled,Shaurya Bhandari,shaurya31@college.edu,05158255269,Mechanical,3,2,Yes,3,3
+SID_2024266,91,62.94,Paid,4,78.11,0,Enrolled,Shaurya Bhandari,shaurya31@college.edu,05158255269,Mechanical,3,2,Yes,3,4
+SID_2024267,75,70.97,Paid,6,66.89,0,Enrolled,Vedika Yohannan,vedika92@college.edu,2815901097,Electronics,3,1,Yes,5,1
+SID_2024267,80,67.45,Paid,6,66.89,0,Enrolled,Vedika Yohannan,vedika92@college.edu,2815901097,Electronics,3,1,Yes,5,2
+SID_2024267,73,74.94,Paid,6,66.89,0,Enrolled,Vedika Yohannan,vedika92@college.edu,2815901097,Electronics,3,1,Yes,5,3
+SID_2024267,78,72.47,Paid,6,66.89,0,Enrolled,Vedika Yohannan,vedika92@college.edu,2815901097,Electronics,3,1,Yes,5,4
+SID_2024268,83,68.39,Paid,8,64.52,0,Enrolled,Akshay Verma,akshay88@college.edu,4169744796,Electronics,3,2,No,5,1
+SID_2024268,64,75.53,Paid,8,64.52,0,Enrolled,Akshay Verma,akshay88@college.edu,4169744796,Electronics,3,2,No,5,2
+SID_2024268,75,69.53,Paid,8,64.52,0,Enrolled,Akshay Verma,akshay88@college.edu,4169744796,Electronics,3,2,No,5,3
+SID_2024268,74,70.94,Paid,8,64.52,0,Enrolled,Akshay Verma,akshay88@college.edu,4169744796,Electronics,3,2,No,5,4
+SID_2024269,88,88.41,Paid,6,72.46,0,Graduate,Ridhi Sankaran,ridhi46@college.edu,06757059593,Computer Science,2,1,No,5,1
+SID_2024269,103,98.19,Paid,6,72.46,0,Graduate,Ridhi Sankaran,ridhi46@college.edu,06757059593,Computer Science,2,1,No,5,2
+SID_2024269,94,94.43,Paid,6,72.46,0,Graduate,Ridhi Sankaran,ridhi46@college.edu,06757059593,Computer Science,2,1,No,5,3
+SID_2024269,97,95.05,Paid,6,72.46,0,Graduate,Ridhi Sankaran,ridhi46@college.edu,06757059593,Computer Science,2,1,No,5,4
+SID_2024270,62,90.89,Paid,7,60.9,1,Enrolled,Fariq Narula,fariq13@college.edu,+914304480179,Civil,1,2,No,3,1
+SID_2024270,63,80.16,Paid,7,60.9,1,Enrolled,Fariq Narula,fariq13@college.edu,+914304480179,Civil,1,2,No,3,2
+SID_2024270,67,83.07,Paid,7,60.9,1,Enrolled,Fariq Narula,fariq13@college.edu,+914304480179,Civil,1,2,No,3,3
+SID_2024270,71,82.56,Paid,7,60.9,1,Enrolled,Fariq Narula,fariq13@college.edu,+914304480179,Civil,1,2,No,3,4
+SID_2024271,84,80.22,Paid,9,74.26,0,Enrolled,Kala Bhargava,kala70@college.edu,+911066519279,Computer Science,2,2,No,5,1
+SID_2024271,68,80.21,Paid,9,74.26,0,Enrolled,Kala Bhargava,kala70@college.edu,+911066519279,Computer Science,2,2,No,5,2
+SID_2024271,76,75.16,Paid,9,74.26,0,Enrolled,Kala Bhargava,kala70@college.edu,+911066519279,Computer Science,2,2,No,5,3
+SID_2024271,72,77.02,Paid,9,74.26,0,Enrolled,Kala Bhargava,kala70@college.edu,+911066519279,Computer Science,2,2,No,5,4
+SID_2024272,88,79.27,Paid,6,84.07,0,Graduate,Gagan Dora,gagan86@college.edu,07810821035,Electronics,2,1,Yes,4,1
+SID_2024272,93,80.91,Paid,6,84.07,0,Graduate,Gagan Dora,gagan86@college.edu,07810821035,Electronics,2,1,Yes,4,2
+SID_2024272,91,84.77,Paid,6,84.07,0,Graduate,Gagan Dora,gagan86@college.edu,07810821035,Electronics,2,1,Yes,4,3
+SID_2024272,91,82.04,Paid,6,84.07,0,Graduate,Gagan Dora,gagan86@college.edu,07810821035,Electronics,2,1,Yes,4,4
+SID_2024273,66,54.39,Paid,4,38.22,1,Dropout,Warda Seth,warda12@college.edu,+917412164585,Electronics,2,4,No,1,1
+SID_2024273,80,40.86,Paid,4,38.22,1,Dropout,Warda Seth,warda12@college.edu,+917412164585,Electronics,2,4,No,1,2
+SID_2024273,78,48.71,Paid,4,38.22,1,Dropout,Warda Seth,warda12@college.edu,+917412164585,Electronics,2,4,No,1,3
+SID_2024273,78,46.82,Paid,4,38.22,1,Dropout,Warda Seth,warda12@college.edu,+917412164585,Electronics,2,4,No,1,4
+SID_2024274,82,86.82,Paid,7,83.56,0,Graduate,Ethan Bath,ethan69@college.edu,+915591007515,Civil,2,3,No,5,1
+SID_2024274,87,85.33,Paid,7,83.56,0,Graduate,Ethan Bath,ethan69@college.edu,+915591007515,Civil,2,3,No,5,2
+SID_2024274,81,81.23,Paid,7,83.56,0,Graduate,Ethan Bath,ethan69@college.edu,+915591007515,Civil,2,3,No,5,3
+SID_2024274,85,80.71,Paid,7,83.56,0,Graduate,Ethan Bath,ethan69@college.edu,+915591007515,Civil,2,3,No,5,4
+SID_2024275,80,83.05,Paid,13,84.83,0,Graduate,Chaaya Chauhan,chaaya85@college.edu,1761768636,Civil,3,3,No,5,1
+SID_2024275,91,81.16,Paid,13,84.83,0,Graduate,Chaaya Chauhan,chaaya85@college.edu,1761768636,Civil,3,3,No,5,2
+SID_2024275,93,76.82,Paid,13,84.83,0,Graduate,Chaaya Chauhan,chaaya85@college.edu,1761768636,Civil,3,3,No,5,3
+SID_2024275,89,76.53,Paid,13,84.83,0,Graduate,Chaaya Chauhan,chaaya85@college.edu,1761768636,Civil,3,3,No,5,4
+SID_2024276,56,69.48,Paid,3,60.15,0,Enrolled,Bahadurjit Shroff,bahadurjit41@college.edu,4784910199,Electrical,1,4,No,4,1
+SID_2024276,73,78.52,Paid,3,60.15,0,Enrolled,Bahadurjit Shroff,bahadurjit41@college.edu,4784910199,Electrical,1,4,No,4,2
+SID_2024276,71,70.14,Paid,3,60.15,0,Enrolled,Bahadurjit Shroff,bahadurjit41@college.edu,4784910199,Electrical,1,4,No,4,3
+SID_2024276,71,72.56,Paid,3,60.15,0,Enrolled,Bahadurjit Shroff,bahadurjit41@college.edu,4784910199,Electrical,1,4,No,4,4
+SID_2024277,85,75.9,Paid,5,80.96,1,Graduate,Gaurika Krishna,gaurika27@college.edu,+915331240724,Computer Science,3,2,No,4,1
+SID_2024277,75,80.6,Paid,5,80.96,1,Graduate,Gaurika Krishna,gaurika27@college.edu,+915331240724,Computer Science,3,2,No,4,2
+SID_2024277,81,78.66,Paid,5,80.96,1,Graduate,Gaurika Krishna,gaurika27@college.edu,+915331240724,Computer Science,3,2,No,4,3
+SID_2024277,85,81.45,Paid,5,80.96,1,Graduate,Gaurika Krishna,gaurika27@college.edu,+915331240724,Computer Science,3,2,No,4,4
+SID_2024278,99,71.81,Paid,5,55.33,0,Enrolled,Daksh Narang,daksh64@college.edu,+912991901663,Civil,1,4,Yes,5,1
+SID_2024278,91,73.55,Paid,5,55.33,0,Enrolled,Daksh Narang,daksh64@college.edu,+912991901663,Civil,1,4,Yes,5,2
+SID_2024278,89,71.0,Paid,5,55.33,0,Enrolled,Daksh Narang,daksh64@college.edu,+912991901663,Civil,1,4,Yes,5,3
+SID_2024278,87,69.42,Paid,5,55.33,0,Enrolled,Daksh Narang,daksh64@college.edu,+912991901663,Civil,1,4,Yes,5,4
+SID_2024279,108,88.02,Paid,10,74.59,1,Graduate,Neel Rama,neel13@college.edu,3636638447,Civil,2,3,No,5,1
+SID_2024279,88,98.98,Paid,10,74.59,1,Graduate,Neel Rama,neel13@college.edu,3636638447,Civil,2,3,No,5,2
+SID_2024279,94,98.21,Paid,10,74.59,1,Graduate,Neel Rama,neel13@college.edu,3636638447,Civil,2,3,No,5,3
+SID_2024279,96,95.57,Paid,10,74.59,1,Graduate,Neel Rama,neel13@college.edu,3636638447,Civil,2,3,No,5,4
+SID_2024280,93,86.36,Paid,6,90.79,1,Graduate,Dayita Badal,dayita50@college.edu,00073201627,Computer Science,1,3,No,4,1
+SID_2024280,95,84.92,Paid,6,90.79,1,Graduate,Dayita Badal,dayita50@college.edu,00073201627,Computer Science,1,3,No,4,2
+SID_2024280,91,84.9,Paid,6,90.79,1,Graduate,Dayita Badal,dayita50@college.edu,00073201627,Computer Science,1,3,No,4,3
+SID_2024280,87,84.37,Paid,6,90.79,1,Graduate,Dayita Badal,dayita50@college.edu,00073201627,Computer Science,1,3,No,4,4
+SID_2024281,40,30.0,Overdue,2,25.97,0,Dropout,Devansh Dada,devansh40@college.edu,4791608315,Civil,4,5,Yes,1,1
+SID_2024281,52,30.93,Overdue,2,25.97,0,Dropout,Devansh Dada,devansh40@college.edu,4791608315,Civil,4,5,Yes,1,2
+SID_2024281,44,30.0,Overdue,2,25.97,0,Dropout,Devansh Dada,devansh40@college.edu,4791608315,Civil,4,5,Yes,1,3
+SID_2024281,46,30.49,Overdue,2,25.97,0,Dropout,Devansh Dada,devansh40@college.edu,4791608315,Civil,4,5,Yes,1,4
+SID_2024282,104,78.27,Due,5,57.09,0,Enrolled,Maanav Konda,maanav13@college.edu,+915934609683,Computer Science,1,2,No,3,1
+SID_2024282,90,85.97,Due,5,57.09,0,Enrolled,Maanav Konda,maanav13@college.edu,+915934609683,Computer Science,1,2,No,3,2
+SID_2024282,91,82.3,Due,5,57.09,0,Enrolled,Maanav Konda,maanav13@college.edu,+915934609683,Computer Science,1,2,No,3,3
+SID_2024282,92,83.69,Due,5,57.09,0,Enrolled,Maanav Konda,maanav13@college.edu,+915934609683,Computer Science,1,2,No,3,4
+SID_2024283,61,48.81,Overdue,3,36.38,0,Dropout,Yutika Yogi,yutika70@college.edu,6827967558,Mechanical,1,3,Yes,2,1
+SID_2024283,45,44.77,Overdue,3,36.38,0,Dropout,Yutika Yogi,yutika70@college.edu,6827967558,Mechanical,1,3,Yes,2,2
+SID_2024283,47,48.2,Overdue,3,36.38,0,Dropout,Yutika Yogi,yutika70@college.edu,6827967558,Mechanical,1,3,Yes,2,3
+SID_2024283,49,48.05,Overdue,3,36.38,0,Dropout,Yutika Yogi,yutika70@college.edu,6827967558,Mechanical,1,3,Yes,2,4
+SID_2024284,74,91.88,Paid,7,75.26,0,Graduate,Yashoda Dey,yashoda57@college.edu,+918946146753,Computer Science,2,1,No,5,1
+SID_2024284,83,89.26,Paid,7,75.26,0,Graduate,Yashoda Dey,yashoda57@college.edu,+918946146753,Computer Science,2,1,No,5,2
+SID_2024284,93,82.47,Paid,7,75.26,0,Graduate,Yashoda Dey,yashoda57@college.edu,+918946146753,Computer Science,2,1,No,5,3
+SID_2024284,89,84.13,Paid,7,75.26,0,Graduate,Yashoda Dey,yashoda57@college.edu,+918946146753,Computer Science,2,1,No,5,4
+SID_2024285,89,78.66,Paid,8,71.5,0,Graduate,Turvi Hans,turvi51@college.edu,3231145358,Mechanical,3,2,No,5,1
+SID_2024285,93,72.71,Paid,8,71.5,0,Graduate,Turvi Hans,turvi51@college.edu,3231145358,Mechanical,3,2,No,5,2
+SID_2024285,90,75.57,Paid,8,71.5,0,Graduate,Turvi Hans,turvi51@college.edu,3231145358,Mechanical,3,2,No,5,3
+SID_2024285,89,76.73,Paid,8,71.5,0,Graduate,Turvi Hans,turvi51@college.edu,3231145358,Mechanical,3,2,No,5,4
+SID_2024286,75,54.26,Overdue,3,56.08,0,Dropout,Zashil Mittal,zashil33@college.edu,06362369583,Civil,1,5,Yes,3,1
+SID_2024286,69,61.31,Overdue,3,56.08,0,Dropout,Zashil Mittal,zashil33@college.edu,06362369583,Civil,1,5,Yes,3,2
+SID_2024286,61,63.24,Overdue,3,56.08,0,Dropout,Zashil Mittal,zashil33@college.edu,06362369583,Civil,1,5,Yes,3,3
+SID_2024286,63,60.84,Overdue,3,56.08,0,Dropout,Zashil Mittal,zashil33@college.edu,06362369583,Civil,1,5,Yes,3,4
+SID_2024287,83,77.87,Paid,6,72.22,0,Graduate,Ekalinga Dhar,ekalinga92@college.edu,6098091407,Mechanical,1,3,No,4,1
+SID_2024287,85,82.78,Paid,6,72.22,0,Graduate,Ekalinga Dhar,ekalinga92@college.edu,6098091407,Mechanical,1,3,No,4,2
+SID_2024287,99,84.02,Paid,6,72.22,0,Graduate,Ekalinga Dhar,ekalinga92@college.edu,6098091407,Mechanical,1,3,No,4,3
+SID_2024287,95,82.55,Paid,6,72.22,0,Graduate,Ekalinga Dhar,ekalinga92@college.edu,6098091407,Mechanical,1,3,No,4,4
+SID_2024288,56,44.61,Due,1,54.57,0,Dropout,Darika Chanda,darika20@college.edu,01265252803,Electronics,3,4,Yes,3,1
+SID_2024288,50,53.14,Due,1,54.57,0,Dropout,Darika Chanda,darika20@college.edu,01265252803,Electronics,3,4,Yes,3,2
+SID_2024288,46,48.23,Due,1,54.57,0,Dropout,Darika Chanda,darika20@college.edu,01265252803,Electronics,3,4,Yes,3,3
+SID_2024288,50,47.37,Due,1,54.57,0,Dropout,Darika Chanda,darika20@college.edu,01265252803,Electronics,3,4,Yes,3,4
+SID_2024289,96,59.23,Paid,3,58.72,0,Enrolled,Manbir Krishnamurthy,manbir30@college.edu,01056883122,Civil,2,2,No,4,1
+SID_2024289,85,65.14,Paid,3,58.72,0,Enrolled,Manbir Krishnamurthy,manbir30@college.edu,01056883122,Civil,2,2,No,4,2
+SID_2024289,84,61.09,Paid,3,58.72,0,Enrolled,Manbir Krishnamurthy,manbir30@college.edu,01056883122,Civil,2,2,No,4,3
+SID_2024289,87,61.78,Paid,3,58.72,0,Enrolled,Manbir Krishnamurthy,manbir30@college.edu,01056883122,Civil,2,2,No,4,4
+SID_2024290,56,49.82,Due,2,28.33,0,Dropout,Chasmum Dhaliwal,chasmum68@college.edu,04926244282,Computer Science,2,5,Yes,3,1
+SID_2024290,43,48.09,Due,2,28.33,0,Dropout,Chasmum Dhaliwal,chasmum68@college.edu,04926244282,Computer Science,2,5,Yes,3,2
+SID_2024290,50,53.51,Due,2,28.33,0,Dropout,Chasmum Dhaliwal,chasmum68@college.edu,04926244282,Computer Science,2,5,Yes,3,3
+SID_2024290,47,52.23,Due,2,28.33,0,Dropout,Chasmum Dhaliwal,chasmum68@college.edu,04926244282,Computer Science,2,5,Yes,3,4
+SID_2024291,96,71.12,Paid,14,90.99,0,Graduate,Ekbal Choudhry,ekbal22@college.edu,1134366840,Mechanical,1,3,No,5,1
+SID_2024291,85,73.14,Paid,14,90.99,0,Graduate,Ekbal Choudhry,ekbal22@college.edu,1134366840,Mechanical,1,3,No,5,2
+SID_2024291,82,78.88,Paid,14,90.99,0,Graduate,Ekbal Choudhry,ekbal22@college.edu,1134366840,Mechanical,1,3,No,5,3
+SID_2024291,87,77.46,Paid,14,90.99,0,Graduate,Ekbal Choudhry,ekbal22@college.edu,1134366840,Mechanical,1,3,No,5,4
+SID_2024292,86,80.03,Paid,7,84.98,1,Graduate,Liam Wagle,liam68@college.edu,09716913943,Computer Science,1,3,No,4,1
+SID_2024292,81,85.15,Paid,7,84.98,1,Graduate,Liam Wagle,liam68@college.edu,09716913943,Computer Science,1,3,No,4,2
+SID_2024292,88,87.08,Paid,7,84.98,1,Graduate,Liam Wagle,liam68@college.edu,09716913943,Computer Science,1,3,No,4,3
+SID_2024292,89,85.75,Paid,7,84.98,1,Graduate,Liam Wagle,liam68@college.edu,09716913943,Computer Science,1,3,No,4,4
+SID_2024293,78,67.22,Due,8,62.39,0,Enrolled,Vritti Mandal,vritti59@college.edu,+918623471575,Civil,1,3,Yes,5,1
+SID_2024293,96,55.64,Due,8,62.39,0,Enrolled,Vritti Mandal,vritti59@college.edu,+918623471575,Civil,1,3,Yes,5,2
+SID_2024293,91,61.97,Due,8,62.39,0,Enrolled,Vritti Mandal,vritti59@college.edu,+918623471575,Civil,1,3,Yes,5,3
+SID_2024293,90,60.33,Due,8,62.39,0,Enrolled,Vritti Mandal,vritti59@college.edu,+918623471575,Civil,1,3,Yes,5,4
+SID_2024294,64,72.07,Due,9,61.53,0,Enrolled,Neel Saxena,neel37@college.edu,6742983183,Mechanical,1,2,No,3,1
+SID_2024294,71,76.02,Due,9,61.53,0,Enrolled,Neel Saxena,neel37@college.edu,6742983183,Mechanical,1,2,No,3,2
+SID_2024294,76,75.44,Due,9,61.53,0,Enrolled,Neel Saxena,neel37@college.edu,6742983183,Mechanical,1,2,No,3,3
+SID_2024294,73,76.19,Due,9,61.53,0,Enrolled,Neel Saxena,neel37@college.edu,6742983183,Mechanical,1,2,No,3,4
+SID_2024295,99,83.62,Paid,7,60.77,1,Enrolled,Urvi Chatterjee,urvi88@college.edu,6359595818,Computer Science,2,3,No,5,1
+SID_2024295,97,79.92,Paid,7,60.77,1,Enrolled,Urvi Chatterjee,urvi88@college.edu,6359595818,Computer Science,2,3,No,5,2
+SID_2024295,93,80.31,Paid,7,60.77,1,Enrolled,Urvi Chatterjee,urvi88@college.edu,6359595818,Computer Science,2,3,No,5,3
+SID_2024295,93,81.69,Paid,7,60.77,1,Enrolled,Urvi Chatterjee,urvi88@college.edu,6359595818,Computer Science,2,3,No,5,4
+SID_2024296,86,61.58,Paid,6,79.83,1,Enrolled,Rachit Rau,rachit31@college.edu,8644386672,Civil,1,3,No,5,1
+SID_2024296,81,66.33,Paid,6,79.83,1,Enrolled,Rachit Rau,rachit31@college.edu,8644386672,Civil,1,3,No,5,2
+SID_2024296,76,70.11,Paid,6,79.83,1,Enrolled,Rachit Rau,rachit31@college.edu,8644386672,Civil,1,3,No,5,3
+SID_2024296,77,67.38,Paid,6,79.83,1,Enrolled,Rachit Rau,rachit31@college.edu,8644386672,Civil,1,3,No,5,4
+SID_2024297,92,78.19,Paid,7,57.74,0,Enrolled,Anika Rajan,anika60@college.edu,04547828836,Computer Science,2,1,No,3,1
+SID_2024297,86,87.26,Paid,7,57.74,0,Enrolled,Anika Rajan,anika60@college.edu,04547828836,Computer Science,2,1,No,3,2
+SID_2024297,78,85.57,Paid,7,57.74,0,Enrolled,Anika Rajan,anika60@college.edu,04547828836,Computer Science,2,1,No,3,3
+SID_2024297,80,84.02,Paid,7,57.74,0,Enrolled,Anika Rajan,anika60@college.edu,04547828836,Computer Science,2,1,No,3,4
+SID_2024298,51,31.06,Overdue,3,52.01,0,Dropout,Onkar Dara,onkar30@college.edu,+910665309916,Electronics,2,3,Yes,2,1
+SID_2024298,56,30.0,Overdue,3,52.01,0,Dropout,Onkar Dara,onkar30@college.edu,+910665309916,Electronics,2,3,Yes,2,2
+SID_2024298,46,31.02,Overdue,3,52.01,0,Dropout,Onkar Dara,onkar30@college.edu,+910665309916,Electronics,2,3,Yes,2,3
+SID_2024298,48,31.72,Overdue,3,52.01,0,Dropout,Onkar Dara,onkar30@college.edu,+910665309916,Electronics,2,3,Yes,2,4
+SID_2024299,94,74.7,Paid,12,86.98,0,Graduate,Warhi Rao,warhi96@college.edu,4088104823,Computer Science,2,3,No,4,1
+SID_2024299,88,76.05,Paid,12,86.98,0,Graduate,Warhi Rao,warhi96@college.edu,4088104823,Computer Science,2,3,No,4,2
+SID_2024299,96,82.78,Paid,12,86.98,0,Graduate,Warhi Rao,warhi96@college.edu,4088104823,Computer Science,2,3,No,4,3
+SID_2024299,94,81.21,Paid,12,86.98,0,Graduate,Warhi Rao,warhi96@college.edu,4088104823,Computer Science,2,3,No,4,4
+SID_2024300,98,91.44,Paid,8,92.87,0,Graduate,Yachana Sane,yachana17@college.edu,03370512355,Computer Science,2,2,No,5,1
+SID_2024300,98,98.91,Paid,8,92.87,0,Graduate,Yachana Sane,yachana17@college.edu,03370512355,Computer Science,2,2,No,5,2
+SID_2024300,100,94.3,Paid,8,92.87,0,Graduate,Yachana Sane,yachana17@college.edu,03370512355,Computer Science,2,2,No,5,3
+SID_2024300,98,93.89,Paid,8,92.87,0,Graduate,Yachana Sane,yachana17@college.edu,03370512355,Computer Science,2,2,No,5,4
