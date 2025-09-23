@@ -2,65 +2,105 @@
 This project builds an AI-driven system to predict student dropout risk using data like attendance, grades, engagement, and fee status. With feature engineering, a Random Forest model, and visual insights, it highlights at-risk students early, enabling educators to take proactive, data-driven interventions.
 
 
-Here is a complete guide on how to set up and run your "Mentor's Eye" application on your system or any new system, assuming all the project files are in one folder.
+Mentor's Eye: A Holistic AI-Powered Student Success Platform
+🚀 Project Overview
+Mentor's Eye is a comprehensive web application designed to help educational institutions proactively identify students at risk of dropping out. Moving beyond traditional metrics, this platform integrates academic data, behavioral patterns, and self-reported wellness indicators to create a holistic "whole student" profile.
 
-To make this process easier, I've also created a requirements.txt file for you. This file lists all the necessary Python libraries, allowing you to install them with a single command.
+The system uses a machine learning model to predict risk and presents the insights on an intuitive, interactive dashboard. This empowers mentors and counselors to intervene early, effectively, and with the right context, providing targeted support where it's needed most.
 
-Code snippet
+✨ Key Features
+Holistic Risk Prediction: Utilizes a Random Forest model trained on academic, demographic, and wellness data (financial stress, health, career confidence) for a nuanced understanding of student risk.
 
-flask
-pandas
-scikit-learn
-joblib
-Faker
-numpy
-seaborn
-matplotlib
-eof
+Interactive Dashboard: A clean, user-friendly interface for viewing all students, sorted and color-coded by their predicted risk level (High, Medium, Low).
 
----
-### ## Setup and Execution Guide
+Detailed Student Profiles: A comprehensive drill-down view for each student, showcasing their full academic, demographic, and wellness profile.
 
-Follow these steps in order. The setup (Steps 1-3) only needs to be done once on a new system.
+Dynamic Intervention Playbook: An intelligent, context-aware playbook that suggests specific, actionable interventions based on the reasons for a student's risk.
 
-#### **Step 1: Set Up a Virtual Environment (Recommended)**
-It's a best practice to create an isolated environment for your project. Open your terminal or command prompt in your project folder and run:
+Historical Trend Analysis: Visualizes key metrics like attendance and grades over time with line charts, helping mentors spot crucial trends.
 
-bash
+Mentor Notes & Logging: A persistent logging system that allows mentors to record interactions and track a student's progress directly within the application, backed by a database.
+
+Secure User Authentication: A complete login system ensures that only authorized personnel can access sensitive student data.
+
+🛠️ Tech Stack
+Backend: Python, Flask
+
+Database: SQLite
+
+Machine Learning: Scikit-learn, Pandas, NumPy
+
+Frontend: HTML, Tailwind CSS, JavaScript
+
+Data Visualization: Chart.js
+
+⚙️ Setup and Execution Guide
+Follow these instructions to set up and run the application on a new system.
+
+1. Prerequisites
+Python 3.8 or higher
+
+pip (Python package installer)
+
+2. Initial Setup
+Clone the repository or ensure all project files are in a single directory.
+
+a. Create and Activate a Virtual Environment (Recommended)
+
+Open your terminal or command prompt in the project directory and run:
+
 # Create the virtual environment
 python -m venv .venv
 
-# Activate it (on Windows)
+# Activate on Windows
 .venv\Scripts\activate
 
-# Activate it (on Mac/Linux)
+# Activate on Mac/Linux
 source .venv/bin/activate
-Step 2: Install All Required Libraries
-With your virtual environment active, use the provided requirements.txt file to install all the project's dependencies in one go.
 
-Bash
+b. Install Dependencies
+
+Use the provided requirements.txt file to install all necessary libraries with a single command:
 
 pip install -r requirements.txt
-Step 3: Run the One-Time Setup Scripts
-You must run the following four scripts in this specific order. They will create your database, train your model, generate the historical data, and move that data into the database.
+
+3. One-Time Data & Model Pipeline Execution
+You must run the following scripts in this exact order. They will create the database, generate the complete dataset, train the model, and populate the database.
+
+a. Setup the Database
+This creates the mentors_eye.db file with the required tables.
 
 python database_setup.py
 
+b. Generate the Master Dataset
+This creates the master_student_data_historical.csv file.
+
+python generate_master_data.py
+
+c. Train the Machine Learning Model
+This trains the model and creates the necessary .joblib files.
+
 python train_model.py
 
-python generate_historical_data.py
+d. Migrate Data to the Database
+This populates the database with the data from the master CSV.
 
 python migrate_data.py
 
-Step 4: Run the Application
-After the one-time setup is complete, you can now start your web application.
-
-Bash
+4. Run the Application
+Once the one-time setup is complete, you can start the Flask web server with this command:
 
 python app.py
-Step 5: Access the Dashboard
-Open your web browser and go to the following address. You will be greeted by the login page.
+
+5. Access the Dashboard
+Open your web browser and navigate to the following address:
 
 http://127.0.0.1:5000
 
-Use the credentials mentor@college.edu and password123 to log in and use your fully functional dashboard.
+You will be directed to the login page. Use the following credentials to access the dashboard:
+
+Email: mentor@college.edu
+
+Password: password123
+
+You can now use your fully functional "Mentor's Eye" application!
